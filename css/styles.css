@@ -1,0 +1,337 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  width: 976px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col-1 {
+  -ms-flex-preferred-size: 8.3333%;
+  flex-basis: 8.3333%;
+}
+
+.col-2 {
+  -ms-flex-preferred-size: 16.6666%;
+  flex-basis: 16.6666%;
+}
+
+.col-3 {
+  -ms-flex-preferred-size: 24.9999%;
+  flex-basis: 24.9999%;
+}
+
+.col-4 {
+  -ms-flex-preferred-size: 33.3333%;
+  flex-basis: 33.3333%;
+}
+
+.col-5 {
+  -ms-flex-preferred-size: 41.6665%;
+  flex-basis: 41.6665%;
+}
+
+.col-6 {
+  -ms-flex-preferred-size: 49.9998%;
+  flex-basis: 49.9998%;
+}
+
+.col-7 {
+  -ms-flex-preferred-size: 58.3331%;
+  flex-basis: 58.3331%;
+}
+
+.col-8 {
+  -ms-flex-preferred-size: 66.6664%;
+  flex-basis: 66.6664%;
+}
+
+.col-9 {
+  -ms-flex-preferred-size: 74.9997%;
+  flex-basis: 74.9997%;
+}
+
+.col-10 {
+  -ms-flex-preferred-size: 83.3333%;
+  flex-basis: 83.3333%;
+  margin: auto;
+}
+
+.col-11 {
+  -ms-flex-preferred-size: 91.6663%;
+  flex-basis: 91.6663%;
+}
+
+.col-12 {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin: auto;
+  max-width: 320px;
+}
+
+body {
+  /* background: url("https://media.giphy.com/media/nBUW1suj9CZaw/giphy.gif") no-repeat center center fixed;
+        -webkit-background-size: cover; */
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section_wrapper {
+  display: flex;
+  margin: auto;
+}
+.header_background {
+  background-color: grey; /* TEMP*/
+}
+.section_background {
+  background-color: #2a3340;
+}
+
+.header_menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: 2%;
+}
+nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+.nav_link {
+  text-decoration: none;
+  color: white;
+}
+.nav_link:hover {
+  color: orangered;
+  cursor: pointer;
+}
+.about_border {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2%;
+  border-bottom-style: solid;
+  border-width: 4px;
+  border-color: orange;
+  text-align: center;
+}
+.section_name {
+  text-align: center;
+  margin-top: 2%;
+}
+.company_name {
+  color: white;
+  font-size: 150px;
+}
+.slogan {
+  color: white;
+  font-size: 50px;
+}
+.shift_picture {
+  height: 100px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+.shift_time,
+.shift_hist,
+.shift_exp,
+.shift_val {
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  color: orangered;
+  font-size: 30px;
+}
+.shift_time {
+  left: 0;
+}
+.shift_hist {
+  left: 244px;
+}
+
+.shift_exp {
+  left: 488px;
+}
+.shift_val {
+  right: 0;
+}
+.shift_time:hover,
+.shift_hist:hover,
+.shift_exp:hover,
+.shift_val:hover {
+  opacity: 0;
+}
+.bottom_time,
+.bottom_hist,
+.bottom_exp,
+.bottom_val {
+  height: 100px;
+  width: 200px;
+  opacity: 0;
+  text-align: center;
+  position: absolute;
+  font-size: 20px;
+  color: white;
+}
+.bottom_time {
+  left: 0;
+}
+.bottom_hist {
+  left: 244px;
+}
+
+.bottom_exp {
+  left: 488px;
+}
+.bottom_val {
+  right: 0;
+}
+
+.shift_time:hover~.bottom_time,.shift_hist:hover~.bottom_hist,.shift_exp:hover~.bottom_exp,.shift_val:hover~.bottom_val{
+  opacity: 100;
+}
+
+.motto {
+  color: white;
+  text-align: center;
+  background-color: grey;
+  /*   opacity: 0.1; */
+}
+.wiki_info {
+  height: 50px;
+  background-color: red;
+  text-align: end;
+}
+.wiki_txt {
+  background-color: blueviolet;
+  border-radius: 0px 30px;
+}
+
+.colorful_strike {
+  color: orange;
+  text-decoration: line-through;
+}
+.strike_content {
+  color: black;
+}
+.recruiter_title {
+  text-align: center;
+  color: orange;
+}
+.table_of_duties {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.slider {
+  width: 80%;
+  background-color: indianred;
+  margin: auto;
+  padding: 0%;
+}
+.slide {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: red;
+}
+.testo {
+  background-color: blue;
+  height: 150px;
+}
+.img_grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.qq {
+  width: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.jobs_title {
+  color: orange;
+}
+
+.team_img {
+  height: 100px;
+  width: 25%;
+  background: url("http://placehold.it/350x100?text=1") no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 2%;
+}
+
+.team_img:hover {
+  background: url("https://images.unsplash.com/photo-1535498730771-e735b998cd64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80")
+    no-repeat;
+}
+
+.person_info {
+  background-color: blueviolet;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.person_info:hover {
+  opacity: 0;
+}
+.offers_button{
+  background-color: grey;
+  opacity: 0.5;
+  border: solid;
+  border-width: 3px;
+  border-color: white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.offers_button:hover{
+  background-color: orange;
+}
+
+.vacation_img {
+  height: 100px;
+  width: 33%;
+  background: url("http://placehold.it/350x100?text=1") no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients_about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.q1 {
+  width: 50%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
+
+#map {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+}
