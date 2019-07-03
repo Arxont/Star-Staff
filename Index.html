@@ -1,485 +1,543 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Star-Staff</title>
+    <meta name="description" content="main page" />
+    <meta name="author" content="Feid" />
+    <meta name="keywords" content="HTML" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="utf-8" />
-  <title>Star-Staff</title>
-  <meta name="description" content="main page" />
-  <meta name="author" content="Feid" />
-  <meta name="keywords" content="HTML" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.1.0/flexboxgrid2.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/normalize.css@8.0.0/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <style type="text/css"></style>
+  </head>
 
-  <link rel="stylesheet" href="./css/styles.css" />
-  <link rel="stylesheet" type="text/css" href="./css/slick.css" />
-  <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
-  <style type="text/css"></style>
-</head>
-
-<body>
-  <header class="section_wrapper header_background">
-    <div class="container">
-      <div class="header_menu">
-        <div class="logo">
-          <img src="qq" alt="Logo" />Кадровое агенство Star Staff
-        </div>
-        <nav>
-          <a class="nav_link" href="#work_offers">Работа в КА</a>
-          <a class="nav_link" href="#about_rec">О рекрутменте</a>
-          <a class="nav_link" href="#daWay">Путь</a>
-          <a class="nav_link" href="#our_team">Команда</a>
-          <a class="nav_link" href="#work_offers">Вакансии</a>
-          <a class="nav_link" href="#contacts">Контакты</a>
-        </nav>
-      </div>
-      <section class="briefly_about">
-        <h1 class="section_name about_border company_name">Star-Staff</h1>
-        <div class="shift_picture">
-          <div class="shift_time"> ВРЕМЯ</div>
-          <div class="shift_hist">ИСТОРИЯ</div>
-          <div class="shift_exp">ОПЫТ</div>
-          <div class="shift_val">ЦЕННОСТЬ</div>
-          <div class="bottom_time">С <span style="color:orange;">2007</span> года подбираем толковых IT-шников в
-            компании</div>
-          <div class="bottom_hist">Основано <span style="color:orange;">программистами</span>-выпускниками мехмата МГУ
-          </div>
-          <div class="bottom_exp">За <span style="color:orange;">11 лет</span> и <span style="color:orange;">450k</span>
-            человек в базе накоплен опыт, которым рады делиться</div>
-          <div class="bottom_val">Благодаря нам люди находят действительно <span style="color:orange;">любимую
-              работу</span></div>
-        </div>
-        <div class="motto">
-          <h2 class="about_border slogan">
-            Каждому человеку - любимую работу!
-          </h2>
-          <p>
-            "Весь мир делится на айтишников и тех кто их ищет" <Br />Обучись
-            IT-рекрутменту у лучших.
-          </p>
-          <div>
-            <a href="qq"><img src="qq" alt="VK" /></a>
-            <a href="qq"> <img src="qq" alt="YouTube" /></a>
-            <a href="qq"> <img src="qq" alt="LinkedIn" /></a>
-          </div>
-        </div>
-        <div class="wiki_info">
-          <span class="wiki_txt">Фанатам нашего Wiki сайта -<u><a href="qq">он жив</a></u></span>
-          <img src="qq" alt="Legendary!" />
-        </div>
-      </section>
-    </div>
-  </header>
-  <main>
-    <section class="section_wrapper">
+  <body>
+    <header class="header_background">
       <div class="container">
-        <p class="section_name">Возможные позиции в нашей команде</p>
-        <div class="shift_picture">
-          <img src="qq" alt="Recruitment" />
-          <img src="qq" alt="Business" />
-          <img src="qq" alt="Project" />
-        </div>
-        <p>
-          У нас есть свой
-          <span class="colorful_strike"><span class="strike_content">отдел продаж и аккаунтинга</span></span>
-          счастья клиентов, а также подразделение проектного менеджмента.
-          Однако главный мотор нашего агентства, на котором держится бизнес, и
-          самый многочисленный отдел компании - это рекрутеры. <BR />Так или
-          иначе любая работа и должность в нашей компании связана с наймом,
-          поэтому подробнее раскроем тему работы у нас на именно на примере
-          этой должности.
-        </p>
-        <a name="about_rec"></a>
-        <h1 class="recruiter_title">IT-рекрутер</h1>
-        <p>
-          <span style="color:orange;">Что делать:</span> устраивать на работу
-          специалистов в сфере IT: искать резюме, звонить, проводить
-          собеседования
-        </p>
-        <p style="text-align:center;">А если поподробней?</p>
-        <img src="qq" alt="ArrowDown" />
-        <p>
-          Любую работу можно разложить на простые действия, а также примерно
-          оценить процентное соотношение - сколько времени тратится на каждое
-          из них
-        </p>
-        <div class="table_of_duties">
-          <div class="qq1">
-            <p> Поиск резюме соискателей</p> Самая медитативная задача. Здесь
-            необходимо хорошо разбираться в IT и уметь составить правильный
-            поисковый запрос. Поиск ведется в нашей базе и на работных сайтах.
-            Иногда это бывает просто, а иногда похоже на финал кубка Яндекса
-            по поиску :) <p class="qq_percent">20%</p>
-          </div>
-          <div class="qq2">
-            <p>Звонки соискателям</p> Самая сложная задача. Надо за короткий звонок
-            продать соискателю вакансию, запомниться ему, выяснить все, что
-            важно в его резюме и главное, всегда быть в хорошем настроении :)
-            А еще звонков должно быть много - это основа твоего заработка! <p class="qq_percent">30%</p>
-          </div>
-          <div class="qq3">
-            <p>Проведение собеседований</p> Самая длительная задача. Момент, когда мы
-            используем свои скилы на полную - и знание IT, и умение наладить
-            контакт, и опыт вытягивания информации, и знание людей. Соискателя
-            надо "узнать с пелёнок", оставив у него лучше впечатление о нашем
-            агентстве! <p class="qq_percent">20%</p>
-          </div>
-          <div class="qq4">
-            <p>Общение с заказчиками</p> Самая важная задача.С нее начинается и
-            заканчивается наша работа. Уметь представить кандидата - не
-            упустить важных плюсов и объяснить пробелы в резюме. Настоять на
-            знакомстве с кандидатом, если уверен, что он подходит на вакансию.
-            Наладить дружеские отношения. <p class="qq_percent">20%</p>
-          </div>
-          <div class="qq5">
-            <p>Общение с тимлидом</p> Самая полезная задача. Тимлид - это и учитель,
-            и критик, и советник, и твоя совесть. Человек, благодаря кому ты
-            сможешь развиваться гораздо быстрее, чем в одиночку. Главное -
-            хотеть развиваться и зарабатывать ;) <p class="qq_percent">5%</p>
-          </div>
-          <div class="qq6">
-            <p>Обучение</p> Самая очевидная задача :) Ведь в каждом из компонентов
-            рецепта надо знать IT, или рекрутмент, или уметь быть эффективным…
-            А значит - надо посещать все семинары и задавать вопросы! <p class="qq_percent">5%</p>
-          </div>
-        </div>
-        <img src="qq" alt="OurMan" />
-      </div>
-    </section>
+        <div class="row center-xl">
+          <div class="col-xl-10">
+            <section class="header_menu">
+              <div class="logo">
+                <img src="qq" alt="Logo" />Кадровое агенство Star Staff
+              </div>
+              <nav>
+                <a class="nav_link" href="#work_offers">Работа в КА</a>
+                <a class="nav_link" href="#about_rec">О рекрутменте</a>
+                <a class="nav_link" href="#daWay">Путь</a>
+                <a class="nav_link" href="#our_team">Команда</a>
+                <a class="nav_link" href="#work_offers">Вакансии</a>
+                <a class="nav_link" href="#contacts">Контакты</a>
+              </nav>
+            </section>
 
-    <section class="section_wrapper section_background">
-      <div class=" container">
-        <p class="section_name">Путь рекрутера в агенстве Star-Staff</p>
-        <a name="daWay"></a>
-        <img src="qq" alt="DaWay" />
-      </div>
-    </section>
-
-    <div class="container">
-      <section class="slider">
-        <div class="slide">
-          <div class="testo">
-            <h2>ПЛЮСЫ РЕКРУТМЕНТА</h2>
-            <ul>
-              <li>
-                Драйв и движуха через край. Жизнь вокруг кипит так, что конец
-                рабочего дня наступает незаметно и даже не желанно.
-              </li>
-              <li>
-                Постоянное обучение и развитие. У личного куратора и на
-                групповых тренингах.
-              </li>
-              <li>
-                Работа на результат. В КА идут те, кто хочет через 4-8 мес.
-                зарабатывать 100-150k/мес.
-              </li>
-              <li>
-                У нас работают исключительно люди с “рекрутерской” жилкой, с
-                высоким уровнем осознанности и кайфующие от постоянного
-                развития.
-              </li>
-              <li>
-                Полезная работа, которая реально делает жизнь людей лучше.
-                Серьезно, мы здесь не только про хорошо заработать, а еще и
-                хорошее дело делаем - помогаем людям найти любимую работу.
-              </li>
-              <li>
-                Приятный график. Первое время нужно быть пунктуальным 10-19,
-                далее график гибкий. Для Джедаев - свободный
-              </li>
-            </ul>
-          </div>
-          <img src="http://placehold.it/350x100?text=1" />
-        </div>
-        <div>
-          <h2>МИНУСЫ РЕКРУТМЕНТА</h2>
-          <ul>
-            <li>Нервная работа. Большие эмоциональные нагрузки.</li>
-            <li>
-              Хороший кандидат иногда может приехать на собеседование в 8 утра
-              или 8 вечера.
-            </li>
-            <li>Постоянное обучение и развитие. Прокрастинация не пройдет.</li>
-            <li>
-              Прямые фидбеки о плюсах и минусах - именно они ведут к быстрому и
-              крутому росту.
-            </li>
-            <li>
-              Нет стабильного дохода. Слегка расслабился - слегка и заработал.
-              Может быть просадка на старте.
-            </li>
-          </ul>
-        </div>
-        <div class="slide">
-          <img src="http://placehold.it/350x100?text=3" />
-          <div class="testo">
-            <h2>ПЛЮНУСЫ</h2>
-            <p>
-              то, что для кого-то является<br />
-              плюсом, а для других - минусом
-            </p>
-            <ul>
-              <li>
-                Очень высокий темп. Множество вызовов - шансов все зафакапить
-                или проявить себя.
-              </li>
-              <li>
-                Работа, где реально много общения с людьми. С нами просто не
-                сможет выжить человек, который хочет делать всегда понятную
-                работу без постоянных челленджей и бэклога из 500 задач.
-              </li>
-              <li>
-                Все обучение в перемешку с практикой. Нет времени расслабиться
-                или взять паузу - только вперед и в темпе.
-              </li>
-              <li>
-                Финансовый результат сильно зависит от качества работы и, порою,
-                от удачи.
-              </li>
-              <li>
-                Обнимающийся со всеми гендир в маске Магистра Йоды… тебе решать,
-                как к этому относиться. Любителям костюмов рядом с фанатами
-                тапочек и кроксов будет явно не комильфо.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <section class="section_wrapper star_team">
-      <div class=" container">
-        <a name="our_team"></a>
-        <p class="section_name">Звездная команда</p>
-        <div class="img_grid">
-          <div class="team_img">
-            <p class="person_info">1</p>
-          </div>
-          <div class="team_img">
-            <p class="person_info">1</p>
-          </div>
-          <div class="team_img">
-            <p class="person_info">1</p>
-          </div>
-          <div class="team_img">
-            <p class="person_info">1</p>
-          </div>
-          <div class="team_img">
-            <p class="person_info">2</p>
-          </div>
-          <div class="team_img">
-            <p class="person_info">2</p>
-          </div>
-          <div class="team_img">
-            <p class="person_info">2</p>
-          </div>
-          <div class="team_img">
-            <p class="person_info">2</p>
-          </div>
-          <div class="team_img">
-            <p class="person_info">3</p>
-          </div>
-          <div class="team_img">
-            <p class="person_info">3</p>
-          </div>
-          <div class="team_img">
-            <p class="person_info">3</p>
-          </div>
-          <div class="team_img">
-            <p class="person_info">3</p>
+            <section class="briefly_about">
+              <h1 class="section_name about_border company_name">Star-Staff</h1>
+              <div class="shift_picture">
+                <div class="shift_time">ВРЕМЯ</div>
+                <div class="shift_hist">ИСТОРИЯ</div>
+                <div class="shift_exp">ОПЫТ</div>
+                <div class="shift_val">ЦЕННОСТЬ</div>
+                <div class="bottom_time">
+                  С <span style="color:orange;">2007</span> года подбираем
+                  толковых IT-шников в компании
+                </div>
+                <div class="bottom_hist">
+                  Основано
+                  <span style="color:orange;">программистами</span>-выпускниками
+                  мехмата МГУ
+                </div>
+                <div class="bottom_exp">
+                  За <span style="color:orange;">11 лет</span> и
+                  <span style="color:orange;">450k</span> человек в базе
+                  накоплен опыт, которым рады делиться
+                </div>
+                <div class="bottom_val">
+                  Благодаря нам люди находят действительно
+                  <span style="color:orange;">любимую работу</span>
+                </div>
+              </div>
+              <div class="motto">
+                <h2 class="about_border slogan">
+                  Каждому человеку - любимую работу!
+                </h2>
+                <p>
+                  "Весь мир делится на айтишников и тех кто их ищет"
+                  <Br />Обучись IT-рекрутменту у лучших.
+                </p>
+                <div>
+                  <a href="qq"><img src="qq" alt="VK"/></a>
+                  <a href="qq"> <img src="qq" alt="YouTube"/></a>
+                  <a href="qq"> <img src="qq" alt="LinkedIn"/></a>
+                </div>
+              </div>
+              <div class="wiki_info">
+                <span class="wiki_txt"
+                  >Фанатам нашего Wiki сайта -<u
+                    ><a href="qq">он жив</a></u
+                  ></span
+                >
+                <img src="qq" alt="Legendary!" />
+              </div>
+            </section>
           </div>
         </div>
       </div>
-    </section>
+    </header>
 
-    <section class="section_wrapper section_background">
-      <div class=" container">
-        <a name="work_offers"></a>
-        <p class="section_name">Вакансии в Нашей Команде</p>
-        <div>
-          <p class="jobs_title">Отдел продаж</p>
-          <p>
-            Тут наши аккаунт-менеджеры чутко следят за счастьем наших клиентов
-            и снабжают нас только проверенным заказами в хороших компаниях с
-            высоким чеком. Структурно отдел продаж является отдельным
-            подразделением компании, со своей кассой, большой автономией,
-            блэк-джэком и … ну, вы поняли.
-          </p>
-          <button class="offers_button">Менеджер по продажам HR-услуг</button>
-          <button class="offers_button">Senior Sales manager</button>
-        </div>
-        <div>
-          <p class="jobs_title">Отдел рекрутмента</p>
-          <p>
-            Именно эти ребята делают так, чтобы топливо в виде полученных
-            заказов преобразовалось в энергию для бизнеса в виде высоких
-            гонораров за успешную работу. Именно наши рекрутеры не стесняются
-            написать первыми любому человеку с вопросами “А сколько получали
-            на прошлом месте работы и сколько хотите сейчас?” Именно наши
-            рекрутеры являются самыми высокооплачиваемыми сотрудниками, ставя
-            рекорды по ЗП в 700K+, и именно благодаря их работе наши заказчики
-            возвращаются к нам и рекомендуют друзьям все чаще и чаще. У тебя
-            есть шанс стать частью нашей звёздной команды и одним из них.
-          </p>
-          <button class="offers_button">Ассистент IT-рекрутера</button>
-          <button class="offers_button">Начинающий рекрутер(IT/Digital)</button>
-          <button class="offers_button">Помощник менеджера по подбору</button>
-          <button class="offers_button">IT-Рекрутер/Консультант</button>
-          <button class="offers_button">Рекрутер с большими планами ;)</button>
-          <button class="offers_button">Рекрутер IT/Digital</button>
-        </div>
-        <div>
-          <p class="jobs_title">Проектный отдел</p>
-          <p>
-            Здесь наши менеджеры проектов и аналитики занимаются
-            исследованиями вопросов оптимизации работы существующих бизнесов и
-            разрабатывают новые инновационные продукты. Задачи бывают как
-            внутренние в интересах наших компаний, так и внешние - крупные
-            HR-консалтинговые проекты для наших Заказчиков, например. Также
-            отсюда выходят идеи и продукты для всех наших дочерних направлений
-            бизнеса, которые впоследствии становятся самостоятельными
-            компаниями.
-          </p>
-          <button class="offers_button">Junior Project manager</button>
-          <button class="offers_button">Менеджер Проектов/HR</button>
+    <main>
+      <div class="container">
+        <div class="row center-xl">
+          <div class="col-xl-10">
+            <section>
+              <p class="section_name">Возможные позиции в нашей команде</p>
+              <div class="shift_picture">
+                <img src="qq" alt="Recruitment" />
+                <img src="qq" alt="Business" />
+                <img src="qq" alt="Project" />
+              </div>
+              <p>
+                У нас есть свой
+                <span class="colorful_strike"
+                  ><span class="strike_content"
+                    >отдел продаж и аккаунтинга</span
+                  ></span
+                >
+                счастья клиентов, а также подразделение проектного менеджмента.
+                Однако главный мотор нашего агентства, на котором держится
+                бизнес, и самый многочисленный отдел компании - это рекрутеры.
+                <BR />Так или иначе любая работа и должность в нашей компании
+                связана с наймом, поэтому подробнее раскроем тему работы у нас
+                на именно на примере этой должности.
+              </p>
+              <a name="about_rec"></a>
+              <h1 class="recruiter_title">IT-рекрутер</h1>
+              <p>
+                <span style="color:orange;">Что делать:</span> устраивать на
+                работу специалистов в сфере IT: искать резюме, звонить,
+                проводить собеседования
+              </p>
+              <p style="text-align:center;">А если поподробней?</p>
+              <img src="qq" alt="ArrowDown" />
+              <p>
+                Любую работу можно разложить на простые действия, а также
+                примерно оценить процентное соотношение - сколько времени
+                тратится на каждое из них
+              </p>
+              <div class="table_of_duties">
+                <div class="qq1">
+                  <p>Поиск резюме соискателей</p>
+                  Самая медитативная задача. Здесь необходимо хорошо разбираться
+                  в IT и уметь составить правильный поисковый запрос. Поиск
+                  ведется в нашей базе и на работных сайтах. Иногда это бывает
+                  просто, а иногда похоже на финал кубка Яндекса по поиску :)
+                  <p class="qq_percent">20%</p>
+                </div>
+                <div class="qq2">
+                  <p>Звонки соискателям</p>
+                  Самая сложная задача. Надо за короткий звонок продать
+                  соискателю вакансию, запомниться ему, выяснить все, что важно
+                  в его резюме и главное, всегда быть в хорошем настроении :) А
+                  еще звонков должно быть много - это основа твоего заработка!
+                  <p class="qq_percent">30%</p>
+                </div>
+                <div class="qq3">
+                  <p>Проведение собеседований</p>
+                  Самая длительная задача. Момент, когда мы используем свои
+                  скилы на полную - и знание IT, и умение наладить контакт, и
+                  опыт вытягивания информации, и знание людей. Соискателя надо
+                  "узнать с пелёнок", оставив у него лучше впечатление о нашем
+                  агентстве!
+                  <p class="qq_percent">20%</p>
+                </div>
+                <div class="qq4">
+                  <p>Общение с заказчиками</p>
+                  Самая важная задача.С нее начинается и заканчивается наша
+                  работа. Уметь представить кандидата - не упустить важных
+                  плюсов и объяснить пробелы в резюме. Настоять на знакомстве с
+                  кандидатом, если уверен, что он подходит на вакансию. Наладить
+                  дружеские отношения.
+                  <p class="qq_percent">20%</p>
+                </div>
+                <div class="qq5">
+                  <p>Общение с тимлидом</p>
+                  Самая полезная задача. Тимлид - это и учитель, и критик, и
+                  советник, и твоя совесть. Человек, благодаря кому ты сможешь
+                  развиваться гораздо быстрее, чем в одиночку. Главное - хотеть
+                  развиваться и зарабатывать ;)
+                  <p class="qq_percent">5%</p>
+                </div>
+                <div class="qq6">
+                  <p>Обучение</p>
+                  Самая очевидная задача :) Ведь в каждом из компонентов рецепта
+                  надо знать IT, или рекрутмент, или уметь быть эффективным… А
+                  значит - надо посещать все семинары и задавать вопросы!
+                  <p class="qq_percent">5%</p>
+                </div>
+              </div>
+              <img src="qq" alt="OurMan" />
+            </section>
+
+            <section class="section_background">
+              <p class="section_name">Путь рекрутера в агенстве Star-Staff</p>
+              <a name="daWay"></a>
+              <img src="qq" alt="DaWay" />
+            </section>
+
+            <section class="slider">
+              <div class="slide">
+                <div class="testo">
+                  <h2>ПЛЮСЫ РЕКРУТМЕНТА</h2>
+                  <ul>
+                    <li>
+                      Драйв и движуха через край. Жизнь вокруг кипит так, что
+                      конец рабочего дня наступает незаметно и даже не желанно.
+                    </li>
+                    <li>
+                      Постоянное обучение и развитие. У личного куратора и на
+                      групповых тренингах.
+                    </li>
+                    <li>
+                      Работа на результат. В КА идут те, кто хочет через 4-8
+                      мес. зарабатывать 100-150k/мес.
+                    </li>
+                    <li>
+                      У нас работают исключительно люди с “рекрутерской” жилкой,
+                      с высоким уровнем осознанности и кайфующие от постоянного
+                      развития.
+                    </li>
+                    <li>
+                      Полезная работа, которая реально делает жизнь людей лучше.
+                      Серьезно, мы здесь не только про хорошо заработать, а еще
+                      и хорошее дело делаем - помогаем людям найти любимую
+                      работу.
+                    </li>
+                    <li>
+                      Приятный график. Первое время нужно быть пунктуальным
+                      10-19, далее график гибкий. Для Джедаев - свободный
+                    </li>
+                  </ul>
+                </div>
+                <img src="http://placehold.it/350x100?text=1" />
+              </div>
+              <div>
+                <h2>МИНУСЫ РЕКРУТМЕНТА</h2>
+                <ul>
+                  <li>Нервная работа. Большие эмоциональные нагрузки.</li>
+                  <li>
+                    Хороший кандидат иногда может приехать на собеседование в 8
+                    утра или 8 вечера.
+                  </li>
+                  <li>
+                    Постоянное обучение и развитие. Прокрастинация не пройдет.
+                  </li>
+                  <li>
+                    Прямые фидбеки о плюсах и минусах - именно они ведут к
+                    быстрому и крутому росту.
+                  </li>
+                  <li>
+                    Нет стабильного дохода. Слегка расслабился - слегка и
+                    заработал. Может быть просадка на старте.
+                  </li>
+                </ul>
+              </div>
+              <div class="slide">
+                <img src="http://placehold.it/350x100?text=3" />
+                <div class="testo">
+                  <h2>ПЛЮНУСЫ</h2>
+                  <p>
+                    то, что для кого-то является<br />
+                    плюсом, а для других - минусом
+                  </p>
+                  <ul>
+                    <li>
+                      Очень высокий темп. Множество вызовов - шансов все
+                      зафакапить или проявить себя.
+                    </li>
+                    <li>
+                      Работа, где реально много общения с людьми. С нами просто
+                      не сможет выжить человек, который хочет делать всегда
+                      понятную работу без постоянных челленджей и бэклога из 500
+                      задач.
+                    </li>
+                    <li>
+                      Все обучение в перемешку с практикой. Нет времени
+                      расслабиться или взять паузу - только вперед и в темпе.
+                    </li>
+                    <li>
+                      Финансовый результат сильно зависит от качества работы и,
+                      порою, от удачи.
+                    </li>
+                    <li>
+                      Обнимающийся со всеми гендир в маске Магистра Йоды… тебе
+                      решать, как к этому относиться. Любителям костюмов рядом с
+                      фанатами тапочек и кроксов будет явно не комильфо.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <section class="star_team">
+              <a name="our_team"></a>
+              <p class="section_name">Звездная команда</p>
+              <div class="img_grid">
+                <div class="team_img">
+                  <p class="person_info">Тут могла быть ваша реклама</p>
+                </div>
+                <div class="team_img">
+                  <p class="person_info">Тут могла быть ваша реклама</p>
+                </div>
+                <div class="team_img">
+                  <p class="person_info">Тут могла быть ваша реклама</p>
+                </div>
+                <div class="team_img">
+                  <p class="person_info">Тут могла быть ваша реклама</p>
+                </div>
+                <div class="team_img">
+                  <p class="person_info">Тут могла быть ваша реклама</p>
+                </div>
+                <div class="team_img">
+                  <p class="person_info">Тут могла быть ваша реклама</p>
+                </div>
+                <div class="team_img">
+                  <p class="person_info">Тут могла быть ваша реклама</p>
+                </div>
+                <div class="team_img">
+                  <p class="person_info">Тут могла быть ваша реклама</p>
+                </div>
+                <div class="team_img">
+                  <p class="person_info">Тут могла быть ваша реклама</p>
+                </div>
+                <div class="team_img">
+                  <p class="person_info">Тут могла быть ваша реклама</p>
+                </div>
+                <div class="team_img">
+                  <p class="person_info">Тут могла быть ваша реклама</p>
+                </div>
+                <div class="team_img">
+                  <p class="person_info">Тут могла быть ваша реклама</p>
+                </div>
+              </div>
+            </section>
+
+            <section class="section_background">
+              <a name="work_offers"></a>
+              <p class="section_name">Вакансии в Нашей Команде</p>
+                <p class="jobs_title">Отдел продаж</p>
+                <p>
+                  Тут наши аккаунт-менеджеры чутко следят за счастьем наших
+                  клиентов и снабжают нас только проверенным заказами в хороших
+                  компаниях с высоким чеком. Структурно отдел продаж является
+                  отдельным подразделением компании, со своей кассой, большой
+                  автономией, блэк-джэком и … ну, вы поняли.
+                </p>
+                <div class="offer_links">
+                <button class="offers_button">
+                  Менеджер по продажам HR-услуг
+                </button>
+                <button class="offers_button">Senior Sales manager</button>
+              </div>
+                <p class="jobs_title">Отдел рекрутмента</p>
+                <p>
+                  Именно эти ребята делают так, чтобы топливо в виде полученных
+                  заказов преобразовалось в энергию для бизнеса в виде высоких
+                  гонораров за успешную работу. Именно наши рекрутеры не
+                  стесняются написать первыми любому человеку с вопросами “А
+                  сколько получали на прошлом месте работы и сколько хотите
+                  сейчас?” Именно наши рекрутеры являются самыми
+                  высокооплачиваемыми сотрудниками, ставя рекорды по ЗП в 700K+,
+                  и именно благодаря их работе наши заказчики возвращаются к нам
+                  и рекомендуют друзьям все чаще и чаще. У тебя есть шанс стать
+                  частью нашей звёздной команды и одним из них.
+                </p>
+                <div class="offer_links">
+                <button class="offers_button">Ассистент IT-рекрутера</button>
+                <button class="offers_button">
+                  Начинающий рекрутер(IT/Digital)
+                </button>
+                <button class="offers_button">
+                  Помощник менеджера по подбору
+                </button>
+                <button class="offers_button">IT-Рекрутер/Консультант</button>
+                <button class="offers_button">
+                  Рекрутер с большими планами ;)
+                </button>
+                <button class="offers_button">Рекрутер IT/Digital</button>
+                </div>
+                <p class="jobs_title">Проектный отдел</p>
+                <p>
+                  Здесь наши менеджеры проектов и аналитики занимаются
+                  исследованиями вопросов оптимизации работы существующих
+                  бизнесов и разрабатывают новые инновационные продукты. Задачи
+                  бывают как внутренние в интересах наших компаний, так и
+                  внешние - крупные HR-консалтинговые проекты для наших
+                  Заказчиков, например. Также отсюда выходят идеи и продукты для
+                  всех наших дочерних направлений бизнеса, которые впоследствии
+                  становятся самостоятельными компаниями.
+                </p>
+                <div class="offer_links">
+                <button class="offers_button">Junior Project manager</button>
+                <button class="offers_button">Менеджер Проектов/HR</button>
+                </div>
+            </section>
+
+            <section>
+              <p class="section_name">Командная жизнь.Тусим.</p>
+              <p>
+                Человек проводит на работе треть жизни, поэтому не только дело
+                должно быть любимым, но и твоя команда должна радовать тебя
+                каждый день! А еще, "Кто хорошо работает - тот хорошо отдыхает".
+                Работаем мы офигенно, потому отдыхаем еще круче!
+              </p>
+              <div class="img_grid">
+                <div class="vacation_img">
+                  <p>1</p>
+                </div>
+                <div class="vacation_img">
+                  <p>1</p>
+                </div>
+                <div class="vacation_img">
+                  <p>1</p>
+                </div>
+                <div class="vacation_img">
+                  <p>1</p>
+                </div>
+                <div class="vacation_img">
+                  <p>1</p>
+                </div>
+                <div class="vacation_img">
+                  <p>1</p>
+                </div>
+                <div class="vacation_img">
+                  <p>1</p>
+                </div>
+                <div class="vacation_img">
+                  <p>1</p>
+                </div>
+                <div class="vacation_img">
+                  <p>1</p>
+                </div>
+              </div>
+            </section>
+            <section>
+              <p class="section_name">О нас говорят</p>
+              <div class="clients_about">
+                <div class="client_card">
+                  <p class="client_card_id">Иван Жучков</p>
+                  <p class="client_card_position">PM, работает в компании год</p>
+                  Находясь в Star-Staff, ты можешь быть точно уверен, что тебя
+                  услышат. Культура обратной связи и непрерывного улучшения
+                  чувствуется при работе с каждым ТОПом компании. Для меня это
+                  лучший плацдарм для личностного и профессионального роста.
+                </div>
+                <div class="client_card">
+                  <p class="client_card_id">Андрей Веснин</p>
+                  <p class="client_card_position">Рекрутер, работал в компании 2 года</p>
+                  Star-Staff – такое место, куда можно прийти, не имея опыта
+                  работы нигде, но уже через несколько месяцев спрос на тебя на
+                  рынке будет ощутимый. Происходит это потому, что из тебя
+                  делают не просто «ресечера», а полноценную боевую единицу,
+                  рекрутера, способного проводить собеседования, консультировать
+                  заказчика и проводить экспертизу рынка. Не все сразу, конечно
+                  же: начинать придется с простых вакансий, вести их под
+                  присмотром тимлидов, ошибаться, нервничать, тормозить на
+                  собеседованиях, тонуть в планировании своего дня, но результат
+                  того стоит.
+                </div>
+                <div class="client_card">
+                  <p class="client_card_id">Мария Князева</p>
+                  <p class="client_card_position">Рекрутер, работала в компании 2 месяца</p>
+                  Компания хороша для тех, кто хочет роста и развития. Если ты
+                  не готов обучаться и выходить из зоны комфорта - тебе не по
+                  пути с этими ребятами.
+                </div>
+                <div class="client_card">
+                  <p class="client_card_id">Егор Хмелев</p>
+                  <p class="client_card_position">Клиент.СТО Sweatcoin</p>
+                  Одно из немногих агентств на рынке, которое не сухо ищет вам
+                  сотрудников, а заботится о своих клиентах, пытается до мелочей
+                  понять потребности и профиль кандидатов, и все это происходит
+                  в приятной дружеской атмосфере.
+                </div>
+                <div class="client_card">
+                  <p class="client_card_id">Валентин Ливкин</p>
+                  <p class="client_card_position">Клиент. СТО IcoLab</p>
+                  Ребята находят тех, кто мне действительно нужен, а не тех,
+                  кого я думаю, что хочу.
+                </div>
+              </div>
+            </section>
+          </div>
         </div>
       </div>
-    </section>
+    </main>
 
-    <section class="section_wrapper">
-      <div class=" container">
-        <p class="section_name">Командная жизнь.Тусим.</p>
-        <p>
-          Человек проводит на работе треть жизни, поэтому не только дело
-          должно быть любимым, но и твоя команда должна радовать тебя каждый
-          день! А еще, "Кто хорошо работает - тот хорошо отдыхает". Работаем
-          мы офигенно, потому отдыхаем еще круче!
-        </p>
-        <div class="img_grid">
-          <div class="vacation_img">
-            <p>1</p>
-          </div>
-          <div class="vacation_img">
-            <p>1</p>
-          </div>
-          <div class="vacation_img">
-            <p>1</p>
-          </div>
-          <div class="vacation_img">
-            <p>1</p>
-          </div>
-          <div class="vacation_img">
-            <p>1</p>
-          </div>
-          <div class="vacation_img">
-            <p>1</p>
-          </div>
-          <div class="vacation_img">
-            <p>1</p>
-          </div>
-          <div class="vacation_img">
-            <p>1</p>
-          </div>
-          <div class="vacation_img">
-            <p>1</p>
+    <footer>
+      <div class="container">
+        <div class="row center-xl">
+          <div class="col-xl-10">
+            <section>
+              <a name="contacts"></a>
+              <p class="section_name">Контакты</p>
+
+              <div class="faq">
+                <p>
+                  Если возникли вопросы по вакансиям из серии “Как прийти к вам
+                  на интервью?” - свяжитесь с Таней, она сориентирует на тему
+                  “Что, где и когда”. Если же возникли предложения, комментарии,
+                  фич-реквесты, баг-репорты и любая другая обратная связь по
+                  нашему сайту - всегда рады видеть ее здесь. Чтобы быть “в
+                  теме” наших событий и ритма жизни, рекомендуем следить за
+                  обновлениями контента на нашем профиле на LinkedIn.
+                </p>
+                <img src="qq" alt="ContactPerson" />
+              </div>
+              <div class="coordinates">
+                <div>
+                  Офис: Москва, Черёмушкинский проезд, 5 Телефон: +7
+                  495.989.98.73 ​ E-mail: vip@star-staff.ru Как нас найти: Метро
+                  Академическая: Последний вагон из центра, после стеклянных
+                  дверей налево, правая лестница. Далее идите по улице 60 лет
+                  Октября, перед высотным зданием РОСНАНО поворачивайте налево и
+                  третий дом слева наше здание. Это пятиэтажное здание красного
+                  цвета (здание Российского Красного Креста) – наш офис
+                  находится на 5-м этаже. На входе скажите охране, что Вы в
+                  кадровое агентство "STAR-STAFF", поднимитесь по левой лестнице
+                  на пятый этаж и проходите в оранжевую дверь, там мы Вас
+                  встретим. ​ Подробный маршрут здесь:
+                  http://maps.yandex.ru/-/CVGjNDM2
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </div>
-    </section>
-    <section class="section_wrapper">
-      <div class=" container">
-        <p class="section_name">О нас говорят</p>
-        <div class="clients_about">
-          <div class="q1">
-            <p>Иван Жучков</p>
-            <p>PM, работает в компании год</p> Находясь в Star-Staff, ты
-            можешь быть точно уверен, что тебя услышат. Культура обратной
-            связи и непрерывного улучшения чувствуется при работе с каждым
-            ТОПом компании. Для меня это лучший плацдарм для личностного и
-            профессионального роста.
-          </div>
-          <div class="q1">
-            <p>Андрей Веснин</p>
-            <p>Рекрутер, работал в компании 2 года</p> Star-Staff –
-            такое место, куда можно прийти, не имея опыта работы нигде, но уже
-            через несколько месяцев спрос на тебя на рынке будет ощутимый.
-            Происходит это потому, что из тебя делают не просто «ресечера», а
-            полноценную боевую единицу, рекрутера, способного проводить
-            собеседования, консультировать заказчика и проводить экспертизу
-            рынка. Не все сразу, конечно же: начинать придется с простых
-            вакансий, вести их под присмотром тимлидов, ошибаться, нервничать,
-            тормозить на собеседованиях, тонуть в планировании своего дня, но
-            результат того стоит.
-          </div>
-          <div class="q1">
-            <p>Мария Князева</p>
-            <p>Рекрутер, работала в компании 2 месяца</p> Компания
-            хороша для тех, кто хочет роста и развития. Если ты не готов
-            обучаться и выходить из зоны комфорта - тебе не по пути с этими
-            ребятами.
-          </div>
-          <div class="q1">
-            <p>Егор Хмелев </p>
-            <p>Клиент.СТО Sweatcoin</p> Одно из немногих агентств на
-            рынке, которое не сухо ищет вам сотрудников, а заботится о своих
-            клиентах, пытается до мелочей понять потребности и профиль
-            кандидатов, и все это происходит в приятной дружеской атмосфере.
-          </div>
-          <div class="q1">
-            <p>Валентин Ливкин</p>
-            <p>Клиент. СТО IcoLab</p> Ребята находят тех, кто мне
-            действительно нужен, а не тех, кого я думаю, что хочу.
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <section class="section_wrapper">
-      <div class=" container">
-        <a name="contacts"></a>
-        <p class="section_name">Контакты</p>
-
-        <div class="faq">
-          <p>
-            Если возникли вопросы по вакансиям из серии “Как прийти к вам на
-            интервью?” - свяжитесь с Таней, она сориентирует на тему “Что, где
-            и когда”. Если же возникли предложения, комментарии, фич-реквесты,
-            баг-репорты и любая другая обратная связь по нашему сайту - всегда
-            рады видеть ее здесь. Чтобы быть “в теме” наших событий и ритма
-            жизни, рекомендуем следить за обновлениями контента на нашем
-            профиле на LinkedIn.
-          </p>
-          <img src="qq" alt="ContactPerson" />
-        </div>
-        <div class="coordinates">
-          <div>
-            Офис: Москва, Черёмушкинский проезд, 5 Телефон: +7 495.989.98.73 ​
-            E-mail: vip@star-staff.ru Как нас найти: Метро Академическая:
-            Последний вагон из центра, после стеклянных дверей налево, правая
-            лестница. Далее идите по улице 60 лет Октября, перед высотным
-            зданием РОСНАНО поворачивайте налево и третий дом слева наше здание.
-            Это пятиэтажное здание красного цвета (здание Российского Красного
-            Креста) – наш офис находится на 5-м этаже. На входе скажите охране,
-            что Вы в кадровое агентство "STAR-STAFF", поднимитесь по левой
-            лестнице на пятый этаж и проходите в оранжевую дверь, там мы Вас
-            встретим. ​ Подробный маршрут здесь:
-            http://maps.yandex.ru/-/CVGjNDM2
-          </div>
-
-        </div>
-    </section>
-  </footer>
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
-  <script type="text/javascript">
-    $(document).on("ready", function () {
-      $(".slider").slick({
-        dots: true,
-        adaptiveHeight: true
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+      $(document).on("ready", function() {
+        $(".slider").slick({
+          dots: true,
+          adaptiveHeight: true
+        });
       });
-    });
-  </script>
-  <!--
+    </script>
+    <!--
     <script>
       function myMap() {
         var mapProp = {
@@ -492,6 +550,5 @@
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANxWf_ENGTn6NgBBzT6JcknkuauJwceS0&callback=myMap"></script>
     -->
-</body>
-
+  </body>
 </html>
