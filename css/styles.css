@@ -10,8 +10,8 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-size: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header_background {
@@ -139,13 +139,15 @@ nav {
   /*   opacity: 0.1; */
 }
 .wiki_info {
-  height: 50px;
+  display:flex;
+  justify-content: flex-end;
   background-color: red;
-  text-align: end;
 }
 .wiki_txt {
   background-color: blueviolet;
   border-radius: 0px 30px;
+  padding: 10px 10px 10px 10px ;
+  margin-bottom: auto;
 }
 
 .colorful_strike {
@@ -161,6 +163,7 @@ nav {
 }
 .table_of_duties {
   display: flex;
+  align-items: flex-start;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -245,6 +248,11 @@ nav {
   opacity: 0;
 }
 
+.jobs_info{
+  text-align: start;
+  padding:10px;
+}
+
 .offer_links{
 display: flex;
 align-items: flex-start;
@@ -257,13 +265,13 @@ flex-wrap: wrap;
   border-width: 3px;
   border-color: white;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   margin-left:2%; 
+  margin-bottom:2%;
   cursor: pointer;
 }
 .offers_button:hover{
@@ -282,6 +290,7 @@ flex-wrap: wrap;
 .clients_about {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: space-between;
   text-align: start;
   font-size: 15px;
@@ -306,11 +315,25 @@ flex-wrap: wrap;
 
 .faq, .coordinates{
   display:flex;
+  margin-top:2%;
 }
-
+.faq_text{
+  width:58%;
+  text-align: start;
+}
+.contact_person{
+  width: 40%;
+  height:275px;
+  background-color: red;
+}
 
 #map {
   height: 500px;
-  width: 500px;
+  width: 53%;
   margin: auto;
+  background-color: red;
+}
+.coordinates_text{
+  width:45%;
+  text-align: start;
 }
