@@ -223,19 +223,14 @@ nav {
 
 .slider {
   width: 80%;
-  background-color: indianred;
   margin: auto;
   padding: 0%;
 }
 .slide {
   display: flex;
   justify-content: space-evenly;
-  background-color: red;
 }
-.testo {
-  background-color: blue;
-  height: 150px;
-}
+
 
 .team_img {
   height: 100px;
@@ -353,17 +348,94 @@ flex-wrap: wrap;
 }
 
 @media (max-width: 991px){
-  .logo {
-    justify-content: center;
-    background-color: white;
-    width:80%;
+  .mobile_header{
+    color:white;
   }
-  .testo1{
-    font-size: 50px;
+  .mobile_nav_links{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+    display: none;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    z-index: 999;
+    margin: auto;
   }
+  .mobile_close_button{
+position: absolute;
+right: 0;
+  }
+.mobile_nav{
+  display:flex;
+  justify-content: space-between;
+}
+.mobile_nav_container{
+
+  width:100%;
+  position: relative;
+  margin-bottom: 15%;
+}
+.mobile_logo{
+  font-size: 50px;
+  position: absolute;
+  left:45%;
+  right:50%;
+}
+.nav_button{
+  position: absolute;
+  right:0;
+  font-size:30px;
+  cursor:pointer;
+}
+.mobile_about{
+  text-align: center;
+}
   .table_of_duties{
     flex-direction: column;
   }
+.slick-slide img{
+  display: none;
+}
+
+.slick-prev
+{
+    left: -25px;
+    z-index: 1;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '<';
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '>';
+}
+
+.slick-next
+{
+    right: -25px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: '>';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '<';
+}
   .qq1, .qq2, .qq3, .qq4, .qq5, .qq6{
     width: 100%;
     margin:0;
@@ -371,4 +443,47 @@ flex-wrap: wrap;
 .offers_button{
   width: 100%;
 }
+
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+background-color: green;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  color:white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: orange;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
 }
