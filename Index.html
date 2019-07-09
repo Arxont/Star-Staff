@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Star-Staff</title>
+    <title>Star-Staff HR</title>
     <meta name="description" content="main page" />
     <meta name="author" content="Feid" />
     <meta name="keywords" content="HTML" />
@@ -609,34 +609,25 @@
                 каждый день! А еще, "Кто хорошо работает - тот хорошо отдыхает".
                 Работаем мы офигенно, потому отдыхаем еще круче!
               </p>
-              <div class="img_grid">
-                <div class="vacation_card">
-                  <p class="vacation_txt">hello world</p>
-                </div>
-                <div class="vacation_img">
+              <div class="vacation_grid">
+                  <div class="v_grid_item">
+                      <p>1</p>
+                      </div>
+                <div  class="v_grid_item">
+                    <p class="v_grid_hover">1gfhfgmdn</p>
+              <video id="videotest" autoplay loop>
+                  <source src="images/shame.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="v_grid_item">
                   <p>1</p>
-                </div>
-                <div class="vacation_img">
-                  <p>1</p>
-                </div>
-                <div class="vacation_img">
-                  <p>1</p>
-                </div>
-                <div class="vacation_gif">
-                  <p class="vacation_txt">shame</p>
-                </div>
-                <div class="vacation_img">
-                    <p>1</p>                    
-                </div>
-                <div class="vacation_img">
-                  <p>1</p>
-                </div>
-                <div class="vacation_img">
-                  <p>1</p>
-                </div>
-                <div class="vacation_img">
-                  <p>1</p>
-                </div>
+                  </div>
+                  <div class="v_grid_item">
+                      <p1>1</p1>
+                      </div>
+
+              </div>
               </div>
             </section>
           </div>
@@ -776,6 +767,23 @@
         document.getElementById("mobile_nav").style.width = "0%";
       }
     </script>
+
+
+
+
+<script>
+let vPlay = document.getElementById('videotest')
+vPlay.addEventListener('mouseover', function(){
+  vPlay.play()
+})
+let vStop = document.getElementById('videotest')
+vStop.addEventListener('mouseout', function(){
+  vStop.pause()
+})
+</script>
+
+
+
 
     <!--
     <script>
