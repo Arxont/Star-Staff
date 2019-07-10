@@ -611,9 +611,22 @@
               </p>
               <div class="vacation_grid">
                   <div class="v_grid_item">
+                      <p class="v_grid_hover">1gfhfgmdn</p>
                       <p>1</p>
                       </div>
-                <div  class="v_grid_item">
+                      <div class="v_grid_item">
+                          <p class="v_grid_hover">1gfhfgmdn</p>
+                          <p>1</p>
+                          </div>
+                          <div class="v_grid_item">
+                              <p class="v_grid_hover">1gfhfgmdn</p>
+                              <p>1</p>
+                              </div>
+                  <div class="v_grid_item">
+                      <p class="v_grid_hover">1gfhfgmdn</p>
+                      <p>1</p>
+                      </div>
+                <div  class="v_grid_item" onmouseover="start('videotest')" onmouseout="stop('videotest')">
                     <p class="v_grid_hover">1gfhfgmdn</p>
               <video id="videotest" autoplay loop>
                   <source src="images/shame.webm" type="video/webm">
@@ -621,11 +634,34 @@
                 </video>
               </div>
               <div class="v_grid_item">
+                  <p class="v_grid_hover">1gfhfgmdn</p>
                   <p>1</p>
                   </div>
                   <div class="v_grid_item">
+                      <p class="v_grid_hover">1gfhfgmdn</p>
+                      <p>1</p>
+                      </div>
+                      <div class="v_grid_item">
+                          <p class="v_grid_hover">1gfhfgmdn</p>
+                          <p>1</p>
+                          </div>
+                          <div class="v_grid_item">
+                              <p class="v_grid_hover">1gfhfgmdn</p>
+                              <p>1</p>
+                              </div>
+                  <div class="v_grid_item">
+                      <p class="v_grid_hover">1gfhfgmdn</p>
                       <p1>1</p1>
                       </div>
+                      <div class="v_grid_item">
+                          <p class="v_grid_hover">1gfhfgmdn</p>
+                          <p>1</p>
+                          </div>
+                          <div class="v_grid_item">
+                              <p class="v_grid_hover">1gfhfgmdn</p>
+                              <p>1</p>
+                              </div>
+                              
 
               </div>
               </div>
@@ -772,14 +808,15 @@
 
 
 <script>
-let vPlay = document.getElementById('videotest')
-vPlay.addEventListener('mouseover', function(){
-  vPlay.play()
-})
-let vStop = document.getElementById('videotest')
-vStop.addEventListener('mouseout', function(){
-  vStop.pause()
-})
+function start(videoId) {
+  const video = document.getElementById(videoId);
+  video.play();
+}
+function stop(videoId) {
+  const video = document.getElementById(videoId);
+  video.pause();
+}
+
 </script>
 
 
