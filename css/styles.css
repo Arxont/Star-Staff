@@ -361,8 +361,7 @@ right:0;
 .team_img:hover {
   background: url("../images/2.jpg")
     no-repeat;
-    width: 25%;
-    background-color: red;
+    background-size:cover;
 }
 
 .person_info {
