@@ -286,11 +286,13 @@ right:0;
 
 
 .qq1, .qq2, .qq3, .qq4, .qq5, .qq6 {
-  width: 32%;
+  width: 30%;
   margin-top: 1%;
   margin-bottom: 1%;
   color:white;
   font-size: 20px;
+  text-align: start;
+  padding:0 1% 0 1%;
 }
 .qq1{
   background-color: red;
@@ -310,13 +312,14 @@ right:0;
 .qq6{
   background-color:purple;
 }
+.table_of_duties_title{
+  font-weight: bold;
+  font-size: 25px;
+}
 
 .qq_percent{
   font-size: 35px;
   margin-top: 30px;
-}
-.jobs_title {
-  color: orange;
 }
 
 
@@ -349,9 +352,12 @@ right:0;
   margin-bottom: 2%;
 }
 
-.team_img {
+.img_grid > div{
+  width:25%;
   height: 325px;
-  width: 25%;
+}
+
+.team_img {
   background: url('../images/1.jpg');
   display: flex;
   justify-content: center;
@@ -365,19 +371,63 @@ right:0;
 }
 
 .person_info {
-  background-color: blueviolet;
+  background-color: rgba(55, 1, 66, 0.5);
   width: 100%;
   height:20%;
   margin: 0;
   text-align: center;
+  color:white;
+  font-weight: solid;
 }
 .team_img:hover .person_info{
   opacity: 0;
 }
 
+.ss_card{
+  color:white;
+  background-color: orange;
+  height: 325px;
+}
+.ss_card2{
+  color:white;
+  background-color:plum;
+}
+.ss_card3{
+  color:white;
+  background-color: blueviolet;
+}
+.ss_card4{
+  color:white;
+  background-color: blue;
+}
+.ss_card5{
+  color:white;
+  background-color: aqua;
+}
+.ss_title {
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: start;
+  margin:0 10% 0 10%;
+}
+.ss_txt{
+  font-size: 30px;
+margin:0 10% 010%;
+  text-align: start;
+}
+
+
+.jobs_title {
+  color: orange;
+  text-align: start;
+  font-size: 30px;
+  font-weight: bold;
+}
 .jobs_info{
+  color:white;
   text-align: start;
   padding:10px;
+  background-color: rgb(71, 71, 116);
 }
 
 .offer_links{
@@ -387,7 +437,7 @@ flex-wrap: wrap;
 }
 
 .offers_button{
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(51, 44, 65, 0.5);
   border: solid;
   border-width: 3px;
   border-color: white;
@@ -397,8 +447,8 @@ flex-wrap: wrap;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-left:2%; 
-  margin-bottom:2%;
+  margin-bottom: 1%;
+  margin-right: 1%;
   cursor: pointer;
 }
 .offers_button:hover{
@@ -434,17 +484,56 @@ flex-wrap: wrap;
 }
 
 .faq, .coordinates{
-  display:flex;
   margin-top:2%;
+  display: flex;
+  
 }
 .faq_text{
   width:58%;
   text-align: start;
 }
-.contact_person{
+
+.contact_person {
+  position: relative;
+  text-align: center;
+  height: 400px;
   width: 40%;
-  height:275px;
-  background-color: red;
+}
+.contact_person_img{
+  position: absolute;
+  background-color: blue;
+  width:100%;
+  height:400px;
+  z-index: 1;
+  border-radius: 50%;
+}
+.contact_person_contacts{
+  position: absolute;
+  background-color: #2a3340;
+  width:100%;
+  height:400px;
+  text-align: center; 
+  border-radius: 50%;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+align-items:center;
+}
+
+
+.contact_person_links{
+  border-top-style: solid;
+  padding-top: 2%;
+  width:80%;
+  margin:0;
+}
+
+.contact_person_img:hover{
+  opacity:0;
+  z-index: -1;
+}
+.contact_person_contacts:hover{
+ z-index: 1;
 }
 
 #map {
