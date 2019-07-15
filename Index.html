@@ -22,8 +22,8 @@
 <body>
   <header>
     <div class="container">
-      <div class="row center-sm hidden-lg hidden-xl">
-        <div class="col-sm-10">
+      <div class="row center-xs hidden-lg hidden-xl">
+        <div class="col-xs-11">
           <div id="mobile_nav" class="overlay">
             <a class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
@@ -38,25 +38,26 @@
           <section class="mobile_header">
             <div class="mobile_nav">
               <div class="mobile_nav_container">
-                <span class="orange_color"><i class="fas fa-star-of-david mobile_logo"></i></span>
+                <span class="orange_color"><i class="fas  fa-star-of-david mobile_logo"></i></span>
                 <span class="nav_button" onclick="openNav()">&#9776;</span>
               </div>
             </div>
-            <div class="about_border">
-              <h3 class="about_border slogan">
+            <div class="mobile_motto">
+              <h3 class="slogan">
                 Каждому человеку - любимую работу!
               </h3>
+              <div class="about_border_bottom"></div>
               <p>
                 "Весь мир делится на айтишников и тех,кто их ищет" Обучись
                 IT-рекрутменту у лучших.
               </p>
               <div>
-                <a href="qq"><i class="fab fa-vk"></i></a>
-                <a href="qq"><i class="fab fa-youtube"></i></a>
-                <a href="qq"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="qq"><i class="fab fa-vk  fa-1x media_link"></i></a>
+                  <a href="qq"><i class="fab fa-youtube fa-1x media_link"></i></a>
+                  <a href="qq"><i class="fab fa-linkedin-in fa-1x media_link"></i></a>
               </div>
             </div>
-            <div class="mobile_about">
+            <div class="mobile_about about_border_top">
               <p>
                 С <span class="orange_color">2007</span> года подбираем
                 толковых IT-шников в компании
@@ -103,7 +104,7 @@
           </section>
 
           <section class="briefly_about">
-            <h1 class="section_name about_border company_name">Star-Staff</h1>
+            <h1 class="section_name about_border_bottom company_name">Star-Staff</h1>
             <div class="shift_picture">
               <div class="shift_time">ВРЕМЯ</div>
               <div class="shift_hist">ИСТОРИЯ</div>
@@ -134,7 +135,7 @@
               </h2>
               <div class="slogan2">
                 <div class="side_borders"></div>
-                <p class="about_border">
+                <p class="about_border_top">
                   "Весь мир делится на айтишников и тех, кто их ищет"
                   Обучись IT-рекрутменту у лучших.
                 </p>
@@ -149,7 +150,7 @@
             <div class="wiki_info">
               <img class="wiki_img" src="images/legendary3.png" alt="Legendary!" />
               <p class="wiki_txt">
-                Фанатам нашего Wiki сайта -<a href="qq">он жив</a>
+                Фанатам нашего Wiki сайта - <a class="wiki_link" href="http://star-staff.ru/wiki/Int_main()" >он жив</a>
               </p>
             </div>
           </section>
@@ -160,8 +161,8 @@
 
   <main>
     <div class="container">
-      <div class="row center-xl">
-        <div class="col-xl-11">
+      <div class="row center-xl center-xs">
+        <div class="col-xl-11 col-xs-11">
           <section>
             <p class="section_name hidden-md hidden-sm hidden-xs">
               Возможные позиции в нашей команде
@@ -212,6 +213,12 @@
               на примере этой должности.
             </p>
             <a name="about_rec"></a>
+          </section>
+        </div>
+      </div>
+      <div class="row center-xl center-xs">
+          <div class="col-xl-11 col-xs-12">
+            <section>
             <h1 class="recruiter_title">IT-рекрутер</h1>
             <p>
               <span class="orange_color">Что делать:</span> устраивать на
@@ -221,60 +228,66 @@
             <p style="text-align:center;">А если поподробней?</p>
             <!-- <img src="qq" alt="ArrowDown" /> -->
             <i style="color:black" class="fas fa-arrow-circle-down"></i>
-            <p>
+            <p class="hidden-md hidden-sm hidden-xs">
               Любую работу можно разложить на простые действия, а также
               примерно оценить процентное соотношение - сколько времени
               тратится на каждое из них
             </p>
             <div class="table_of_duties">
-              <div class="qq1">
-                <p class="table_of_duties_title">Поиск резюме соискателей</p>
-                Самая медитативная задача. Здесь необходимо хорошо разбираться
-                в IT и уметь составить правильный поисковый запрос. Поиск
-                ведется в нашей базе и на работных сайтах. Иногда это бывает
-                просто, а иногда похоже на финал кубка Яндекса по поиску :)
-                <p class="qq_percent">20%</p>
+              <div class="duties_column">
+                <div class="table_of_duties_card table_background_1">
+                  <p class="table_of_duties_title">Поиск резюме соискателей</p>
+                  <p class="table_of_duties_txt">Самая медитативная задача. Здесь необходимо хорошо разбираться
+                    в IT и уметь составить правильный поисковый запрос. Поиск
+                    ведется в нашей базе и на работных сайтах. Иногда это бывает
+                    просто, а иногда похоже на финал кубка Яндекса по поиску :)</p>
+                  <p class="table_of_duties_percent hidden-md hidden-sm hidden-xs">20%</p>
+                </div>
+                <div class="table_of_duties_card table_background_4">
+                  <p class="table_of_duties_title">Общение с заказчиками</p>
+                  <p class="table_of_duties_txt"> Самая важная задача.С нее начинается и заканчивается наша
+                    работа. Уметь представить кандидата - не упустить важных
+                    плюсов и объяснить пробелы в резюме. Настоять на знакомстве с
+                    кандидатом, если уверен, что он подходит на вакансию. Наладить
+                    дружеские отношения.</p>
+                  <p class="table_of_duties_percent hidden-md hidden-sm hidden-xs">20%</p>
+                </div>
               </div>
-              <div class="qq2">
-                <p class="table_of_duties_title">Звонки соискателям</p>
-                Самая сложная задача. Надо за короткий звонок продать
-                соискателю вакансию, запомниться ему, выяснить все, что важно
-                в его резюме и главное, всегда быть в хорошем настроении :) А
-                еще звонков должно быть много - это основа твоего заработка!
-                <p class="qq_percent">30%</p>
+              <div class="duties_column">
+                <div class="table_of_duties_card table_background_2">
+                  <p class="table_of_duties_title">Звонки соискателям</p>
+                  <p class="table_of_duties_txt"> Самая сложная задача. Надо за короткий звонок продать
+                    соискателю вакансию, запомниться ему, выяснить все, что важно
+                    в его резюме и главное, всегда быть в хорошем настроении :) А
+                    еще звонков должно быть много - это основа твоего заработка!</p>
+                  <p class="table_of_duties_percent hidden-md hidden-sm hidden-xs">30%</p>
+                </div>
+                <div class="table_of_duties_card table_background_5">
+                  <p class="table_of_duties_title">Общение с тимлидом</p>
+                  <p class="table_of_duties_txt"> Самая полезная задача. Тимлид - это и учитель, и критик, и
+                    советник, и твоя совесть. Человек, благодаря кому ты сможешь
+                    развиваться гораздо быстрее, чем в одиночку. Главное - хотеть
+                    развиваться и зарабатывать ;)</p>
+                  <p class="table_of_duties_percent hidden-md hidden-sm hidden-xs">5%</p>
+                </div>
               </div>
-              <div class="qq3">
-                <p class="table_of_duties_title">Проведение собеседований</p>
-                Самая длительная задача. Момент, когда мы используем свои
-                скилы на полную - и знание IT, и умение наладить контакт, и
-                опыт вытягивания информации, и знание людей. Соискателя надо
-                "узнать с пелёнок", оставив у него лучше впечатление о нашем
-                агентстве!
-                <p class="qq_percent">20%</p>
-              </div>
-              <div class="qq4">
-                <p class="table_of_duties_title">Общение с заказчиками</p>
-                Самая важная задача.С нее начинается и заканчивается наша
-                работа. Уметь представить кандидата - не упустить важных
-                плюсов и объяснить пробелы в резюме. Настоять на знакомстве с
-                кандидатом, если уверен, что он подходит на вакансию. Наладить
-                дружеские отношения.
-                <p class="qq_percent">20%</p>
-              </div>
-              <div class="qq5">
-                <p class="table_of_duties_title">Общение с тимлидом</p>
-                Самая полезная задача. Тимлид - это и учитель, и критик, и
-                советник, и твоя совесть. Человек, благодаря кому ты сможешь
-                развиваться гораздо быстрее, чем в одиночку. Главное - хотеть
-                развиваться и зарабатывать ;)
-                <p class="qq_percent">5%</p>
-              </div>
-              <div class="qq6">
-                <p class="table_of_duties_title">Обучение</p>
-                Самая очевидная задача :) Ведь в каждом из компонентов рецепта
-                надо знать IT, или рекрутмент, или уметь быть эффективным… А
-                значит - надо посещать все семинары и задавать вопросы!
-                <p class="qq_percent">5%</p>
+              <div class="duties_column">
+                <div class="table_of_duties_card table_background_3">
+                  <p class="table_of_duties_title">Проведение собеседований</p>
+                  <p class="table_of_duties_txt"> Самая длительная задача. Момент, когда мы используем свои
+                    скилы на полную - и знание IT, и умение наладить контакт, и
+                    опыт вытягивания информации, и знание людей. Соискателя надо
+                    "узнать с пелёнок", оставив у него лучше впечатление о нашем
+                    агентстве!</p>
+                  <p class="table_of_duties_percent hidden-md hidden-sm hidden-xs">20%</p>
+                </div>
+                <div class="table_of_duties_card table_background_6">
+                  <p class="table_of_duties_title">Обучение</p>
+                  <p class="table_of_duties_txt"> Самая очевидная задача :) Ведь в каждом из компонентов рецепта
+                    надо знать IT, или рекрутмент, или уметь быть эффективным… А
+                    значит - надо посещать все семинары и задавать вопросы!</p>
+                  <p class="table_of_duties_percent hidden-md hidden-sm hidden-xs">5%</p>
+                </div>
               </div>
             </div>
             <p class="section_name  hidden-md hidden-sm hidden-xs">
@@ -551,8 +564,8 @@
 
     <section class="offers_background">
       <div class="container">
-        <div class="row center-xl">
-          <div class="col-xl-11">
+        <div class="row center-xl  center-xs">
+          <div class="col-xl-11 col-xs-11">
             <a name="work_offers"></a>
             <p class="section_name">Вакансии в Нашей Команде</p>
             <p class="jobs_title">Отдел продаж</p>
@@ -695,54 +708,59 @@
           <div class="col-xl-11">
             <p class="section_name">О нас говорят</p>
             <div class="clients_about">
-              <div class="client_card">
-                <p class="client_card_id">Иван Жучков</p>
-                <p class="client_card_position">
-                  PM, работает в компании год
-                </p>
-                Находясь в Star-Staff, ты можешь быть точно уверен, что тебя
-                услышат. Культура обратной связи и непрерывного улучшения
-                чувствуется при работе с каждым ТОПом компании. Для меня это
-                лучший плацдарм для личностного и профессионального роста.
+              <div class="clients_about_column">
+
+                <div class="client_card">
+                  <p class="client_card_id">Иван Жучков</p>
+                  <p class="client_card_position">
+                    PM, работает в компании год
+                  </p>
+                  Находясь в Star-Staff, ты можешь быть точно уверен, что тебя
+                  услышат. Культура обратной связи и непрерывного улучшения
+                  чувствуется при работе с каждым ТОПом компании. Для меня это
+                  лучший плацдарм для личностного и профессионального роста.
+                </div>
+                <div class="client_card">
+                  <p class="client_card_id">Мария Князева</p>
+                  <p class="client_card_position">
+                    Рекрутер, работала в компании 2 месяца
+                  </p>
+                  Компания хороша для тех, кто хочет роста и развития. Если ты
+                  не готов обучаться и выходить из зоны комфорта - тебе не по
+                  пути с этими ребятами.
+                </div>
+                <div class="client_card">
+                  <p class="client_card_id">Валентин Ливкин</p>
+                  <p class="client_card_position">Клиент. СТО IcoLab</p>
+                  Ребята находят тех, кто мне действительно нужен, а не тех,
+                  кого я думаю, что хочу.
+                </div>
               </div>
-              <div class="client_card">
-                <p class="client_card_id">Андрей Веснин</p>
-                <p class="client_card_position">
-                  Рекрутер, работал в компании 2 года
-                </p>
-                Star-Staff – такое место, куда можно прийти, не имея опыта
-                работы нигде, но уже через несколько месяцев спрос на тебя на
-                рынке будет ощутимый. Происходит это потому, что из тебя
-                делают не просто «ресечера», а полноценную боевую единицу,
-                рекрутера, способного проводить собеседования, консультировать
-                заказчика и проводить экспертизу рынка. Не все сразу, конечно
-                же: начинать придется с простых вакансий, вести их под
-                присмотром тимлидов, ошибаться, нервничать, тормозить на
-                собеседованиях, тонуть в планировании своего дня, но результат
-                того стоит.
-              </div>
-              <div class="client_card">
-                <p class="client_card_id">Мария Князева</p>
-                <p class="client_card_position">
-                  Рекрутер, работала в компании 2 месяца
-                </p>
-                Компания хороша для тех, кто хочет роста и развития. Если ты
-                не готов обучаться и выходить из зоны комфорта - тебе не по
-                пути с этими ребятами.
-              </div>
-              <div class="client_card">
-                <p class="client_card_id">Егор Хмелев</p>
-                <p class="client_card_position">Клиент.СТО Sweatcoin</p>
-                Одно из немногих агентств на рынке, которое не сухо ищет вам
-                сотрудников, а заботится о своих клиентах, пытается до мелочей
-                понять потребности и профиль кандидатов, и все это происходит
-                в приятной дружеской атмосфере.
-              </div>
-              <div class="client_card">
-                <p class="client_card_id">Валентин Ливкин</p>
-                <p class="client_card_position">Клиент. СТО IcoLab</p>
-                Ребята находят тех, кто мне действительно нужен, а не тех,
-                кого я думаю, что хочу.
+              <div class="clients_about_column">
+                <div class="client_card">
+                  <p class="client_card_id">Андрей Веснин</p>
+                  <p class="client_card_position">
+                    Рекрутер, работал в компании 2 года
+                  </p>
+                  Star-Staff – такое место, куда можно прийти, не имея опыта
+                  работы нигде, но уже через несколько месяцев спрос на тебя на
+                  рынке будет ощутимый. Происходит это потому, что из тебя
+                  делают не просто «ресечера», а полноценную боевую единицу,
+                  рекрутера, способного проводить собеседования, консультировать
+                  заказчика и проводить экспертизу рынка. Не все сразу, конечно
+                  же: начинать придется с простых вакансий, вести их под
+                  присмотром тимлидов, ошибаться, нервничать, тормозить на
+                  собеседованиях, тонуть в планировании своего дня, но результат
+                  того стоит.
+                </div>
+                <div class="client_card">
+                  <p class="client_card_id">Егор Хмелев</p>
+                  <p class="client_card_position">Клиент.СТО Sweatcoin</p>
+                  Одно из немногих агентств на рынке, которое не сухо ищет вам
+                  сотрудников, а заботится о своих клиентах, пытается до мелочей
+                  понять потребности и профиль кандидатов, и все это происходит
+                  в приятной дружеской атмосфере.
+                </div>
               </div>
             </div>
           </div>
@@ -753,8 +771,8 @@
 
   <footer>
     <div class="container">
-      <div class="row center-xl">
-        <div class="col-xl-11">
+      <div class="row center-xl center-xs">
+        <div class="col-xl-11 col-xs-11">
           <section>
             <a name="contacts"></a>
             <p class="section_name">Контакты</p>
@@ -770,17 +788,22 @@
                 Чтобы быть “в теме” наших событий и ритма жизни, рекомендуем
                 следить за обновлениями контента на нашем профиле на LinkedIn.
               </p>
+              <div class="mobile_contacts_links hidden-lg hidden-xl">
+                  <a href="qq"><i class="fab fa-vk  fa-1x media_link"></i></a>
+                  <a href="qq"><i class="fab fa-youtube fa-1x media_link"></i></a>
+                  <a href="qq"><i class="fab fa-linkedin-in fa-1x media_link"></i></a>
+              </div>
               <div class="contact_person hidden-md hidden-sm hidden-xs">
                 <div class="contact_person_img">
-              </div>
+                </div>
                 <div class="contact_person_contacts">
                   <p class="contact_person_name">ДАННЫЕ ЧЕЛОВЕКА</p>
                   <p class="contact_person_links">
-                <a href="qq"><i class="fab fa-vk  fa-1x media_link"></i></a>
-                <a href="qq"><i class="fab fa-youtube fa-1x media_link"></i></a>
-                <a href="qq"><i class="fab fa-linkedin-in fa-1x media_link"></i></a>
-              </p>
-              </div>
+                    <a href="qq"><i class="fab fa-vk  fa-1x media_link"></i></a>
+                    <a href="qq"><i class="fab fa-youtube fa-1x media_link"></i></a>
+                    <a href="qq"><i class="fab fa-linkedin-in fa-1x media_link"></i></a>
+                  </p>
+                </div>
               </div>
             </div>
             <div class="coordinates">
@@ -830,10 +853,6 @@
       document.getElementById("mobile_nav").style.width = "0%";
     }
   </script>
-
-
-
-
   <script>
     function start(videoId) {
       const video = document.getElementById(videoId);
@@ -845,23 +864,6 @@
     }
 
   </script>
-
-
-
-
-  <!--
-    <script>
-      function myMap() {
-        var mapProp = {
-          center: new google.maps.LatLng(55.691623, 37.57245),
-          zoom: 20
-        };
-        var map = new google.maps.Map(document.getElementById("map"), mapProp);
-      }
-    </script>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANxWf_ENGTn6NgBBzT6JcknkuauJwceS0&callback=myMap"></script>
-    -->
 </body>
 
 </html>
