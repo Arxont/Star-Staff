@@ -51,7 +51,7 @@ main, footer{
   color:white;
   margin: 0;
 }
-nav {
+.site_nav {
   width: 60%;
   display: flex;
   justify-content:space-between;
@@ -558,49 +558,6 @@ align-items:center;
 }
 
 @media (max-width: 991px){
-
-
-  .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: green;
-    overflow-x: hidden;
-    transition: 0.5s;
-  }
-  
-  .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 30px;
-  }
-  
-  .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    color:white;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .overlay a:hover, .overlay a:focus {
-    color: orange;
-  }
-  
-  .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-  }
-
-
   .about_border_top{
     width:100%;
   }
@@ -612,10 +569,6 @@ align-items:center;
     color:white;
   }
   
-  .mobile_close_button{
-position: absolute;
-right: 0;
-  }
 
 .mobile_nav{
   display:flex;
@@ -623,6 +576,7 @@ right: 0;
 }
 
 .mobile_nav_container{
+  margin-top: 2%;
   width:100%;
   position: relative;
   margin-bottom: 15%;
@@ -630,15 +584,51 @@ right: 0;
 
 .mobile_logo{
   position: absolute;
-  left:45%;
   right:50%;
 }
-.nav_button{
-  position: absolute;
-  right:0;
-  font-size:30px;
-  cursor:pointer;
+
+#dialog {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color:green;
+  color: #fff;
 }
+#dialog.show {
+  display: flex;
+}
+#dialog  a{
+  text-decoration: none;
+  color:white;
+  margin-bottom:2%;
+}
+
+
+#show, #close{
+position: absolute;
+right:0;
+top: 0;
+font-size:30px;
+cursor:pointer;
+margin: 0;
+}
+
+.mobile_popup_container{
+position: relative;
+margin-top: 2%;
+}
+.popup_links{
+padding-top: 20%; 
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
 
 .mobile_motto{
 background-color:  rgba(46, 49, 63, 0.3);
