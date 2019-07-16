@@ -9,18 +9,7 @@
   --lg-min: 992px;
   --xl-min: 1200px;
 }
-/*
-@custom-media min-width: 576px only screen and (min-width: 576px);
-@custom-media min-width: 768px only screen and (min-width: 768px);
-@custom-media min-width: 992px only screen and (min-width: 992px);
-@custom-media min-width: 1200px only screen and (min-width: 1200px);
 
-@custom-media max-width: 575px only screen and (max-width: 575px);
-@custom-media --sm-only only screen and (min-width: 576px) and (max-width: 767px);
-@custom-media (min-width: 768px) and (max-width: 991px) only screen and (min-width: 768px) and (max-width: 991px);
-@custom-media (min-width: 992px) and (max-width: 1199px) only screen and (min-width: 992px) and (max-width: 1199px);
-@custom-media (min-width: 1200px) only screen and (min-width: 1200px);
-*/
 .container {
   box-sizing: border-box;
   margin-left: auto;
@@ -1241,7 +1230,7 @@ main, footer{
 }
 
 .section_background {
-  background-color: #2a3340;
+  background-color: rgb(50, 65, 88);
 }
 .orange_color{
   color:orange;
@@ -1407,7 +1396,8 @@ margin:0.5%;
 .motto {
   color: white;
   margin-bottom: 5%; 
-  /*   opacity: 0.1; */
+  background-color:  rgba(46, 49, 63, 0.3);
+  padding:2% 0 2% 0;
 }
 .wiki_info {
   position: relative;
@@ -1417,7 +1407,7 @@ margin:0.5%;
 }
 .wiki_txt {
   text-align: center;
-  background-color: blueviolet;
+  background-color:  rgba(46, 49, 63, 0.3);
   border-radius: 0px 15px;
   width:35%;
   padding-top:5px;
@@ -1525,24 +1515,23 @@ justify-content: space-between;
 .table_of_duties_card > p {
   padding: 5%;
 }
-
 .table_background_1{
-  background-color: red;
+  background-color:rgb(255, 97, 97);
 }
 .table_background_2{
-  background-color: orange;
+  background-color:rgb(242, 191, 94);
 }
 .table_background_3{
-  background-color:greenyellow;
+  background-color:rgb(117, 203, 168);
 }
 .table_background_4{
-  background-color:blue;
+  background-color:rgb(83, 110, 183);
 }
 .table_background_5{
-  background-color:green;
+  background-color:rgb(104, 176, 77);
 }
 .table_background_6{
-  background-color:purple;
+  background-color:rgb(182, 133, 232);
 }
 .table_of_duties_title{
   font-weight: bold;
@@ -1615,27 +1604,26 @@ justify-content: space-between;
 .team_img:hover .person_info{
   opacity: 0;
 }
-
 .ss_card{
   color:white;
-  background-color: orange;
+  background-color: rgb(242, 191, 94);
   height: 325px;
 }
 .ss_card2{
   color:white;
-  background-color:plum;
+  background-color:rgb(255, 97, 97);
 }
 .ss_card3{
   color:white;
-  background-color: blueviolet;
+  background-color:rgb(182, 133, 232);
 }
 .ss_card4{
   color:white;
-  background-color: blue;
+  background-color: rgb(83, 110, 183);
 }
 .ss_card5{
   color:white;
-  background-color: aqua;
+  background-color: rgb(117, 203, 168);
 }
 .ss_title {
   font-size: 100px;
