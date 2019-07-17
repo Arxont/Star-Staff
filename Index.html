@@ -29,7 +29,9 @@
 
   <body>
     <header>
-      <div class="container">
+        <section class="container1">
+            <div class="parallax bg1"></div>
+      <div class="container content">
         <div class="row center-xs hidden-lg hidden-xl">
           <div class="col-xs-11">
             <section class="mobile_header">
@@ -114,6 +116,7 @@
           </div>
         </div>
       </div>
+      </section>
       <div class="container">
         <div class="row center-xl hidden-md hidden-sm hidden-xs">
           <div class="col-xl-11">
@@ -1080,5 +1083,12 @@
         video.pause();
       }
     </script>
+
+<script src="./js/universal-parallax.min.js"></script>
+<script>
+  new universalParallax().init({
+    speed: 4
+  });
+</script>
   </body>
 </html>
