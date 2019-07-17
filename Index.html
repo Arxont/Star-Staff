@@ -12,10 +12,10 @@
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=cyrillic-ext"
       rel="stylesheet"
     />
-    <!--<link
+    <link
       rel="stylesheet"
       href="https://unpkg.com/flexboxgrid2@7.1.0/flexboxgrid2.css"
-    /> -->
+    />
     <link
       rel="stylesheet"
       href="https://unpkg.com/normalize.css@8.0.0/normalize.css"
@@ -39,7 +39,34 @@
                   <span class="orange_color"
                     ><i class="fas  fa-star-of-david mobile_logo"></i
                   ></span>
-                  
+                  <div id="dialog">
+                    <div class="container">
+                      <div class="row center-xs hidden-lg hidden-xl">
+                        <div class="col-xs-11">
+                          <div class="mobile_popup_container">
+                            <div class="popup_links">
+                              <a href="#work_offers" onclick="closeDialog()"
+                                >Работа в КА</a
+                              >
+                              <a href="#about_rec" onclick="closeDialog()"
+                                >О рекрутменте</a
+                              >
+                              <a href="#daWay" onclick="closeDialog()">Путь</a>
+                              <a href="#work_offers" onclick="closeDialog()"
+                                >Вакансии</a
+                              >
+                              <a href="#contacts" onclick="closeDialog()"
+                                >Контакты</a
+                              >
+                            </div>
+                            <span id="close" onClick="closeDialog()">
+                              &#9776;
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </section>
               </nav>
 
@@ -87,36 +114,6 @@
           </div>
         </div>
       </div>
-      <div id="dialog">
-          <div class="container">
-              <div class="row center-xs hidden-lg hidden-xl">
-                <div class="col-xs-11">
-              <div class="mobile_popup_container">
-                <div class="popup_links">
-                  <a href="#work_offers" onclick="closeDialog()"
-                    >Работа в КА</a
-                  >
-                  <a href="#about_rec" onclick="closeDialog()"
-                    >О рекрутменте</a
-                  >
-                  <a href="#daWay" onclick="closeDialog()">Путь</a>
-                  <a href="#work_offers" onclick="closeDialog()"
-                    >Вакансии</a
-                  >
-                  <a href="#contacts" onclick="closeDialog()"
-                    >Контакты</a
-                  >
-                </div>
-                <span id="close" onClick="closeDialog()">
-                    &#9776;
-                </span>
-              </div>
-            </div>
-          </div>
-       </div>
-      </div>
-
-
       <div class="container">
         <div class="row center-xl hidden-md hidden-sm hidden-xs">
           <div class="col-xl-11">
@@ -507,7 +504,7 @@
         <div class="container">
           <div class="row center-xl">
             <div class="col-xl-11">
-                <a name="daWay"></a>
+              <a name="daWay"></a>
               <p class="section_name">Путь рекрутера в агенстве Star-Staff</p>
               <img
                 class="recruiter_way_img hidden-md hidden-sm hidden-xs"
@@ -524,84 +521,62 @@
           <div class="col-xl-11">
             <section class="slider">
               <div class="slide">
-                <div class="hidden-lg hidden-xl">
-                  <h2>ПЛЮСЫ РЕКРУТМЕНТА</h2>
+                <div class="slide_1position">
+                  <p class="slide_title">ПЛЮСЫ РЕКРУТМЕНТА</p>
                   <ul>
-                    <li>Драйв и движуха через край.</li>
-                    <li>Постоянное обучение и развитие.</li>
-                    <li>Работа на результат.</li>
                     <li>
-                      Вокруг люди с высоким уровнем осознанности и кайфующие от
-                      постоянного развития.
+                      Драйв и движуха через край.
+                      <span class="hidden-md hidden-sm hidden-xs"
+                        >Жизнь вокруг кипит так, что конец рабочего дня
+                        наступает незаметно и даже не желанно.</span
+                      >
+                    </li>
+                    <li>
+                      Постоянное обучение и развитие.
+                      <span class="hidden-md hidden-sm hidden-xs"
+                        >У личного куратора и на групповых тренингах.</span
+                      >
+                    </li>
+                    <li>
+                      Работа на результат.<span
+                        class="hidden-md hidden-sm hidden-xs"
+                      >
+                        В КА идут те, кто хочет через 4-8 мес. зарабатывать
+                        100-150k/мес.</span
+                      >
+                    </li>
+                    <li>
+                      <span class="hidden-md hidden-sm hidden-xs">
+                        У нас работают исключительно люди с “рекрутерской”
+                        жилкой, с высоким уровнем осознанности и кайфующие от
+                        постоянного развития.</span
+                      ><span class="hidden-lg hidden-xl"
+                        >Вокруг люди с высоким уровнем осознанности и кайфцющие
+                        от постоянного развития.</span
+                      >
                     </li>
                     <li>
                       Полезная работа, которая реально делает жизнь людей лучше.
-                    </li>
-                    <li>Приятный график.</li>
-                  </ul>
-                </div>
-                <div class="hidden-md hidden-sm hidden-xs">
-                  <h2>ПЛЮСЫ РЕКРУТМЕНТА</h2>
-                  <ul>
-                    <li>
-                      Драйв и движуха через край. Жизнь вокруг кипит так, что
-                      конец рабочего дня наступает незаметно и даже не желанно.
+                      <span class="hidden-md hidden-sm hidden-xs">
+                        Серьезно, мы здесь не только про хорошо заработать, а
+                        еще и хорошее дело делаем - помогаем людям найти любимую
+                        работу.</span
+                      >
                     </li>
                     <li>
-                      Постоянное обучение и развитие. У личного куратора и на
-                      групповых тренингах.
-                    </li>
-                    <li>
-                      Работа на результат. В КА идут те, кто хочет через 4-8
-                      мес. зарабатывать 100-150k/мес.
-                    </li>
-                    <li>
-                      У нас работают исключительно люди с “рекрутерской” жилкой,
-                      с высоким уровнем осознанности и кайфующие от постоянного
-                      развития.
-                    </li>
-                    <li>
-                      Полезная работа, которая реально делает жизнь людей лучше.
-                      Серьезно, мы здесь не только про хорошо заработать, а еще
-                      и хорошее дело делаем - помогаем людям найти любимую
-                      работу.
-                    </li>
-                    <li>
-                      Приятный график. Первое время нужно быть пунктуальным
-                      10-19, далее график гибкий. Для Джедаев - свободный
+                      Приятный график.
+                      <span class="hidden-md hidden-sm hidden-xs"
+                        >Первое время нужно быть пунктуальным 10-19, далее
+                        график гибкий. Для Джедаев - свободный</span
+                      >
                     </li>
                   </ul>
                 </div>
-                <img
-                  class="hidden-md hidden-sm hidden-xs"
-                  src="http://placehold.it/350x100?text=1"
-                />
               </div>
 
               <div class="slide">
-                <div class="hidden-lg hidden-xl">
-                  <h2>МИНУСЫ РЕКРУТМЕНТА</h2>
-                  <ul>
-                    <li>Нервная работа. Большие эмоциональные нагрузки.</li>
-                    <li>
-                      Хороший кандидат иногда может приехать на собеседование в
-                      8 утра или 8 вечера.
-                    </li>
-                    <li>
-                      Постоянное обучение и развитие. Прокрастинация не пройдет.
-                    </li>
-                    <li>
-                      Прямые фидбеки о плюсах и минусах -именно они ведут к
-                      быстрому и крутому росту.
-                    </li>
-                    <li>
-                      Нет стабильного дохода. Слегка расслабился- слегка
-                      заработал. Может быть просадка на старте.
-                    </li>
-                  </ul>
-                </div>
-                <div class="hidden-md hidden-sm hidden-xs">
-                  <h2>МИНУСЫ РЕКРУТМЕНТА</h2>
+                <div class="slide_2position">
+                  <p class="slide_title">МИНУСЫ РЕКРУТМЕНТА</p>
                   <ul>
                     <li>Нервная работа. Большие эмоциональные нагрузки.</li>
                     <li>
@@ -623,64 +598,49 @@
                 </div>
               </div>
               <div class="slide">
-                <div class="hidden-lg hidden-xl">
-                  <h2>ПЛЮНУСЫ</h2>
-                  <p>
-                    то, что для кого-то является<br />
-                    плюсом, а для других - минусом
+                <div class="slide_3position">
+                  <p class="slide_title">
+                    <span class="orange_color">ПЛЮ</span>НУСЫ
+                  </p>
+                  <p class="slide_adds">
+                    то, что для кого-то является плюсом, а для других - минусом
                   </p>
                   <ul>
-                    <li>Очень высокий темп.</li>
-                    <li>Работа, где реально много общения с людьми.</li>
+                    <li>
+                      Очень высокий темп.<span
+                        class="hidden-md hidden-sm hidden-xs"
+                      >
+                        Множество вызовов - шансов все зафакапить или проявить
+                        себя.</span
+                      >
+                    </li>
+                    <li>
+                      Работа, где реально много общения с людьми.<span
+                        class="hidden-md hidden-sm hidden-xs"
+                      >
+                        С нами просто не сможет выжить человек, который хочет
+                        делать всегда понятную работу без постоянных челленджей
+                        и бэклога из 500 задач.</span
+                      >
+                    </li>
                     <li>
                       Все обучение в перемешку с практикой. Нет времени
-                      расслабиться.
+                      расслабиться
+                      <span class="hidden-md hidden-sm hidden-xs"
+                        >или взять паузу - только вперед и в темпе</span
+                      >.
                     </li>
                     <li>
                       Финансовый результат сильно зависит от качества работы и,
                       порою, от удачи.
                     </li>
                     <li>
+                      <span class="hidden-md hidden-sm hidden-xs"
+                        >Обнимающийся со всеми гендир в маске Магистра Йоды…
+                        тебе решать, как к этому относиться.</span
+                      >
                       Любителям костюмов рядом с фанатами тапочек и кроксов
                       будет явно не комильфо.
-                    </li>
-                  </ul>
-                  <img src="http://placehold.it/350x100?text=3" />
-                </div>
-
-                <img
-                  class="hidden-md hidden-sm hidden-xs"
-                  src="http://placehold.it/350x100?text=1"
-                />
-                <div class="hidden-md hidden-sm hidden-xs">
-                  <h2>ПЛЮНУСЫ</h2>
-                  <p>
-                    то, что для кого-то является<br />
-                    плюсом, а для других - минусом
-                  </p>
-                  <ul>
-                    <li>
-                      Очень высокий темп. Множество вызовов - шансов все
-                      зафакапить или проявить себя.
-                    </li>
-                    <li>
-                      Работа, где реально много общения с людьми. С нами просто
-                      не сможет выжить человек, который хочет делать всегда
-                      понятную работу без постоянных челленджей и бэклога из 500
-                      задач.
-                    </li>
-                    <li>
-                      Все обучение в перемешку с практикой. Нет времени
-                      расслабиться или взять паузу - только вперед и в темпе.
-                    </li>
-                    <li>
-                      Финансовый результат сильно зависит от качества работы и,
-                      порою, от удачи.
-                    </li>
-                    <li>
-                      Обнимающийся со всеми гендир в маске Магистра Йоды… тебе
-                      решать, как к этому относиться. Любителям костюмов рядом с
-                      фанатами тапочек и кроксов будет явно не комильфо.
                     </li>
                   </ul>
                 </div>
@@ -814,7 +774,7 @@
               <div class="offer_links">
                 <button class="offers_button">Ассистент IT-рекрутера</button>
                 <button class="offers_button">
-                  Начинающий рекрутер (IT/Digital)
+                  Начинающий рекрутер(IT/Digital)
                 </button>
                 <button class="offers_button">
                   Помощник менеджера по подбору
@@ -881,7 +841,12 @@
                   <p class="v_grid_hover">
                     А видяшку можно было бы и по размеру подогнать, да
                   </p>
-                  <video id="video_animation" class="v_grid_bottom" loop>
+                  <video
+                    muted="muted"
+                    id="video_animation"
+                    class="v_grid_bottom"
+                    loop
+                  >
                     <source src="images/shame.webm" type="video/webm" />
                     Your browser does not support the video tag.
                   </video>
