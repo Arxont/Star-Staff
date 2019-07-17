@@ -1157,48 +1157,6 @@
 
 
 
-.container1 {
-display: flex;
-}
-
-.container1 {
-  background: rgba(0, 0, 0, 0.75);
-  border-radius: 8px;
-  color: #fff;
-  margin: 0 auto;
-  padding: 30px 35px;
-  text-align: center;
-}
-.content{
-  z-index: 2;
-}
-.parallax__container {
-  clip: rect(0, auto, auto, 0);
-  height: 100%;
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
-.parallax__container .parallax {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-  top: 0;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  width: 100%;
-}
-.bg1 {
-  background-image: url(https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-}
-
-
 
 
 
@@ -1798,7 +1756,66 @@ align-items:center;
   text-align: start;
 }
 
+.container1{
+  display: none;
+}
+
 @media (max-width: 991px){
+body{
+  background-image: none;
+  background-color: black;
+}
+  .container1 {
+    display: flex;
+    }
+    
+    .container1 {
+      background: rgba(0, 0, 0, 0.75);
+      border-radius: 8px;
+      color: #fff;
+      margin: 0 auto;
+      padding: 30px 35px;
+      text-align: center;
+    }
+    .content{
+      z-index: 2;
+    }
+    .parallax__container {
+      clip: rect(0, auto, auto, 0);
+      height: 100%;
+      left: 0;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+    .parallax__container .parallax {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: fixed;
+      top: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      width: 100%;
+    }
+    .bg1 {
+      background-image: url(http://static1.squarespace.com/static/5b401559b10598e2e4119ce8/5b40211403ce64ae5ec53551/5c33a50f2b6a288814850649/1546975119742/galactic+centre.jpg?format=1500w);
+    }
+
+
+
+
+
+
+
+
+
+
+
   .about_border_top{
     width:100%;
   }
