@@ -1155,28 +1155,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1184,16 +1162,17 @@ html {
 
 
 body {
- background: url("https://media.giphy.com/media/nBUW1suj9CZaw/giphy.gif") no-repeat center center fixed;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
 }
 main, footer{
   background-color: white;
+}
+header{
+  background: url("https://media.giphy.com/media/nBUW1suj9CZaw/giphy.gif");
+  background-position:center;  
+  background-repeat:no-repeat;	
+  background-size:cover;
 }
 
 .section_background {
@@ -1761,61 +1740,15 @@ align-items:center;
 }
 
 @media (max-width: 991px){
-body{
-  background-image: none;
-  background-color: black;
-}
-  .container1 {
-    display: flex;
-    }
-    
-    .container1 {
-      background: rgba(0, 0, 0, 0.75);
-      border-radius: 8px;
-      color: #fff;
-      margin: 0 auto;
-      padding: 30px 35px;
-      text-align: center;
-    }
-    .content{
-      z-index: 2;
-    }
-    .parallax__container {
-      clip: rect(0, auto, auto, 0);
-      height: 100%;
-      left: 0;
-      overflow: hidden;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      z-index: 1;
-    }
-    .parallax__container .parallax {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: fixed;
-      top: 0;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-      -webkit-transform-style: preserve-3d;
-      transform-style: preserve-3d;
-      width: 100%;
-    }
-    .bg1 {
-      background-image: url(http://static1.squarespace.com/static/5b401559b10598e2e4119ce8/5b40211403ce64ae5ec53551/5c33a50f2b6a288814850649/1546975119742/galactic+centre.jpg?format=1500w);
-    }
 
-
-
-
-
-
-
-
-
-
-
+  #parallax{
+    width:100%;
+    background-image:url('https://68.media.tumblr.com/9c811fb09ae9fe61e3bbcb1d7f0c3724/tumblr_o9489fIsmH1qhttpto3_1280.png');
+    background-position:center;  
+    background-repeat:no-repeat;	
+    background-size:cover;
+    color:#FFF;
+  } 
   .about_border_top{
     width:100%;
   }

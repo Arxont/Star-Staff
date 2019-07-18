@@ -28,10 +28,8 @@
   </head>
 
   <body>
-    <header>
-        <section class="container1">
-            <div class="parallax bg1"></div>
-      <div class="container content">
+    <header id="parallax"> 
+      <div class="container">
         <div class="row center-xs hidden-lg hidden-xl">
           <div class="col-xs-11">
             <section class="mobile_header">
@@ -116,7 +114,6 @@
           </div>
         </div>
       </div>
-      </section>
       <div class="container">
         <div class="row center-xl hidden-md hidden-sm hidden-xs">
           <div class="col-xl-11">
@@ -513,7 +510,7 @@
                 class="recruiter_way_img hidden-md hidden-sm hidden-xs"
                 src="https://cs6.pikabu.ru/images/big_size_comm/2015-07_2/143633824816973641.jpg"
                 alt="DaWay"
-              />
+              >
             </div>
           </div>
         </div>
@@ -1030,6 +1027,7 @@
               </div>
             </section>
           </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -1084,11 +1082,18 @@
       }
     </script>
 
-<script src="./js/universal-parallax.min.js"></script>
-<script>
-  new universalParallax().init({
-    speed: 1.1
-  });
-</script>
+    <script>
+      window.addEventListener('scroll', function(){
+  var scrollPosition = window.pageYOffset;
+  var bgParallax = document.getElementById('parallax');
+  var limit = bgParallax.offsetTop + bgParallax.offsetHeight;  
+  if (scrollPosition > bgParallax.offsetTop && scrollPosition <= limit){
+    bgParallax.style.backgroundPositionY = (50 - 10 * scrollPosition/limit) + '%';    
+  }else{
+    bgParallax.style.backgroundPositionY = '50%';    
+  }
+});
+    </script>
+
   </body>
 </html>
