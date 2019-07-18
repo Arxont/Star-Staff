@@ -1169,10 +1169,12 @@ main, footer{
   background-color: white;
 }
 header{
+
   background: url("https://media.giphy.com/media/nBUW1suj9CZaw/giphy.gif");
   background-position:center;  
   background-repeat:no-repeat;	
   background-size:cover;
+
 }
 
 .section_background {
@@ -1743,11 +1745,11 @@ align-items:center;
 
   #parallax{
     width:100%;
-    background-image:url('https://68.media.tumblr.com/9c811fb09ae9fe61e3bbcb1d7f0c3724/tumblr_o9489fIsmH1qhttpto3_1280.png');
+ background-image:url('https://68.media.tumblr.com/9c811fb09ae9fe61e3bbcb1d7f0c3724/tumblr_o9489fIsmH1qhttpto3_1280.png');
+   /*  background-image: url('../images/MilkyWayGalaxywithbulge.jpg'); */
     background-position:center;  
     background-repeat:no-repeat;	
-    background-size:cover;
-    color:#FFF;
+    background-size: initial; 
   } 
   .about_border_top{
     width:100%;

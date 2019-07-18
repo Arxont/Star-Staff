@@ -32,7 +32,7 @@
       <div class="container">
         <div class="row center-xs hidden-lg hidden-xl">
           <div class="col-xs-11">
-            <section class="mobile_header">
+            <section  class="mobile_header">
               <nav class="mobile_nav">
                 <section class="mobile_nav_popup">
                   <span id="show" onClick="showDialog()">&#9776;</span>
@@ -1088,7 +1088,7 @@
   var bgParallax = document.getElementById('parallax');
   var limit = bgParallax.offsetTop + bgParallax.offsetHeight;  
   if (scrollPosition > bgParallax.offsetTop && scrollPosition <= limit){
-    bgParallax.style.backgroundPositionY = (50 - 10 * scrollPosition/limit) + '%';    
+    bgParallax.style.backgroundPositionY = (50 - 99 * scrollPosition/limit) + '%';    
   }else{
     bgParallax.style.backgroundPositionY = '50%';    
   }
