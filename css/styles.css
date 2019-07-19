@@ -1169,7 +1169,7 @@ main, footer{
   background-color: white;
 }
 header{
-  background-color: black;
+  background-color: red;
 /*
   background: url("https://media.giphy.com/media/nBUW1suj9CZaw/giphy.gif");
   background-position:center;  
@@ -1750,7 +1750,7 @@ align-items:center;
      background-image: url('../images/MilkyWayGalaxywithbulge.jpg'); 
     background-position:center;  
     background-repeat:no-repeat;	
-    background-size: initial; 
+    background-size: cover; 
     will-change: transform; 
     transform: translateZ(0);
   } 
