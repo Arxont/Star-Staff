@@ -1750,7 +1750,7 @@ align-items:center;
      background-image: url('../images/MilkyWayGalaxywithbulge.jpg'); 
     background-position:center;  
     background-repeat:no-repeat;	
-    background-size: cover; 
+    background-size: initial; 
     will-change: transform; 
     transform: translateZ(0);
   } 
