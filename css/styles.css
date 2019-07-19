@@ -1745,8 +1745,8 @@ align-items:center;
 
   #parallax{
     width:100%;
- background-image:url('https://68.media.tumblr.com/9c811fb09ae9fe61e3bbcb1d7f0c3724/tumblr_o9489fIsmH1qhttpto3_1280.png');
-   /*  background-image: url('../images/MilkyWayGalaxywithbulge.jpg'); */
+/* background-image:url('https://68.media.tumblr.com/9c811fb09ae9fe61e3bbcb1d7f0c3724/tumblr_o9489fIsmH1qhttpto3_1280.png');*/
+     background-image: url('../images/MilkyWayGalaxywithbulge.jpg'); 
     background-position:center;  
     background-repeat:no-repeat;	
     background-size: initial; 
