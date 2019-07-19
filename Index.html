@@ -1088,7 +1088,7 @@
   var bgParallax = document.getElementById('parallax');
   var limit = bgParallax.offsetTop + bgParallax.offsetHeight;  
   if (scrollPosition > bgParallax.offsetTop && scrollPosition <= limit){
-    bgParallax.style.backgroundPositionY = (50 - 99 * scrollPosition/limit) + '%';    
+    bgParallax.style.backgroundPositionY = (50 - 40 * scrollPosition/limit) + '%';    
   }else{
     bgParallax.style.backgroundPositionY = '50%';    
   }
