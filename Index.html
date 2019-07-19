@@ -28,7 +28,8 @@
   </head>
 
   <body>
-    <header id="parallax"> 
+    <header> 
+      <div id="parallax" style="height:600px; background-color: red;"></div>
       <div class="container">
         <div class="row center-xs hidden-lg hidden-xl">
           <div class="col-xs-11">
@@ -1083,14 +1084,14 @@
     </script>
 
     <script>
+      var bgParallax = document.getElementById('parallax');
       window.addEventListener('scroll', function(){
-  var scrollPosition = window.pageYOffset;
-  var bgParallax = document.getElementById('parallax');
-  var limit = bgParallax.offsetTop + bgParallax.offsetHeight;  
-  if (scrollPosition > bgParallax.offsetTop && scrollPosition <= limit){
-    bgParallax.style.backgroundPositionY = (50 - 40 * scrollPosition/limit) + '%';    
-  }else{
-    bgParallax.style.backgroundPositionY = '50%';    
+      var scrollPosition = window.pageYOffset;
+      var limit = bgParallax.offsetTop + bgParallax.offsetHeight;  
+      if (scrollPosition > bgParallax.offsetTop && scrollPosition <= limit){
+      bgParallax.style.backgroundPositionY = (50 - 40 * scrollPosition/limit) + '%';    
+      }else{
+      bgParallax.style.backgroundPositionY = '50%';    
   }
 });
     </script>
