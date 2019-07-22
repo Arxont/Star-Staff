@@ -1169,7 +1169,7 @@ main, footer{
   background-color: white;
 }
 header{
-  background-color: red;
+  background-color:red;
 /*
   background: url("https://media.giphy.com/media/nBUW1suj9CZaw/giphy.gif");
   background-position:center;  
@@ -1751,7 +1751,6 @@ align-items:center;
     background-position:center;  
     background-repeat:no-repeat;	
     background-size: initial; 
-    will-change: transform;
   } 
   .about_border_top{
     width:100%;
