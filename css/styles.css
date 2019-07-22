@@ -1169,7 +1169,7 @@ main, footer{
   background-color: white;
 }
 header{
-  background-color:red;
+  background-color:black;
 /*
   background: url("https://media.giphy.com/media/nBUW1suj9CZaw/giphy.gif");
   background-position:center;  
@@ -1181,7 +1181,7 @@ header{
 .section_background {
   background-color: rgb(50, 65, 88);
 }
-.orange_color{
+.orange-color{
   color:orange;
 }
 .offers_background{
@@ -1197,7 +1197,7 @@ header{
 
 }
 
-.header_menu {
+.header-menu {
   display: flex;
   justify-content: space-between;
   margin-top: 2%;
@@ -1212,7 +1212,7 @@ header{
   color:white;
   margin: 0;
 }
-.site_nav {
+.header-menu__nav {
   width: 60%;
   display: flex;
   justify-content:space-between;
@@ -1228,7 +1228,7 @@ header{
   color: orange;
   cursor: pointer;
 }
-.about_border_bottom {
+.bottom-border {
   width: 80%;
   margin: auto;
   padding-bottom: 2%;
@@ -1236,7 +1236,7 @@ header{
   border-width: 4px;
   border-color: orange;
 }
-.about_border_top{
+.top-border{
   width: 80%;
   margin: auto;
   padding-top: 2%;
@@ -1244,7 +1244,7 @@ header{
   border-width: 4px;
   border-color: orange;
 }
-.section_name {
+.headline {
   text-align: center;
   margin-top: 2%;
 }
@@ -1252,15 +1252,17 @@ header{
   color: white;
   font-size: 150px;
 }
-.slogan {
-  color: white;
+
+
+
+.heading__title {
   font-size: 35px;
   font-weight:bold;
 }
 
-.slogan2{
-  display:flex;
-  justify-content: space-between;
+.heading-subtitle{
+width: 60%;
+margin: auto;
 }
 .side_borders{
   width:40%;
@@ -1274,17 +1276,17 @@ margin:0.5%;
   padding: 10px;
 }
 
-.shift_picture {
+.shift-txt {
   height: 100px;
   margin-top: 2%;
   margin-bottom: 2%;
   position: relative;
 }
 
-.shift_time,
-.shift_hist,
-.shift_exp,
-.shift_val {
+.shift-txt__time,
+.shift-txt__hist,
+.shift-txt__exp,
+.shift-txt__val {
   height: 100px;
   width: 20%;
   text-align: center;
@@ -1293,29 +1295,29 @@ margin:0.5%;
   color: orange;
   font-size: 30px;
 }
-.shift_time {
+.shift-txt__time {
   left: 0;
 }
-.shift_hist {
+.shift-txt__hist {
   left: 25%;
 }
 
-.shift_exp {
+.shift-txt__exp {
   left: 50%;
 }
-.shift_val {
+.shift-txt__val {
   right: 0;
 }
-.shift_time:hover,
-.shift_hist:hover,
-.shift_exp:hover,
-.shift_val:hover {
+.shift-txt__time:hover,
+.shift-txt__hist:hover,
+.shift-txt__exp:hover,
+.shift-txt__val:hover {
   opacity: 0;
 }
-.bottom_time,
-.bottom_hist,
-.bottom_exp,
-.bottom_val {
+.shift-txt__bottom-time,
+.shift-txt__bottom-hist,
+.shift-txt__bottom-exp,
+.shift-txt__bottom-val {
   height: 100px;
   width: 20%;
   opacity: 0;
@@ -1324,37 +1326,41 @@ margin:0.5%;
   font-size: 20px;
   color: white;
 }
-.bottom_time {
+.shift-txt__bottom-time {
   left: 0;
 }
-.bottom_hist {
+.shift-txt__bottom-hist {
   left: 25%;
 }
 
-.bottom_exp {
+.shift-txt__bottom-exp {
   left: 50%;
 }
-.bottom_val {
+.shift-txt__bottom-val {
   right: 0;
 }
 
-.shift_time:hover~.bottom_time,.shift_hist:hover~.bottom_hist,.shift_exp:hover~.bottom_exp,.shift_val:hover~.bottom_val{
+.shift-txt__time:hover~.shift-txt__bottom-time,
+.shift-txt__hist:hover~.shift-txt__bottom-hist,
+.shift-txt__exp:hover~.shift-txt__bottom-exp,
+.shift-txt__val:hover~.shift-txt__bottom-val{
   opacity: 1;
 }
 
-.motto {
+.heading {
   color: white;
   margin-bottom: 5%; 
   background-color:  rgba(46, 49, 63, 0.3);
   padding:2% 0 2% 0;
+  text-align: center;
 }
-.wiki_info {
+.wiki{
   position: relative;
-  margin-top: 2%;
+  margin-top: 5%;
   margin-bottom: 10%;
   color:white;
 }
-.wiki_txt {
+.wiki__txt {
   text-align: center;
   background-color:  rgba(46, 49, 63, 0.3);
   border-radius: 0px 15px;
@@ -1366,10 +1372,10 @@ margin:0.5%;
   bottom:0;
   right:131px;
 }
-.wiki_link{
+.wiki__link{
   color:white;
 }
-.wiki_img{
+.wiki__img{
 position: absolute;
 right:0;
 bottom:0;
@@ -1752,14 +1758,14 @@ align-items:center;
     background-repeat:no-repeat;	
     background-size: initial; 
   } 
-  .about_border_top{
+  .top-border{
     width:100%;
   }
-  .about_border_bottom{
+  .bottom-border{
     width:95%;
     margin:0 auto 0 auto;
   }
-  .mobile_header{
+  .mobile_head{
     color:white;
   }
   
@@ -1769,7 +1775,7 @@ align-items:center;
   justify-content: space-between;
 }
 
-.mobile_nav_popup{
+.mobile_nav__popup{
   margin-top: 2%;
   width:100%;
   position: relative;
@@ -1826,11 +1832,20 @@ justify-content: center;
 }
 
 
-.mobile_motto{
+.mobile-heading{
 background-color:  rgba(46, 49, 63, 0.3);
 padding-bottom:5%;
 }
-.mobile_about{
+
+.heading__title{
+  font-size: 30px;
+  font-weight:bold;
+}
+
+
+
+
+.mobile-progress{
   text-align: center;
   margin-top:5%;
 }
