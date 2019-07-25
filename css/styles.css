@@ -1251,10 +1251,18 @@ header{
 .main_title {
   text-align: center;
   margin: 0;
+  font-size: 25px;
+}
+.white_color_main_title{
+  color: white;
+}
+.grey_color_main_title{
+  color: grey;
 }
 .company_name {
   color: white;
   font-size: 150px;
+  margin: auto;
 }
 
 
@@ -1666,7 +1674,7 @@ flex-wrap: wrap;
   margin-top: 2%;
   margin-bottom: 2%;
   background-color: white;
-  padding: 2%;
+  padding: 5% 2% 5% 2%;
 }
 
 .client_card_id{
