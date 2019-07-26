@@ -1170,14 +1170,12 @@ main, footer{
 }
 header{
   background-color:black;
-/*
-  background: url("https://media.giphy.com/media/nBUW1suj9CZaw/giphy.gif");
-  background-position:center;  
-  background-repeat:no-repeat;	
-  background-size:cover;
-*/
 }
 
+.logo_img{
+  width: 59px;
+  height: 59px;
+}
 .section_padding{
   padding-top: 2.5%;
   padding-bottom: 2.5%;
@@ -1190,7 +1188,7 @@ header{
 }
 .parallax_background{
   box-shadow: inset 0 0 0 1000px rgba(46, 49, 63, 0.9);
-  background: url("http://www.cndajin.com/data/wls/154/14325695.png");
+  background: url('../images/vacancyBackground.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -1510,22 +1508,43 @@ justify-content: space-between;
 height:500px;
 position: relative;
 }
+.slide_plus_background{
+  background: url('../images/pluses.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide_minus_background{
+  background: url('../images/minuses.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.slide_plus_minus_background{
+  background: url('../images/both.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
 .slide_1position{
 width:50%;
+height: 100%;
 position: absolute;
 left: 0;
 top: 0;
+background-color: rgba(247, 240, 240, 0.5);
 }
 .slide_2position{
   width:100%;
   position: absolute;
   bottom: 0;
+  color: white;
 }
 .slide_3position{
   width:50%;
+  height: 100%;
   position: absolute;
   right: 0;
   top: 0;
+  background-color: rgba(247, 240, 240, 0.5);
 }
 .slide_title{
   padding-left: 10%;
@@ -1557,7 +1576,7 @@ top: 0;
 }
 
 .member_shifting_img_background_card {
-  background: url('../images/1.jpg');
+  background: url('../images/team/arkadyK1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -1566,11 +1585,13 @@ top: 0;
 }
 
 .member_shifting_img_background_card:hover {
-  background: url("../images/2.jpg");
+  background: url("../images/team/arkadyK2.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:contain;
 }
-
+.member_shifting_img_background_card:hover .member_info{
+  opacity: 0;
+}
 .member_info {
   background-color: rgba(53, 47, 53, 0.815);
   width: 100%;
@@ -1579,9 +1600,6 @@ top: 0;
   text-align: center;
   color:white;
   font-weight: solid;
-}
-.member_shifting_img_background_card:hover .member_info{
-  opacity: 0;
 }
 .member_info_txt{
   display: block;
@@ -1707,7 +1725,8 @@ flex-wrap: wrap;
 }
 .contact_person_img{
   position: absolute;
-  background-color: blue;
+  background:url("../images/team/tatyanaA1.jpg");
+  background-size: cover;
   width:100%;
   height:400px;
   z-index: 1;
@@ -1902,7 +1921,7 @@ height: 100%;
 
 
 
-.vacation_grid{
+.team_life_grid{
   display:flex;
   flex-wrap: wrap;
 }
@@ -1911,6 +1930,62 @@ width:33.33%;
 height:250px;
 position: relative;
 }
+.v_grid_item_background_new_year{
+  background: url("../images/activities/newYear.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+.v_grid_item_background_travel{
+  background: url("../images/activities/travel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+.v_grid_item_background_help{
+  background: url("../images/activities/help.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+.v_grid_item_background_initiation{
+  background: url("../images/activities/initiation.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+.v_grid_item_background_exp{
+  background: url("../images/activities/exp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+.v_grid_item_background_sport{
+  background: url("../images/activities/sport.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+.v_grid_item_background_mmb{
+  background: url("../images/activities/mmb.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+.v_grid_item_background_stuff{
+  background: url("../images/activities/stuff.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+.v_grid_item_background_march8{
+background: url("../images/activities/8.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+.v_grid_item_background_february23{
+background: url("../images/activities/23.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+.v_grid_item_background_work{
+background: url("../images/activities/work.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
 .v_grid_hover{
 background-color: rgba(58, 99, 31, 0.5);
 z-index: 1;
@@ -1931,13 +2006,16 @@ justify-content: center;
   opacity: 0;
 }
 .v_grid_bottom{
+  width: 100%;
+  height: 100%;
   filter: blur(2px);
 }
 .v_grid_hover:hover~.v_grid_bottom{
   filter: blur(0px);
 }
 .v_grid_title{
-font-size: 25px;  
+font-size: 25px;
+font-weight: bold;  
 }
 
 video{
