@@ -1277,6 +1277,27 @@ margin: auto;
 .side_borders{
   width:40%;
 }
+.media_container{
+  display: flex;
+  justify-content: space-around;
+  width: 10%;
+  margin: auto;
+  padding-top:2%;
+}
+.social_media_link{
+  width: 35px;
+  height: 35px;
+  background-color:white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.social_media_img{
+  width: 20px;
+  height: 20px;
+}
 
 .media_link{
 margin:0.5%;
@@ -1708,12 +1729,12 @@ flex-wrap: wrap;
 }
 
 .faq, .coordinates{
-  margin-top:2%;
   display: flex;
+  justify-content: space-between;
   
 }
 .faq_txt{
-  width:58%;
+  width:70%;
   text-align: start;
 }
 
@@ -1721,38 +1742,32 @@ flex-wrap: wrap;
   position: relative;
   text-align: center;
   height: 400px;
-  width: 40%;
+  background-color: red;
 }
 .contact_person_img{
   position: absolute;
-  background:url("../images/team/tatyanaA1.jpg");
+  right: 0;
+  background:url("../images/team/tatyanaContacts.jpg");
   background-size: cover;
-  width:100%;
-  height:400px;
-  z-index: 1;
+  width:300px;
+  height:300px;
   border-radius: 50%;
+  z-index: 1;
+  
 }
 .contact_person_contacts{
   position: absolute;
-  background-color: #2a3340;
-  width:100%;
-  height:400px;
-  text-align: center; 
+  right: 0;
   border-radius: 50%;
+  background-color: #2a3340;
+  width:300px;
+  height:300px;
+  text-align: center; 
   display:flex;
   flex-direction: column;
   justify-content:center;
 align-items:center;
 }
-
-
-.contact_person_links{
-  border-top-style: solid;
-  padding-top: 2%;
-  width:80%;
-  margin:0;
-}
-
 .contact_person_img:hover{
   opacity:0;
   z-index: -1;
@@ -1760,6 +1775,20 @@ align-items:center;
 .contact_person_contacts:hover{
  z-index: 1;
 }
+.contact_person_name{
+  color: white;
+}
+.contact_person_links{
+  border-top-style: solid;
+  border-color: white;
+  padding-top: 2%;
+  width:80%;
+  margin:0;
+  display: flex;
+  justify-content: space-around;
+}
+
+
 
 #map {
   height: 500px;
