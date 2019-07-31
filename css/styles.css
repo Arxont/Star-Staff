@@ -1165,11 +1165,36 @@ body {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
 }
+canvas {
+  width:100%;
+  height: 1000px;
+  z-index:-1;
+}
+
 main, footer{
   background-color: white;
 }
-header{
-  background-color:black;
+
+.background_bittersweet{
+  background-color:rgb(255, 97, 97);
+}
+.background_Rajah{
+  background-color:rgb(242, 191, 94);
+}
+.background_Aquamarine{
+  background-color:rgb(117, 203, 168);
+}
+.background_Yonder{
+  background-color:rgb(83, 110, 183);
+}
+.background_green{
+  background-color:rgb(104, 176, 77);
+}
+.background_Lavender{
+  background-color:rgb(182, 133, 232);
+}
+.orange-color{
+  color:#ff6600 ;
 }
 
 
@@ -1179,9 +1204,6 @@ header{
 }
 .dark_theme_background {
   background-color: rgb(50, 65, 88);
-}
-.orange-color{
-  color:#ff6600 ;
 }
 .parallax_background{
   box-shadow: inset 0 0 0 1000px rgba(46, 49, 63, 0.9);
@@ -1491,24 +1513,7 @@ justify-content: space-between;
 .table_of_duties_card > p {
   padding: 5%;
 }
-.table_of_duties_background_bittersweet{
-  background-color:rgb(255, 97, 97);
-}
-.table_of_duties_background_Rajah{
-  background-color:rgb(242, 191, 94);
-}
-.table_of_duties_background_Aquamarine{
-  background-color:rgb(117, 203, 168);
-}
-.table_of_duties_background_Yonder{
-  background-color:rgb(83, 110, 183);
-}
-.table_of_duties_background_green{
-  background-color:rgb(104, 176, 77);
-}
-.table_of_duties_background_Lavender{
-  background-color:rgb(182, 133, 232);
-}
+
 .table_of_duties_title{
   font-weight: bold;
   font-size: 25px;
@@ -1598,7 +1603,7 @@ background-color: rgba(247, 240, 240, 0.5);
   height: 400px;
 }
 
-.member_card {
+.star_team_member_card {
   display: flex;
   align-items: flex-end;
 }
@@ -1731,37 +1736,22 @@ background-color: rgba(247, 240, 240, 0.5);
   display: block;
   margin:2% 0 2% 0;
 }
-.ss_card{
-  color:white;
-  background-color: rgb(242, 191, 94);
-  height: 400px;
+.star_team_info_card{
+height: 400px;
+color:white;
 }
-.ss_card2{
-  color:white;
-  background-color:rgb(255, 97, 97);
+.star_team_info_card > p{
+  padding: 5%;
 }
-.ss_card3{
-  color:white;
-  background-color:rgb(182, 133, 232);
-}
-.ss_card4{
-  color:white;
-  background-color: rgb(83, 110, 183);
-}
-.ss_card5{
-  color:white;
-  background-color: rgb(117, 203, 168);
-}
+
 .ss_title {
   font-size: 125px;
   font-weight: bolder;
   text-align: start;
   margin:0;
-  margin-left: 5%;
 }
 .ss_txt{
   font-size: 30px;
-  margin:0 5% 0 5%;
   text-align: start;
 }
 
@@ -1833,66 +1823,11 @@ flex-wrap: wrap;
   color:grey;
 }
 
-.faq, .coordinates{
+.coordinates{
   display: flex;
   justify-content: space-between;
   
 }
-.faq_txt{
-  width:70%;
-  text-align: start;
-}
-
-.contact_person {
-  position: relative;
-  text-align: center;
-  height: 300px;
-  background-color: red;
-}
-.contact_person_img{
-  position: absolute;
-  right: 0;
-  background:url("../images/team/tatyanaContacts.jpg");
-  background-size: cover;
-  width:300px;
-  height:300px;
-  border-radius: 50%;
-  z-index: 1;
-  
-}
-.contact_person_contacts{
-  position: absolute;
-  right: 0;
-  border-radius: 50%;
-  background-color: #2a3340;
-  width:300px;
-  height:300px;
-  text-align: center; 
-  display:flex;
-  flex-direction: column;
-  justify-content:center;
-align-items:center;
-}
-.contact_person_img:hover{
-  opacity:0;
-  z-index: -1;
-}
-.contact_person_contacts:hover{
- z-index: 1;
-}
-.contact_person_name{
-  color: white;
-}
-.contact_person_links{
-  border-top-style: solid;
-  border-color: white;
-  padding-top: 2%;
-  width:80%;
-  margin:0;
-  display: flex;
-  justify-content: space-around;
-}
-
 
 
 #map {
