@@ -1595,7 +1595,7 @@ background-color: rgba(247, 240, 240, 0.5);
 
 .star_team_members_grid > div{
   width:25%;
-  height: 325px;
+  height: 400px;
 }
 
 .member_card {
@@ -1721,11 +1721,11 @@ background-color: rgba(247, 240, 240, 0.5);
 .member_info {
   background-color: rgba(53, 47, 53, 0.815);
   width: 100%;
-  height:25%;
+  height:20%;
   margin: 0;
   text-align: center;
   color:white;
-  font-weight: solid;
+  font-weight: bold;
 }
 .member_info_txt{
   display: block;
@@ -1734,7 +1734,7 @@ background-color: rgba(247, 240, 240, 0.5);
 .ss_card{
   color:white;
   background-color: rgb(242, 191, 94);
-  height: 325px;
+  height: 400px;
 }
 .ss_card2{
   color:white;
@@ -2066,7 +2066,7 @@ color: black;
 }
 .v_grid_item{
 width:33.33%;
-height:250px;
+height:275px;
 position: relative;
 }
 .v_grid_item_background_new_year{
