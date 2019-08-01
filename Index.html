@@ -24,7 +24,7 @@
 
   <body>
     <header>
-        <canvas id="starfield"></canvas>
+      <canvas class="canvas" id="starfield" ></canvas>
       <div id="parallax">
         <div class="container">
           <div class="row center-xs hidden-lg hidden-xl">
@@ -34,17 +34,17 @@
                   <section class="mobile_nav_popup">
                     <span id="show" onClick="showDialog()">&#9776;</span>
                     <img
-                  class="logo_img"
-                  src="images/logo.png"
-                  alt="Legendary!"
-                />
+                      class="logo_img"
+                      src="images/logo.png"
+                      alt="Legendary!"
+                    />
                     <div id="dialog">
                       <div class="container">
                         <div class="row center-xs hidden-lg hidden-xl">
                           <div class="col-xs-11">
                             <div class="mobile_popup_container">
                               <div class="popup_links">
-                                <a href="#work_offers" onclick="closeDialog()"
+                                <a href="#RA_work" onclick="closeDialog()"
                                   >Работа в КА</a
                                 >
                                 <a href="#about_rec" onclick="closeDialog()"
@@ -81,8 +81,20 @@
                     IT-рекрутменту у лучших.
                   </p>
                   <div class="media_container">
-                    <a href="https://vk.com/star_staff"><div class="social_media_link"><img class="social_media_img" src="images/vk.svg"/></div></a>
-                    <a href="https://www.linkedin.com/company/star-staff/"><div class="social_media_link"><img class="social_media_img" src="images/linkedin.svg"/></div></a>
+                    <a href="https://vk.com/star_staff"
+                      ><div class="social_media_link">
+                        <img
+                          class="social_media_img"
+                          src="images/vk.svg"
+                        /></div
+                    ></a>
+                    <a href="https://www.linkedin.com/company/star-staff/"
+                      ><div class="social_media_link">
+                        <img
+                          class="social_media_img"
+                          src="images/linkedin.svg"
+                        /></div
+                    ></a>
                   </div>
                 </div>
                 <div class="mobile-progress top-border">
@@ -116,18 +128,14 @@
           <div class="col-xl-11">
             <section class="header-menu">
               <div class="logo">
-                <img
-                  class="logo_img"
-                  src="images/logo.png"
-                  alt="logo"
-                />
+                <img class="logo_img" src="images/logo.png" alt="logo" />
                 <p class="logo_txt">
-                  Кадровое агенство<br>
+                  Кадровое агенство<br />
                   Star Staff
                 </p>
               </div>
               <nav class="header-menu_nav">
-                <a class="nav_link" href="#work_offers">Работа в КА</a>
+                <a class="nav_link" href="#RA_work">Работа в КА</a>
                 <a class="nav_link" href="#about_rec">О рекрутменте</a>
                 <a class="nav_link" href="#daWay">Путь</a>
                 <a class="nav_link" href="#our_team">Команда</a>
@@ -145,22 +153,22 @@
                 <div class="shift-txt_exp">ОПЫТ</div>
                 <div class="shift-txt_val">ЦЕННОСТЬ</div>
                 <div class="shift-txt_bottom-time">
-                  С <span class="orange-color">2007</span> года подбираем
-                  толковых IT-шников в компании
+                 <p>С <span class="orange-color">2007</span> года подбираем
+                  толковых IT-шников в компании</p>
                 </div>
                 <div class="shift-txt_bottom-hist">
-                  Основано
-                  <span class="orange-color">программистами</span>-выпускниками
-                  мехмата МГУ
+                 <p>Основано
+                  <span class="orange-color">программистами</span> -выпускниками
+                  мехмата МГУ</p>
                 </div>
                 <div class="shift-txt_bottom-exp">
-                  За <span class="orange-color">11 лет</span> и
+                  <p>За <span class="orange-color">11 лет</span> и
                   <span class="orange-color">450k</span> человек в базе накоплен
-                  опыт, которым рады делиться
+                  опыт, которым рады делиться</p>
                 </div>
                 <div class="shift-txt_bottom-val">
-                  Благодаря нам люди находят действительно
-                  <span class="orange-color">любимую работу</span>
+                  <p>Благодаря нам люди находят действительно
+                  <span class="orange-color">любимую работу</span></p>
                 </div>
               </div>
               <div class="heading">
@@ -174,8 +182,17 @@
                   </p>
                 </div>
                 <div class="media_container">
-                  <a href="https://vk.com/star_staff"><div class="social_media_link"><img class="social_media_img" src="images/vk.svg"/></div></a>
-                    <a href="https://www.linkedin.com/company/star-staff/"><div class="social_media_link"><img class="social_media_img" src="images/linkedin.svg"/></div></a>
+                  <a href="https://vk.com/star_staff"
+                    ><div class="social_media_link">
+                      <img class="social_media_img" src="images/vk.svg" /></div
+                  ></a>
+                  <a href="https://www.linkedin.com/company/star-staff/"
+                    ><div class="social_media_link">
+                      <img
+                        class="social_media_img"
+                        src="images/linkedin.svg"
+                      /></div
+                  ></a>
                 </div>
               </div>
               <div class="wiki">
@@ -204,28 +221,37 @@
         <div class="row center-xl center-xs hidden-md hidden-sm hidden-xs">
           <div class="col-xl-11 col-xs-11">
             <section class="section_padding">
+                <a name="RA_work"></a>
               <p class="main_title grey_color_main_title">
                 Возможные позиции в нашей команде
               </p>
               <img src="images/arrowDown.svg" alt="arrow" />
               <div>
                 <div class="possible_positions_list">
-                  <div class="pp_visible_left_container possible_positions_left_card">
+                  <div
+                    class="pp_visible_left_container possible_positions_left_card"
+                  >
                     <p class="possible_positions_title">Отдел рекрутмента</p>
                     <img src="images/recruit.png" alt="recruit" />
                   </div>
-                  <div class="pp_visible_center_container possible_positions_center_card">
+                  <div
+                    class="pp_visible_center_container possible_positions_center_card"
+                  >
                     <p class="possible_positions_title">
                       Отдел Развития бизнеса
                     </p>
                     <img src="images/business.png" alt="business" />
                   </div>
-                  <div class="pp_visible_right_container possible_positions_right_card">
+                  <div
+                    class="pp_visible_right_container possible_positions_right_card"
+                  >
                     <p class="possible_positions_title">Проектный отдел</p>
                     <img src="images/project.png" alt="project" />
                   </div>
 
-                  <div class="pp_hidden_left_container possible_positions_left_card">
+                  <div
+                    class="pp_hidden_left_container possible_positions_left_card"
+                  >
                     <p>Рекрутер</p>
                     <img src="images/arrowDown.svg" alt="arrow" />
                     <p>Рекрутер-консультант</p>
@@ -234,7 +260,9 @@
                     <img src="images/arrowDown.svg" alt="arrow" />
                     <p>Руководитель отдела</p>
                   </div>
-                  <div class="pp_hidden_center_container possible_positions_center_card">
+                  <div
+                    class="pp_hidden_center_container possible_positions_center_card"
+                  >
                     <p>Сейлз</p>
                     <img src="images/arrowDown.svg" alt="arrow" />
                     <p>Руководитель группы продаж</p>
@@ -243,7 +271,9 @@
                     <img src="images/arrowDown.svg" alt="arrow" />
                     <p>Партнер</p>
                   </div>
-                  <div class="pp_hidden_right_container possible_positions_right_card">
+                  <div
+                    class="pp_hidden_right_container possible_positions_right_card"
+                  >
                     <p>Менеджер проектов</p>
                     <img src="images/arrowDown.svg" alt="arrow" />
                     <p>Руководитель проектов</p>
@@ -262,9 +292,9 @@
                 счастья клиентов, а также подразделение проектного менеджмента.
                 Однако главный мотор нашего агентства, на котором держится
                 бизнес, и самый многочисленный отдел компании - это рекрутеры.
-                Так или иначе любая работа и должность в нашей компании
-                связана с наймом, поэтому подробнее раскроем тему работы у нас
-                на именно на примере этой должности.
+                Так или иначе любая работа и должность в нашей компании связана
+                с наймом, поэтому подробнее раскроем тему работы у нас на именно
+                на примере этой должности.
               </p>
               <a name="about_rec"></a>
             </section>
@@ -361,11 +391,7 @@
               <p class="main_title">
                 Признаки нашего человека
               </p>
-              <img
-              class="big_size_img"
-              src="images/ourman.webp"
-              alt="DaWay"
-            />
+              <img class="big_size_img" src="images/ourman.webp" alt="DaWay" />
             </section>
           </div>
         </div>
@@ -508,12 +534,10 @@
           <div class="row center-xl">
             <div class="col-xl-11">
               <a name="daWay"></a>
-              <p class="main_title white_color_main_title">Путь рекрутера в агенстве Star-Staff</p>
-              <img
-                class="big_size_img"
-                src="images/daWay.webp"
-                alt="DaWay"
-              />
+              <p class="main_title white_color_main_title">
+                Путь рекрутера в агенстве Star-Staff
+              </p>
+              <img class="big_size_img" src="images/daWay.webp" alt="DaWay" />
             </div>
           </div>
         </div>
@@ -650,151 +674,237 @@
               </div>
             </section>
 
-            <section class="star_team hidden-md hidden-sm hidden-xs section_padding">
+            <section
+              class="star_team hidden-md hidden-sm hidden-xs section_padding"
+            >
               <a name="our_team"></a>
               <p class="main_title">Звездная команда</p>
               <div class="star_team_members_grid">
                 <div class="star_team_member_container">
-                    <img class="star_team_member_top_img" src="images/team/arkadyK1.jpg"/>
-                    <img class="star_team_member_bottom_img" src="images/team/arkadyK2.jpg"/>
-                    <div class="member_info">
-                        <span class="member_info_txt">Аркадий Климовский</span>
-                        <span class="member_info_txt">Основатель компании</span>
-                        <span class="member_info_txt">[Мастер-джедай]</span>
-                      </div>
+                  <img
+                    class="star_team_member_top_img"
+                    src="images/team/arkadyK1.jpg"
+                  />
+                  <img
+                    class="star_team_member_bottom_img"
+                    src="images/team/arkadyK2.jpg"
+                  />
+                  <div class="member_info">
+                    <span class="member_info_txt">Аркадий Климовский</span>
+                    <span class="member_info_txt">Основатель компании</span>
+                    <span class="member_info_txt">[Мастер-джедай]</span>
+                  </div>
                 </div>
                 <div class="star_team_member_container">
-                    <img class="star_team_member_top_img" src="images/team/helenaK1.jpg"/>
-                    <img class="star_team_member_bottom_img" src="images/team/helenaK2.jpg"/>
-                    <div class="member_info">
-                        <span class="member_info_txt">Елена Ковригина</span>
-                        <span class="member_info_txt">Основатель компании</span>
-                        <span class="member_info_txt">[Мастер-джедай]</span>
-                      </div>
+                  <img
+                    class="star_team_member_top_img"
+                    src="images/team/helenaK1.jpg"
+                  />
+                  <img
+                    class="star_team_member_bottom_img"
+                    src="images/team/helenaK2.jpg"
+                  />
+                  <div class="member_info">
+                    <span class="member_info_txt">Елена Ковригина</span>
+                    <span class="member_info_txt">Основатель компании</span>
+                    <span class="member_info_txt">[Мастер-джедай]</span>
+                  </div>
                 </div>
                 <div class="star_team_member_container">
-                    <img class="star_team_member_top_img" src="images/team/denisS1.jpg"/>
-                    <img class="star_team_member_bottom_img" src="images/team/denisS2.jpg"/>
-                    <div class="member_info">
-                        <span class="member_info_txt">Денис Сериков</span>
-                        <span class="member_info_txt">Основатель компании</span>
-                        <span class="member_info_txt">[Мастер-джедай]</span>
-                      </div>
-                </div>  
+                  <img
+                    class="star_team_member_top_img"
+                    src="images/team/denisS1.jpg"
+                  />
+                  <img
+                    class="star_team_member_bottom_img"
+                    src="images/team/denisS2.jpg"
+                  />
+                  <div class="member_info">
+                    <span class="member_info_txt">Денис Сериков</span>
+                    <span class="member_info_txt">Основатель компании</span>
+                    <span class="member_info_txt">[Мастер-джедай]</span>
+                  </div>
+                </div>
                 <div class="star_team_info_card background_Rajah">
-                    <p class="ss_title">41</p>
-                    <p class="ss_txt">человек в команде</p>
-                  </div>  
-                  <div class="star_team_member_container">
-                      <img class="star_team_member_top_img" src="images/team/tatyanaA1.jpg"/>
-                      <img class="star_team_member_bottom_img" src="images/team/tatyanaA2.jpg"/>
-                      <div class="member_info">
-                          <span class="member_info_txt">Татьяна Аква</span>
-                          <span class="member_info_txt">Партнёр</span>
-                          <span class="member_info_txt">[Мастер-джедай]</span>
-                        </div>
+                  <p class="ss_title">41</p>
+                  <p class="ss_txt">человек в команде</p>
+                </div>
+                <div class="star_team_member_container">
+                  <img
+                    class="star_team_member_top_img"
+                    src="images/team/tatyanaA1.jpg"
+                  />
+                  <img
+                    class="star_team_member_bottom_img"
+                    src="images/team/tatyanaA2.jpg"
+                  />
+                  <div class="member_info">
+                    <span class="member_info_txt">Татьяна Аква</span>
+                    <span class="member_info_txt">Партнёр</span>
+                    <span class="member_info_txt">[Мастер-джедай]</span>
                   </div>
-                  <div class="star_team_member_container">
-                      <img class="star_team_member_top_img" src="images/team/peterS1.jpg"/>
-                      <img class="star_team_member_bottom_img" src="images/team/peterS2.jpg"/>
-                      <div class="member_info">
-                          <span class="member_info_txt">Пётр Смирнов</span>
-                          <span class="member_info_txt">Тимлид рекрутмента</span>
-                          <span class="member_info_txt">[Джедай]</span>
-                        </div>
+                </div>
+                <div class="star_team_member_container">
+                  <img
+                    class="star_team_member_top_img"
+                    src="images/team/peterS1.jpg"
+                  />
+                  <img
+                    class="star_team_member_bottom_img"
+                    src="images/team/peterS2.jpg"
+                  />
+                  <div class="member_info">
+                    <span class="member_info_txt">Пётр Смирнов</span>
+                    <span class="member_info_txt">Тимлид рекрутмента</span>
+                    <span class="member_info_txt">[Джедай]</span>
                   </div>
-                  <div class="star_team_info_card background_bittersweet">
-                      <p class="ss_title">300</p>
-                      <p class="ss_txt">закрытых вакансий в год</p>
-                    </div>
-                    <div class="star_team_member_container">
-                        <img class="star_team_member_top_img" src="images/team/mariaD1.jpg"/>
-                        <img class="star_team_member_bottom_img" src="images/team/mariaD2.jpg"/>
-                        <div class="member_info">
-                            <span class="member_info_txt">Мария Дозорова</span>
-                            <span class="member_info_txt">Партнёр</span>
-                            <span class="member_info_txt">[Мастер-джедай]</span>
-                          </div>
-                    </div>
-                    <div class="star_team_member_container">
-                        <img class="star_team_member_top_img" src="images/team/rinatK1.jpg"/>
-                        <img class="star_team_member_bottom_img" src="images/team/rinatK2.jpg"/>
-                        <div class="member_info">
-                            <span class="member_info_txt">Ринат Кудряков</span>
-                            <span class="member_info_txt">Партнёр</span>
-                            <span class="member_info_txt">[Мастер-джедай]</span>
-                          </div>
-                    </div>
-                    <div class="star_team_info_card background_Yonder">
-                        <p class="ss_title">2</p>
-                        <p class="ss_txt">месяца средний срок закрытия вакансий</p>
-                      </div>
-                      <div class="star_team_member_container">
-                          <img class="star_team_member_top_img" src="images/team/maksimG1.jpg"/>
-                          <img class="star_team_member_bottom_img" src="images/team/maksimG2.jpg"/>
-                          <div class="member_info">
-                              <span class="member_info_txt">Максим Гусев</span>
-                              <span class="member_info_txt">Partner Hunter</span>
-                              <span class="member_info_txt">[Джедай]</span>
-                            </div>
-                      </div>
-                      <div class="star_team_member_container">
-                          <img class="star_team_member_top_img" src="images/team/yuriE1.jpg"/>
-                          <img class="star_team_member_bottom_img" src="images/team/yuriE2.jpg"/>
-                          <div class="member_info">
-                              <span class="member_info_txt">Юрий Ерофеев</span>
-                              <span class="member_info_txt">Partner huner</span>
-                              <span class="member_info_txt">[Джедай]</span>
-                            </div>
-                      </div> 
-                      <div class="star_team_info_card background_Aquamarine">
-                          <p class="ss_title">26</p>
-                          <p class="ss_txt">лет средний возраст</p>
-                        </div>
-                        <div class="star_team_member_container">
-                            <img class="star_team_member_top_img" src="images/team/anastasiaZ1.jpg"/>
-                            <img class="star_team_member_bottom_img" src="images/team/anastasiaZ2.jpg"/>
-                            <div class="member_info">
-                                <span class="member_info_txt">Анастасия Зайцева</span>
-                                <span class="member_info_txt">Ведущий IT-рекрутер</span>
-                                <span class="member_info_txt">[Джедай]</span>
-                              </div>
-                        </div> 
-                        <div class="star_team_member_container">
-                            <img class="star_team_member_top_img" src="images/team/annaD1.jpg"/>
-                            <img class="star_team_member_bottom_img" src="images/team/annaD2.jpg"/>
-                            <div class="member_info">
-                                <span class="member_info_txt">Анна Дёмина</span>
-                                <span class="member_info_txt">Тимлид рекрутмента</span>
-                                <span class="member_info_txt">[Джедай]</span>
-                              </div>
-                        </div> 
-                        <div class="star_team_member_container">
-                            <img class="star_team_member_top_img" src="images/team/yuliaA1.jpg"/>
-                            <img class="star_team_member_bottom_img" src="images/team/yuliaA2.jpg"/>
-                            <div class="member_info">
-                                <span class="member_info_txt">Юлия Атаман</span>
-                                <span class="member_info_txt">Ведущий IT-рекрутер</span>
-                                <span class="member_info_txt">[Джедай]</span>
-                              </div>
-                        </div> 
-                        <div class="star_team_member_container">
-                            <img class="star_team_member_top_img" src="images/team/anastasiaL1.jpg"/>
-                            <img class="star_team_member_bottom_img" src="images/team/anastasiaL2.jpg"/>
-                            <div class="member_info">
-                                <span class="member_info_txt">Анастасия Лыгина</span>
-                                <span class="member_info_txt">In-house HR</span>
-                              </div>
-                        </div>
-                        <div class="star_team_member_container">
-                            <img class="star_team_member_top_img" src="images/team/michaelZ1.jpg"/>
-                            <img class="star_team_member_bottom_img" src="images/team/michaelZ2.jpg"/>
-                            <div class="member_info">
-                                <span class="member_info_txt">Михаил Золотарев</span>
-                                <span class="member_info_txt">Менеджер IT-проектов</span>
-                                <span class="member_info_txt">[Точно могла]</span>
-                              </div>
-                        </div> 
+                </div>
+                <div class="star_team_info_card background_bittersweet">
+                  <p class="ss_title">300</p>
+                  <p class="ss_txt">закрытых вакансий в год</p>
+                </div>
+                <div class="star_team_member_container">
+                  <img
+                    class="star_team_member_top_img"
+                    src="images/team/mariaD1.jpg"
+                  />
+                  <img
+                    class="star_team_member_bottom_img"
+                    src="images/team/mariaD2.jpg"
+                  />
+                  <div class="member_info">
+                    <span class="member_info_txt">Мария Дозорова</span>
+                    <span class="member_info_txt">Партнёр</span>
+                    <span class="member_info_txt">[Мастер-джедай]</span>
+                  </div>
+                </div>
+                <div class="star_team_member_container">
+                  <img
+                    class="star_team_member_top_img"
+                    src="images/team/rinatK1.jpg"
+                  />
+                  <img
+                    class="star_team_member_bottom_img"
+                    src="images/team/rinatK2.jpg"
+                  />
+                  <div class="member_info">
+                    <span class="member_info_txt">Ринат Кудряков</span>
+                    <span class="member_info_txt">Партнёр</span>
+                    <span class="member_info_txt">[Мастер-джедай]</span>
+                  </div>
+                </div>
+                <div class="star_team_info_card background_Yonder">
+                  <p class="ss_title">2</p>
+                  <p class="ss_txt">месяца средний срок закрытия вакансий</p>
+                </div>
+                <div class="star_team_member_container">
+                  <img
+                    class="star_team_member_top_img"
+                    src="images/team/maksimG1.jpg"
+                  />
+                  <img
+                    class="star_team_member_bottom_img"
+                    src="images/team/maksimG2.jpg"
+                  />
+                  <div class="member_info">
+                    <span class="member_info_txt">Максим Гусев</span>
+                    <span class="member_info_txt">Partner Hunter</span>
+                    <span class="member_info_txt">[Джедай]</span>
+                  </div>
+                </div>
+                <div class="star_team_member_container">
+                  <img
+                    class="star_team_member_top_img"
+                    src="images/team/yuriE1.jpg"
+                  />
+                  <img
+                    class="star_team_member_bottom_img"
+                    src="images/team/yuriE2.jpg"
+                  />
+                  <div class="member_info">
+                    <span class="member_info_txt">Юрий Ерофеев</span>
+                    <span class="member_info_txt">Partner huner</span>
+                    <span class="member_info_txt">[Джедай]</span>
+                  </div>
+                </div>
+                <div class="star_team_info_card background_Aquamarine">
+                  <p class="ss_title">26</p>
+                  <p class="ss_txt">лет средний возраст</p>
+                </div>
+                <div class="star_team_member_container">
+                  <img
+                    class="star_team_member_top_img"
+                    src="images/team/anastasiaZ1.jpg"
+                  />
+                  <img
+                    class="star_team_member_bottom_img"
+                    src="images/team/anastasiaZ2.jpg"
+                  />
+                  <div class="member_info">
+                    <span class="member_info_txt">Анастасия Зайцева</span>
+                    <span class="member_info_txt">Ведущий IT-рекрутер</span>
+                    <span class="member_info_txt">[Джедай]</span>
+                  </div>
+                </div>
+                <div class="star_team_member_container">
+                  <img
+                    class="star_team_member_top_img"
+                    src="images/team/annaD1.jpg"
+                  />
+                  <img
+                    class="star_team_member_bottom_img"
+                    src="images/team/annaD2.jpg"
+                  />
+                  <div class="member_info">
+                    <span class="member_info_txt">Анна Дёмина</span>
+                    <span class="member_info_txt">Тимлид рекрутмента</span>
+                    <span class="member_info_txt">[Джедай]</span>
+                  </div>
+                </div>
+                <div class="star_team_member_container">
+                  <img
+                    class="star_team_member_top_img"
+                    src="images/team/yuliaA1.jpg"
+                  />
+                  <img
+                    class="star_team_member_bottom_img"
+                    src="images/team/yuliaA2.jpg"
+                  />
+                  <div class="member_info">
+                    <span class="member_info_txt">Юлия Атаман</span>
+                    <span class="member_info_txt">Ведущий IT-рекрутер</span>
+                    <span class="member_info_txt">[Джедай]</span>
+                  </div>
+                </div>
+                <div class="star_team_member_container">
+                  <img
+                    class="star_team_member_top_img"
+                    src="images/team/anastasiaL1.jpg"
+                  />
+                  <img
+                    class="star_team_member_bottom_img"
+                    src="images/team/anastasiaL2.jpg"
+                  />
+                  <div class="member_info">
+                    <span class="member_info_txt">Анастасия Лыгина</span>
+                    <span class="member_info_txt">In-house HR</span>
+                  </div>
+                </div>
+                <div class="star_team_member_container">
+                  <img
+                    class="star_team_member_top_img"
+                    src="images/team/michaelZ1.jpg"
+                  />
+                  <img
+                    class="star_team_member_bottom_img"
+                    src="images/team/michaelZ2.jpg"
+                  />
+                  <div class="member_info">
+                    <span class="member_info_txt">Михаил Золотарев</span>
+                    <span class="member_info_txt">Менеджер IT-проектов</span>
+                    <span class="member_info_txt">[Точно могла]</span>
+                  </div>
+                </div>
               </div>
             </section>
           </div>
@@ -806,7 +916,9 @@
           <div class="row center-xl  center-xs">
             <div class="col-xl-11 col-xs-11">
               <a name="work_offers"></a>
-              <p class="main_title white_color_main_title">Вакансии в Нашей Команде</p>
+              <p class="main_title white_color_main_title">
+                Вакансии в Нашей Команде
+              </p>
               <p class="jobs_title">Отдел продаж</p>
               <p class="jobs_info">
                 Тут наши аккаунт-менеджеры чутко следят за счастьем наших
@@ -817,11 +929,21 @@
                 ну, вы поняли.
               </p>
               <div class="jobs_links">
-                <a class="jobs_links_ref" href="https://hh.ru/vacancy/32606404"><button class="offers_button offers_button_position">
-                  Руководитель отдела продаж
-                </button></a>
-                <a class="jobs_links_ref" href="https://hh.ru/vacancy/32229171"><button class="offers_button offers_button_position">Менеджер по продажам</button></a>
-                <a class="jobs_links_ref" href="https://hh.ru/vacancy/32229176"><button class="offers_button offers_button_position">Ведущий менеджер по работе с клиентами</button></a>
+                <a class="jobs_links_ref" href="https://hh.ru/vacancy/32606404"
+                  ><button class="offers_button offers_button_position">
+                    Руководитель отдела продаж
+                  </button></a
+                >
+                <a class="jobs_links_ref" href="https://hh.ru/vacancy/32229171"
+                  ><button class="offers_button offers_button_position">
+                    Менеджер по продажам
+                  </button></a
+                >
+                <a class="jobs_links_ref" href="https://hh.ru/vacancy/32229176"
+                  ><button class="offers_button offers_button_position">
+                    Ведущий менеджер по работе с клиентами
+                  </button></a
+                >
               </div>
               <p class="jobs_title">Отдел рекрутмента</p>
               <p class="jobs_info">
@@ -838,16 +960,42 @@
                 команды и одним из них.
               </p>
               <div class="jobs_links">
-                <a class="jobs_links_ref" href="https://hh.ru/vacancy/32572826"><button class="offers_button offers_button_position">IT Team lead / Руководитель группы подбора</button></a>
-                <a class="jobs_links_ref" href="https://hh.ru/vacancy/29827458"><button class="offers_button offers_button_position">IT - Рекрутер / Консультант</button></a>
-                </div>
+                <a class="jobs_links_ref" href="https://hh.ru/vacancy/32572826"
+                  ><button class="offers_button offers_button_position">
+                    IT Team lead / Руководитель группы подбора
+                  </button></a
+                >
+                <a class="jobs_links_ref" href="https://hh.ru/vacancy/29827458"
+                  ><button class="offers_button offers_button_position">
+                    IT - Рекрутер / Консультант
+                  </button></a
+                >
+              </div>
               <p class="jobs_title">Отдел внутреннего подбора</p>
               <p class="jobs_info">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a consectetur nisi. Phasellus a porta sapien, vel lacinia metus. Phasellus vitae molestie massa, at posuere lorem. In bibendum elit vel nisl gravida sagittis. Nulla quis efficitur nibh, eu ultricies nibh. Vestibulum consequat, orci at iaculis condimentum, enim augue euismod magna, efficitur dignissim magna metus id ex. Cras ac massa lectus. Donec cursus maximus ex, nec convallis eros posuere eget. Cras at eros diam. Pellentesque id augue ut nunc eleifend suscipit in eget tellus. Ut sodales, purus in fermentum facilisis, lorem libero bibendum felis, vitae venenatis erat leo nec tellus.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
+                consectetur nisi. Phasellus a porta sapien, vel lacinia metus.
+                Phasellus vitae molestie massa, at posuere lorem. In bibendum
+                elit vel nisl gravida sagittis. Nulla quis efficitur nibh, eu
+                ultricies nibh. Vestibulum consequat, orci at iaculis
+                condimentum, enim augue euismod magna, efficitur dignissim magna
+                metus id ex. Cras ac massa lectus. Donec cursus maximus ex, nec
+                convallis eros posuere eget. Cras at eros diam. Pellentesque id
+                augue ut nunc eleifend suscipit in eget tellus. Ut sodales,
+                purus in fermentum facilisis, lorem libero bibendum felis, vitae
+                venenatis erat leo nec tellus.
               </p>
               <div class="jobs_links">
-                <a class="jobs_links_ref" href="https://hh.ru/vacancy/32551284"><button class="offers_button offers_button_position">HR Business-partner</button></a>
-                <a class="jobs_links_ref" href="https://hh.ru/vacancy/32551280"><button class="offers_button offers_button_position">Ассистент HR BP</button></a>
+                <a class="jobs_links_ref" href="https://hh.ru/vacancy/32551284"
+                  ><button class="offers_button offers_button_position">
+                    HR Business-partner
+                  </button></a
+                >
+                <a class="jobs_links_ref" href="https://hh.ru/vacancy/32551280"
+                  ><button class="offers_button offers_button_position">
+                    Ассистент HR BP
+                  </button></a
+                >
               </div>
             </div>
           </div>
@@ -869,39 +1017,61 @@
                 <div class="v_grid_item">
                   <div class="v_grid_hover">
                     <p class="v_grid_title">НК НГ</p>
-                    <p class="v_grid_txt">Однажды после нашего торжества на Новый год нас даже выселили из офиса. И не факт, что это не то, о чем вы подумали</p>
+                    <p class="v_grid_txt">
+                      Однажды после нашего торжества на Новый год нас даже
+                      выселили из офиса. И не факт, что это не то, о чем вы
+                      подумали
+                    </p>
                   </div>
-                  <div class="v_grid_bottom v_grid_item_background_new_year"></div>
+                  <div
+                    class="v_grid_bottom v_grid_item_background_new_year"
+                  ></div>
                 </div>
                 <div class="v_grid_item">
                   <div class="v_grid_hover">
                     <p class="v_grid_title">ПУТЕШЕСТВИЯ</p>
-                    <p class="v_grid_txt">Походы, бани, выезды, палатки, яхты, горы, моря и океаны... без комментариев!</p>
+                    <p class="v_grid_txt">
+                      Походы, бани, выезды, палатки, яхты, горы, моря и
+                      океаны... без комментариев!
+                    </p>
                   </div>
-                  <div class="v_grid_bottom v_grid_item_background_travel"></div>
+                  <div
+                    class="v_grid_bottom v_grid_item_background_travel"
+                  ></div>
                 </div>
                 <div class="v_grid_item">
                   <div class="v_grid_hover">
                     <p class="v_grid_title">ЛЮБОВЬ К БЛИЖНИМ</p>
-                    <p class="v_grid_txt">Активно помогаем детскому дому, платим стипендию лучшим ученикам, ездим в гости.</p>
+                    <p class="v_grid_txt">
+                      Активно помогаем детскому дому, платим стипендию лучшим
+                      ученикам, ездим в гости.
+                    </p>
                   </div>
                   <div class="v_grid_bottom v_grid_item_background_help"></div>
                 </div>
                 <div class="v_grid_item">
                   <div class="v_grid_hover">
                     <p class="v_grid_title">ПОСВЯЩЕНИЕ</p>
-                    <p class="v_grid_txt">Странный, страшный, и дикий обряд посвящения новичков в рекрутеры проводится раз в год...</p>
+                    <p class="v_grid_txt">
+                      Странный, страшный, и дикий обряд посвящения новичков в
+                      рекрутеры проводится раз в год...
+                    </p>
                   </div>
-                  <div class="v_grid_bottom v_grid_item_background_initiation"></div>
+                  <div
+                    class="v_grid_bottom v_grid_item_background_initiation"
+                  ></div>
                 </div>
                 <div
                   class="v_grid_item"
-                  onmouseover="start('video_animation')"
-                  onmouseout="stop('video_animation')"
+                  onmouseover="startVideo('video_animation')"
+                  onmouseout="stopVideo('video_animation')"
                 >
                   <p class="v_grid_hover">
-                 <span class="v_grid_title">НК ДР</span>
-                   <span class="v_grid_txt"> Отмечаем не только ДР сотрудника, но и день его рождения в Нашей Команде</span>
+                    <span class="v_grid_title">НК ДР</span>
+                    <span class="v_grid_txt">
+                      Отмечаем не только ДР сотрудника, но и день его рождения в
+                      Нашей Команде</span
+                    >
                   </p>
                   <video
                     muted="muted"
@@ -909,30 +1079,40 @@
                     class="v_grid_bottom"
                     loop
                   >
-                    <source src="images/activities/birthday.webm" type="video/webm" />
+                    <source
+                      src="images/activities/birthday.webm"
+                      type="video/webm"
+                    />
                     Your browser does not support the video tag.
                   </video>
                 </div>
                 <div class="v_grid_item">
                   <div class="v_grid_hover">
                     <p class="v_grid_title">ЭКСПА</p>
-                    <p class="v_grid_txt">Каждый месяц набравшие больше всех очков получают премию и овации товарищей</p>
+                    <p class="v_grid_txt">
+                      Каждый месяц набравшие больше всех очков получают премию и
+                      овации товарищей
+                    </p>
                   </div>
                   <div class="v_grid_bottom v_grid_item_background_exp"></div>
                 </div>
                 <div class="v_grid_item">
                   <div class="v_grid_hover">
                     <p class="v_grid_title">СПОРТ</p>
-                    <p class="v_grid_txt">Пятничный футбол, уличный баскетбол и другие “клубы по интересам”</p>
+                    <p class="v_grid_txt">
+                      Пятничный футбол, уличный баскетбол и другие “клубы по
+                      интересам”
+                    </p>
                   </div>
                   <div class="v_grid_bottom v_grid_item_background_sport"></div>
                 </div>
                 <div class="v_grid_item">
                   <div class="v_grid_hover">
                     <p class="v_grid_title">ММБ</p>
-                    <p class="v_grid_txt">Таких тимбилдингов вы еще не видели.
-                      Когда мы хотим что-то корпоративно укрепить, то все идем на Московский Марш-бросок.
-                    Кто выжил - тот и укрепился :)
+                    <p class="v_grid_txt">
+                      Таких тимбилдингов вы еще не видели. Когда мы хотим что-то
+                      корпоративно укрепить, то все идем на Московский
+                      Марш-бросок. Кто выжил - тот и укрепился :)
                     </p>
                   </div>
                   <div class="v_grid_bottom v_grid_item_background_mmb"></div>
@@ -940,23 +1120,37 @@
                 <div class="v_grid_item v_grid_item_background_stuff">
                   <div class="v_grid_hover">
                     <p class="v_grid_title">МЕЛОЧИ</p>
-                    <p class="v_grid_txt">Обнимашки, “тайный друг”, обеденный сон… послеобеденный сон... и многое другое</p>
+                    <p class="v_grid_txt">
+                      Обнимашки, “тайный друг”, обеденный сон… послеобеденный
+                      сон... и многое другое
+                    </p>
                   </div>
                   <div class="v_grid_bottom v_grid_item_background_stuff"></div>
                 </div>
                 <div class="v_grid_item">
                   <div class="v_grid_hover">
                     <p class="v_grid_title">8 МАРТА</p>
-                    <p class="v_grid_txt">Безумное костюмированное мероприятие, где если СЕО нужно побриться под Ленина для образа - это даже не обсуждается.</p>
+                    <p class="v_grid_txt">
+                      Безумное костюмированное мероприятие, где если СЕО нужно
+                      побриться под Ленина для образа - это даже не обсуждается.
+                    </p>
                   </div>
-                  <div class="v_grid_bottom v_grid_item_background_march8"></div>
+                  <div
+                    class="v_grid_bottom v_grid_item_background_march8"
+                  ></div>
                 </div>
                 <div class="v_grid_item">
                   <div class="v_grid_hover">
                     <p class="v_grid_title">23 ФЕВРАЛЯ</p>
-                    <p class="v_grid_txt">Единственное, что может соревноваться с 8 Марта - это фееричные выступления наших девушек на 23 февраля с эффектом полного погружения</p>
+                    <p class="v_grid_txt">
+                      Единственное, что может соревноваться с 8 Марта - это
+                      фееричные выступления наших девушек на 23 февраля с
+                      эффектом полного погружения
+                    </p>
                   </div>
-                  <div class="v_grid_bottom v_grid_item_background_february23"></div>
+                  <div
+                    class="v_grid_bottom v_grid_item_background_february23"
+                  ></div>
                 </div>
                 <div class="v_grid_item">
                   <div class="v_grid_hover">
@@ -970,7 +1164,9 @@
           </div>
         </div>
       </div>
-      <section class="hidden-md hidden-sm hidden-xs dark_theme_background section_padding">
+      <section
+        class="hidden-md hidden-sm hidden-xs dark_theme_background section_padding"
+      >
         <div class="container">
           <div class="row center-xl">
             <div class="col-xl-11">
@@ -1075,7 +1271,10 @@
         </div>
       </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"
+    ></script>
     <script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
     <script src="./js/main.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://kit.fontawesome.com/42c8895b8e.js"></script>

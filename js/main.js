@@ -35,11 +35,11 @@ $(document).on("ready", function() {
 
 
 /*play on hover for video*/
-  function start(videoId) {
+  function startVideo(videoId) {
     const video = document.getElementById(videoId);
     video.play();
   }
-  function stop(videoId) {
+  function stopVideo(videoId) {
     const video = document.getElementById(videoId);
     video.pause();
   }
@@ -50,7 +50,19 @@ $(document).on("ready", function() {
       var scrollPosition = window.pageYOffset;
       var limit = bgParallax.offsetTop + bgParallax.offsetHeight;  
       if (scrollPosition > bgParallax.offsetTop && scrollPosition <= limit){
-      bgParallax.style.backgroundPositionY = (50 - 45 * scrollPosition/limit) + '%';    
+      bgParallax.style.backgroundPositionY = (50 - 90 * scrollPosition/limit) + '%';    
+      }else{
+      bgParallax.style.backgroundPositionY = '50%';    
+  }
+}); 
+
+/* */
+var bgParallax = document.getElementsByClassName('canvas');
+      window.addEventListener('scroll', function(){
+      var scrollPosition = window.pageYOffset;
+      var limit = bgParallax.offsetTop + bgParallax.offsetHeight;  
+      if (scrollPosition > bgParallax.offsetTop && scrollPosition <= limit){
+      bgParallax.style.backgroundPositionY = (50 - 90 * scrollPosition/limit) + '%';    
       }else{
       bgParallax.style.backgroundPositionY = '50%';    
   }
@@ -61,15 +73,7 @@ $(document).on("ready", function() {
 function $i(t) {
   return document.getElementById(t);
 }
-function $r(t, r) {
-  document.getElementById(t).removeChild(document.getElementById(r));
-}
-function $t(t) {
-  return document.getElementsByTagName(t);
-}
-function $c(t) {
-  return String.fromCharCode(t);
-}
+
 function $h(t) {
   return ("0" + Math.max(0, Math.min(255, Math.round(t))).toString(16)).slice(
     -2
@@ -86,6 +90,7 @@ function get_screen_size() {
     r = document.documentElement.clientHeight;
   return Array(t, r);
 }
+
 function init() {
   for (var t = 0; n > t; t++)
     (star[t] = new Array(5)),
@@ -99,13 +104,15 @@ function init() {
     (r.width = w),
     (r.height = h),
     (context = r.getContext("2d")),
-    (context.fillStyle = "rgb(39, 35, 39)"),
-    (context.strokeStyle = "rgb(191, 114, 59)");
+    (context.strokeStyle = "rgba(191, 114, 59, 1)");
 }
 function anim() {
   (mouse_x = cursor_x - x),
     (mouse_y = cursor_y - y),
     context.fillRect(0, 0, w, h);
+  if (bgImage) {
+      context.drawImage(bgImage,0, 0,w,h); 
+  }
   for (var t = 0; n > t; t++)
     (test = !0),
       (star_x_save = star[t][3]),
@@ -134,8 +141,14 @@ function anim() {
         context.closePath());
   timeout = setTimeout("anim()", fps);
 }
-function start() {
+let bgImage;
+function startCanvas() {
   resize(), anim();
+    const  bgImageLoading = new Image();
+  bgImageLoading.src = './images/headerBackground.jpg';
+  bgImageLoading.onload = function(){
+    bgImage = bgImageLoading
+  }
 }
 function resize() {
   (w = parseInt(
@@ -183,33 +196,11 @@ var url = document.location.href,
                 url.substring(url.indexOf("n=") + 2, url.length).indexOf("&")
             : url.length
         )
-      : 812
+      : 3000
   ),
-  w = 0,
-  h = 0,
-  x = 0,
-  y = 0,
-  z = 0,
-  star_color_ratio = 0,
-  star_x_save,
-  star_y_save,
-  star_ratio = 115,
+  star_ratio = 100,
   star_speed = 0.5,
   star_speed_save = 0,
   star = new Array(n),
-  color,
-  opacity = 0.1,
-  cursor_x = 0,
-  cursor_y = 0,
-  mouse_x = 0,
-  mouse_y = 0,
-  canvas_x = 0,
-  canvas_y = 0,
-  canvas_w = 0,
-  canvas_h = 0,
-  context,
-  key,
-  ctrl,
-  timeout,
   fps = 30;
-start();
+startCanvas();
