@@ -1851,8 +1851,6 @@ background-color: rgba(247, 240, 240, 0.5);
 }
 .star_team_member_container{
 position: relative;
-background-color: red;
-color:blue;
 }
 .star_team_member_top_img{
   position: absolute;
@@ -2148,7 +2146,6 @@ display: flex;
 
   #parallax{
     width:100%;
-    background-color:red;
     background-image:url('../images/MilkyWayGalaxywithbulge.jpg');
     background-position:center;  
     background-repeat:no-repeat;	

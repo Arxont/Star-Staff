@@ -55,18 +55,7 @@ $(document).on("ready", function() {
       bgParallax.style.backgroundPositionY = '50%';    
   }
 }); 
-
-/* */
-var bgParallax = document.getElementsByClassName('canvas');
-      window.addEventListener('scroll', function(){
-      var scrollPosition = window.pageYOffset;
-      var limit = bgParallax.offsetTop + bgParallax.offsetHeight;  
-      if (scrollPosition > bgParallax.offsetTop && scrollPosition <= limit){
-      bgParallax.style.backgroundPositionY = (50 - 90 * scrollPosition/limit) + '%';    
-      }else{
-      bgParallax.style.backgroundPositionY = '50%';    
-  }
-}); 
+ 
 
 
 /*canvas*/
