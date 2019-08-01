@@ -50,7 +50,7 @@ $(document).on("ready", function() {
       var scrollPosition = window.pageYOffset;
       var limit = bgParallax.offsetTop + bgParallax.offsetHeight;  
       if (scrollPosition > bgParallax.offsetTop && scrollPosition <= limit){
-      bgParallax.style.backgroundPositionY = (50 - 90 * scrollPosition/limit) + '%';    
+      bgParallax.style.backgroundPositionY = (50 - 45 * scrollPosition/limit) + '%';    
       }else{
       bgParallax.style.backgroundPositionY = '50%';    
   }
