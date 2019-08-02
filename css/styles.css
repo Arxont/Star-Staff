@@ -1401,7 +1401,6 @@ main, footer{
   position: absolute;
   height:auto;
   width:100%;
-  cursor: pointer;
   z-index:5;
 }
 main, footer{

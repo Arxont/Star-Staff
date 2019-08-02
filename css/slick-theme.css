@@ -71,7 +71,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: black;
+    color: white;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -207,7 +207,7 @@
     text-align: center;
 
     opacity: .25;
-    color: black;
+    color: white;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -216,7 +216,7 @@
 {
     
     opacity: .75;
-    color: black;
+    color: white;
     content: '◎';
 }
 
