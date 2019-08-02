@@ -2108,6 +2108,7 @@ display: flex;
           justify-content: space-between;
   text-align: start;
   font-size: 15px;
+  padding-top:2%;
 }
 .client_review_column{
   width:49%;
