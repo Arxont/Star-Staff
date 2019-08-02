@@ -1380,9 +1380,10 @@ main, footer{
 
 
 
+
+
 .video_container{
   position:relative;
-  background-color:rgb(39, 35, 39);
   width:100%;
   height:800px;
   opacity:0.8;
@@ -1394,18 +1395,15 @@ main, footer{
   width:100%;
   height:800px;
   object-fit: fill;
-  z-index:-1; 
-  
+  z-index:-1;
 }
-.content{
-  position:absolute;
+.rest_of_the_content{
+  position: absolute;
+  height:auto;
   width:100%;
-  height:100%;
-  z-index:2;
-  color:white;
+  cursor: pointer;
+  z-index:5;
 }
-
-
 main, footer{
   background-color: white;
 }
@@ -1439,26 +1437,7 @@ main, footer{
 }
 
 
-.section_padding{
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
-}
-.dark_theme_background {
-  background-color: rgb(50, 65, 88);
-}
-.parallax_background{
-  -webkit-box-shadow: inset 0 0 0 1000px rgba(46, 49, 63, 0.9);
-          box-shadow: inset 0 0 0 1000px rgba(46, 49, 63, 0.9);
-  background: url('../images/vacancyBackground.webp');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%; 
-  
 
-
-}
 
 .header-menu {
   display: -webkit-box;
@@ -1607,7 +1586,7 @@ margin:0.5%;
   height: 150px;
   width: 20%;
   position: absolute;
-  z-index: 1;
+  z-index: 100;
   color: #ff6600;
   font-size: 30px;
 }
@@ -1805,7 +1784,7 @@ display: flex;
 
 
 .slider {
-  width: 100%;
+  width: 90%;
   margin: auto;
   padding-top: 2%;
   text-align: start;
@@ -1853,14 +1832,14 @@ background-color: rgba(247, 240, 240, 0.5);
   background-color: rgba(247, 240, 240, 0.5);
 }
 .slide_title{
-  padding-left: 10%;
+  text-align: center;
 }
+
+
 .slide_subtitle{
   padding-left: 10%;
 }
-.full_slide_title{
-  padding-left: 5%;
-}
+
 .big_size_img{
   padding: 5% 0 5% 0;
   max-width: 100%;
@@ -2057,6 +2036,24 @@ video{
 
 .coordinates_title{
   color:#ff6600;
+}
+
+.section_padding{
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+.dark_theme_background {
+  background-color: rgb(50, 65, 88);
+}
+.parallax_background{
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(46, 49, 63, 0.9);
+          box-shadow: inset 0 0 0 1000px rgba(46, 49, 63, 0.9);
+  background: url('../images/vacancyBackground.webp');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
 }
 
 .jobs_title {

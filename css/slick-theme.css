@@ -112,7 +112,7 @@
 {
     content: '←';
 }
-@media (max-width: 991px){
+@media (max-width: 575px){
     .slick-prev:before,
     .slick-next:before
     {
