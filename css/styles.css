@@ -2138,15 +2138,19 @@ display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+          padding-top:2%;
   
 }
 
+.yandex_link{
+  text-decoration: none;
+}
 
-#map {
+
+.map_container {
   height: auto;
   width: 53%;
   margin:0;
-  background-color: red;
 }
 .coordinates_text{
   width:45%;
@@ -2155,6 +2159,12 @@ display: flex;
 
 .container1{
   display: none;
+}
+.footer_rights{
+  margin-top: 5%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
 @media (max-width: 991px){
@@ -2319,10 +2329,10 @@ background-color: transparent;
 .jobs_links_ref{
   width: 100%;
 }
-.faq, .coordinates{
+.coordinates{
   display: block;
 }
-.faq_txt, .coordinates_text{
+.coordinates_text{
   width:100%;
 }
 .mobile_contacts_links{
