@@ -1374,6 +1374,9 @@ body {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
 }
+main, footer{
+  background-color: white;
+}
 
 
 
@@ -1388,7 +1391,7 @@ body {
 #video{
   position:absolute;
   width:100%;
-  height:100%;
+  height:800px;
 object-fit: fill;
  Z-index:-1; 
   opacity:0.5;
@@ -1402,21 +1405,15 @@ object-fit: fill;
 }
 
 
-
-
-
-
-
-/*
-canvas {
-  width:100%;
-  height: 800px;
-  z-index:-2;
-}
-*/
 main, footer{
   background-color: white;
 }
+
+
+
+
+
+
 
 .background_bittersweet{
   background-color:rgb(255, 97, 97);
@@ -1608,7 +1605,6 @@ margin:0.5%;
 .shift-txt_val {
   height: 150px;
   width: 20%;
-  text-align: center;
   position: absolute;
   z-index: 1;
   color: #ff6600;
@@ -1616,16 +1612,20 @@ margin:0.5%;
 }
 .shift-txt_time {
   left: 0;
+  text-align: start;
 }
 .shift-txt_hist {
   left: 25%;
+  text-align: center;
 }
 
 .shift-txt_exp {
   left: 50%;
+  text-align: center;
 }
 .shift-txt_val {
   right: 0;
+  text-align: end;
 }
 .shift-txt_time:hover,
 .shift-txt_hist:hover,
@@ -2017,7 +2017,7 @@ background-repeat: no-repeat;
 }
 
 .v_grid_hover{
-background-color: rgba(58, 99, 31, 0.5);
+background-color: rgba(48, 48, 48, 0.5);
 z-index: 1;
 position: absolute;
 width:100%;
@@ -2047,8 +2047,8 @@ display: flex;
 .v_grid_bottom{
   width: 100%;
   height: 100%;
-  -webkit-filter: blur(2px);
-          filter: blur(2px);
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
 }
 .v_grid_hover:hover~.v_grid_bottom{
   -webkit-filter: blur(0px);
@@ -2172,30 +2172,20 @@ display: flex;
 }
 
 @media (max-width: 991px){
-  canvas{
-    display: none;
+  .mobile_background{
+  width: 100%;
+  height: 800px;  
+  background-image:url('../images/headerBackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: -2;
   }
 
   .video_container{
     display: none;
   }
 
-  #parallax{
-    width:100%;
-    background-image:url('../images/MilkyWayGalaxywithbulge.jpg');
-    background-position:center;  
-    background-repeat:no-repeat;	
-    /*background-size:cover;*/
-    color:#FFF;
-  }
-    /*
-    width:100%;
-    background-image: url('../images/MilkyWayGalaxywithbulge.jpg'); 
-    background-position:center;  
-    background-repeat:no-repeat;	
-    background-size: cover; 
-    
-  } */
   .top-border{
     width:100%;
   }
