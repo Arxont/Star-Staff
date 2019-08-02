@@ -112,7 +112,21 @@
 {
     content: '←';
 }
-
+@media (max-width: 991px){
+    .slick-prev:before,
+    .slick-next:before
+    {
+        font-family: 'slick';
+        font-size: 0px;
+        line-height: 1;
+    
+        opacity: .75;
+        color: black;
+    
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
 
 /* Dots */
 .slick-dotted.slick-slider
@@ -205,3 +219,4 @@
     color: black;
     content: '◎';
 }
+
