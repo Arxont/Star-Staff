@@ -7,8 +7,8 @@ $(document).on("ready", function() {
   });
 
  /*mobile popup nav*/
-  const showDialog = () => {
-    document.getElementById("dialog").classList.add("show");
+  const showPopUp = () => {
+    document.getElementById("popUp_screen").classList.add("show");
     const scrollY = document.documentElement.style.getPropertyValue(
       "--scroll-y"
     );
@@ -16,7 +16,7 @@ $(document).on("ready", function() {
     body.style.height = "100vh";
     body.style.overflowY = "hidden";
   };
-  const closeDialog = () => {
+  const closePopUp = () => {
     const body = document.body;
     const scrollY = body.style.top;
     body.style.position = "";
@@ -24,7 +24,7 @@ $(document).on("ready", function() {
     body.style.height = "";
     body.style.overflowY = "";
     window.scrollTo(0, parseInt(scrollY || "0") * -1);
-    document.getElementById("dialog").classList.remove("show");
+    document.getElementById("popUp_screen").classList.remove("show");
   };
   window.addEventListener("scroll", () => {
     document.documentElement.style.setProperty(

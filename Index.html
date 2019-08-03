@@ -23,79 +23,74 @@
 
   <body>
     <header>
-     <div class="mobile_background"></div>
-        <div class="container">
-          <div class="row center-xs hidden-lg hidden-xl">
-            <div class="col-xs-11">
-              <section class="mobile_head">
-                <div class="mobile_nav">
-                  <section class="mobile_nav_popup">
-                    <span id="show" onClick="showDialog()">&#9776;</span>
-                    <img
-                      class="logo_img"
-                      src="images/logo.png"
-                      alt="Legendary!"
-                    />
-                    <div id="dialog">
-                      <div class="container">
-                        <div class="row center-xs hidden-lg hidden-xl">
-                          <div class="col-xs-11">
-                            <div class="mobile_popup_container">
-                              <div class="popup_links">
-                                <a href="#RA_work" onclick="closeDialog()"
-                                  >Работа в КА</a
-                                >
-                                <a href="#about_rec" onclick="closeDialog()"
-                                  >О рекрутменте</a
-                                >
-                                <a href="#daWay" onclick="closeDialog()"
-                                  >Путь</a
-                                >
-                                <a href="#work_offers" onclick="closeDialog()"
-                                  >Вакансии</a
-                                >
-                                <a href="#contacts" onclick="closeDialog()"
-                                  >Контакты</a
-                                >
-                              </div>
-                              <span id="close" onClick="closeDialog()">
-                                &#9776;
-                              </span>
+      <div class="mobile_background"></div>
+      <div class="container">
+        <div class="row center-xs hidden-lg hidden-xl">
+          <div class="col-xs-11">
+            <section class="mobile_head">
+              <div class="mobile_nav">
+                <section class="mobile_nav_popup">
+                  <span id="show" onClick="showPopUp()">&#9776;</span>
+                  <img
+                    class="logo_img"
+                    src="images/logo.png"
+                    alt="Legendary!"
+                  />
+                  <div id="popUp_screen">
+                    <div class="container">
+                      <div class="row center-xs hidden-lg hidden-xl">
+                        <div class="col-xs-11">
+                          <div class="mobile_popup_container">
+                            <div class="popup_links">
+                              <a href="#RA_work_mobile" onclick="closePopUp()"
+                                >Работа в КА</a
+                              >
+                              <a href="#about_rec" onclick="closePopUp()"
+                                >О рекрутменте</a
+                              >
+                              <a href="#daWay" onclick="closePopUp()">Путь</a>
+                              <a href="#work_offers" onclick="closePopUp()"
+                                >Вакансии</a
+                              >
+                              <a href="#contacts" onclick="closePopUp()"
+                                >Контакты</a
+                              >
                             </div>
+                            <span id="close" onClick="closePopUp()">
+                              &#9776;
+                            </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </section>
-                </div>
-
-                <div class="mobile-heading">
-                  <h3 class="heading_title">
-                    Каждому человеку - любимую работу!
-                  </h3>
-                  <div class="bottom-border"></div>
-                  <p class="mobile-heading_txt">
-                    "Весь мир делится на айтишников и тех,кто их ищет" Обучись
-                    IT-рекрутменту у лучших.
-                  </p>
-                  <div class="media_container">
-                    <a href="https://vk.com/star_staff"
-                      ><div class="social_media_link">
-                        <img
-                          class="social_media_img"
-                          src="images/vk.svg"
-                        /></div
-                    ></a>
-                    <a href="https://www.linkedin.com/company/star-staff/"
-                      ><div class="social_media_link">
-                        <img
-                          class="social_media_img"
-                          src="images/linkedin.svg"
-                        /></div
-                    ></a>
                   </div>
+                </section>
+              </div>
+
+              <div class="mobile-heading">
+                <h3 class="heading_title">
+                  Каждому человеку - любимую работу!
+                </h3>
+                <div class="bottom-border"></div>
+                <p class="mobile-heading_txt">
+                  "Весь мир делится на айтишников и тех,кто их ищет" Обучись
+                  IT-рекрутменту у лучших.
+                </p>
+                <div class="media_container">
+                  <a href="https://vk.com/star_staff"
+                    ><div class="social_media_link">
+                      <img class="social_media_img" src="images/vk.svg" /></div
+                  ></a>
+                  <a href="https://www.linkedin.com/company/star-staff/"
+                    ><div class="social_media_link">
+                      <img
+                        class="social_media_img"
+                        src="images/linkedin.svg"
+                      /></div
+                  ></a>
                 </div>
-                <div class="mobile-heading">
+              </div>
+              <div class="mobile-heading">
                 <div class="mobile-progress top-border">
                   <p>
                     С <span class="orange-color">2007</span> года подбираем
@@ -117,130 +112,140 @@
                   </p>
                 </div>
               </div>
-                <img src="images/arrowDown.svg" alt="arrow" />
-              </section>
-            </div>
-          </div>
-        </div>
-
-        <div class="rest_of_the_content">
-      <div class="container">
-        <div class="row center-xl hidden-md hidden-sm hidden-xs">
-
-          <div class="col-xl-11">
-            <section class="header-menu">
-              <div class="logo">
-                <img class="logo_img" src="images/logo.png" alt="logo" />
-                <p class="logo_txt">
-                  Кадровое агенство<br />
-                  Star Staff
-                </p>
-              </div>
-              <nav class="header-menu_nav">
-                <a class="nav_link" href="#RA_work">Работа в КА</a>
-                <a class="nav_link" href="#about_rec">О рекрутменте</a>
-                <a class="nav_link" href="#daWay">Путь</a>
-                <a class="nav_link" href="#our_team">Команда</a>
-                <a class="nav_link" href="#work_offers">Вакансии</a>
-                <a class="nav_link" href="#contacts">Контакты</a>
-              </nav>
-            </section>
-            <section>
-              <h1 class="main_title bottom-border company_name">
-                Star-Staff
-              </h1>
-              <div class="shift-txt">
-                <div class="shift-txt_time">ВРЕМЯ</div>
-                <div class="shift-txt_hist">ИСТОРИЯ</div>
-                <div class="shift-txt_exp">ОПЫТ</div>
-                <div class="shift-txt_val">ЦЕННОСТЬ</div>
-                <div class="shift-txt_bottom-time">
-                 <p>С <span class="orange-color">2007</span> года подбираем
-                  толковых IT-шников в компании</p>
-                </div>
-                <div class="shift-txt_bottom-hist">
-                 <p>Основано
-                  <span class="orange-color">программистами</span> -выпускниками
-                  мехмата МГУ</p>
-                </div>
-                <div class="shift-txt_bottom-exp">
-                  <p>За <span class="orange-color">11 лет</span> и
-                  <span class="orange-color">450k</span> человек в базе накоплен
-                  опыт, которым рады делиться</p>
-                </div>
-                <div class="shift-txt_bottom-val">
-                  <p>Благодаря нам люди находят действительно
-                  <span class="orange-color">любимую работу</span></p>
-                </div>
-              </div>
-              <div class="heading">
-                <h2 class="heading_title">
-                  Каждому человеку - любимую работу!
-                </h2>
-                <div class="heading-subtitle">
-                  <p class="heading-subtitle_txt top-border">
-                    "Весь мир делится на айтишников и тех, кто их ищет" Обучись
-                    IT-рекрутменту у лучших.
-                  </p>
-                </div>
-                <div class="media_container">
-                  <a href="https://vk.com/star_staff"
-                    ><div class="social_media_link">
-                      <img class="social_media_img" src="images/vk.svg" /></div
-                  ></a>
-                  <a href="https://www.linkedin.com/company/star-staff/"
-                    ><div class="social_media_link">
-                      <img
-                        class="social_media_img"
-                        src="images/linkedin.svg"
-                      /></div
-                  ></a>
-                </div>
-              </div>
-              <div class="wiki">
-                <img
-                  class="wiki_img"
-                  src="images/legendary.png"
-                  alt="Legendary!"
-                />
-                <p class="wiki_txt">
-                  Фанатам нашего Wiki сайта -
-                  <a
-                    class="wiki_link"
-                    href="http://star-staff.ru/wiki/Int_main()"
-                    >он жив</a
-                  >
-                </p>
-              </div>
+              <img class="arrowDown" src="images/arrowDown.svg" alt="arrow" />
             </section>
           </div>
         </div>
       </div>
-    </div>
+
+      <div class="rest_of_the_content">
+        <div class="container">
+          <div class="row center-xl hidden-md hidden-sm hidden-xs">
+            <div class="col-xl-11">
+              <section class="header-menu">
+                <div class="logo">
+                  <img class="logo_img" src="images/logo.png" alt="logo" />
+                  <p class="logo_txt">
+                    Кадровое агенство<br />
+                    Star Staff
+                  </p>
+                </div>
+                <nav class="header-menu_nav">
+                  <a class="nav_link" href="#RA_work">Работа в КА</a>
+                  <a class="nav_link" href="#about_rec">О рекрутменте</a>
+                  <a class="nav_link" href="#daWay">Путь</a>
+                  <a class="nav_link" href="#our_team">Команда</a>
+                  <a class="nav_link" href="#work_offers">Вакансии</a>
+                  <a class="nav_link" href="#contacts">Контакты</a>
+                </nav>
+              </section>
+              <section>
+                <h1 class="main_title bottom-border company_name">
+                  Star-Staff
+                </h1>
+                <div class="shift-txt">
+                  <div class="shift-txt_time">ВРЕМЯ</div>
+                  <div class="shift-txt_hist">ИСТОРИЯ</div>
+                  <div class="shift-txt_exp">ОПЫТ</div>
+                  <div class="shift-txt_val">ЦЕННОСТЬ</div>
+                  <div class="shift-txt_bottom-time">
+                    <p>
+                      С <span class="orange-color">2007</span> года подбираем
+                      толковых IT-шников в компании
+                    </p>
+                  </div>
+                  <div class="shift-txt_bottom-hist">
+                    <p>
+                      Основано
+                      <span class="orange-color">программистами</span>
+                      -выпускниками мехмата МГУ
+                    </p>
+                  </div>
+                  <div class="shift-txt_bottom-exp">
+                    <p>
+                      За <span class="orange-color">11 лет</span> и
+                      <span class="orange-color">450k</span> человек в базе
+                      накоплен опыт, которым рады делиться
+                    </p>
+                  </div>
+                  <div class="shift-txt_bottom-val">
+                    <p>
+                      Благодаря нам люди находят действительно
+                      <span class="orange-color">любимую работу</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="heading">
+                  <h2 class="heading_title">
+                    Каждому человеку - любимую работу!
+                  </h2>
+                  <div class="heading-subtitle">
+                    <p class="heading-subtitle_txt top-border">
+                      "Весь мир делится на айтишников и тех, кто их ищет"
+                      Обучись IT-рекрутменту у лучших.
+                    </p>
+                  </div>
+                  <div class="media_container">
+                    <a href="https://vk.com/star_staff"
+                      ><div class="social_media_link">
+                        <img
+                          class="social_media_img"
+                          src="images/vk.svg"
+                        /></div
+                    ></a>
+                    <a href="https://www.linkedin.com/company/star-staff/"
+                      ><div class="social_media_link">
+                        <img
+                          class="social_media_img"
+                          src="images/linkedin.svg"
+                        /></div
+                    ></a>
+                  </div>
+                </div>
+                <div class="wiki">
+                  <img
+                    class="wiki_img"
+                    src="images/legendary.png"
+                    alt="Legendary!"
+                  />
+                  <p class="wiki_txt">
+                    Фанатам нашего Wiki сайта -
+                    <a
+                      class="wiki_link"
+                      href="http://star-staff.ru/wiki/Int_main()"
+                      >он жив</a
+                    >
+                  </p>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="video_container">
-          <video preload="preload" id="video" autoplay="autoplay" loop="loop"  muted>
-        <source src="https://webm.red/wlzZ.webm" type="video/webm">
+        <video
+          poster="images/headerBackground.jpg"
+          preload="auto"
+          id="video"
+          autoplay="autoplay"
+          loop="loop"
+          muted
+        >
+          <source src="https://webm.red/wlzZ.webm" type="video/webm" />
+          <source src="https://webm.red/wlzZ.mp4" type="video/mp4" />
         </video>
-
-  </div>
-  
-
-  
-
-
-
+      </div>
     </header>
-
     <main>
       <div class="container">
         <div class="row center-xl center-xs hidden-md hidden-sm hidden-xs">
           <div class="col-xl-11 col-xs-11">
             <section class="section_padding">
-                <a name="RA_work"></a>
+              <a name="RA_work"></a>
               <p class="main_title grey_color_main_title">
                 Возможные позиции в нашей команде
               </p>
-              <img src="images/arrowDown.svg" alt="arrow" />
+              <img class="arrowDown" src="images/arrowDown.svg" alt="arrow" />
               <div>
                 <div class="possible_positions_list">
                   <div
@@ -268,31 +273,63 @@
                     class="pp_hidden_left_container possible_positions_left_card"
                   >
                     <p>Рекрутер</p>
-                    <img src="images/arrowDown.svg" alt="arrow" />
+                    <img
+                      class="arrowDown"
+                      src="images/arrowDown.svg"
+                      alt="arrow"
+                    />
                     <p>Рекрутер-консультант</p>
-                    <img src="images/arrowDown.svg" alt="arrow" />
+                    <img
+                      class="arrowDown"
+                      src="images/arrowDown.svg"
+                      alt="arrow"
+                    />
                     <p>Тимлид</p>
-                    <img src="images/arrowDown.svg" alt="arrow" />
+                    <img
+                      class="arrowDown"
+                      src="images/arrowDown.svg"
+                      alt="arrow"
+                    />
                     <p>Руководитель отдела</p>
                   </div>
                   <div
                     class="pp_hidden_center_container possible_positions_center_card"
                   >
                     <p>Сейлз</p>
-                    <img src="images/arrowDown.svg" alt="arrow" />
+                    <img
+                      class="arrowDown"
+                      src="images/arrowDown.svg"
+                      alt="arrow"
+                    />
                     <p>Руководитель группы продаж</p>
-                    <img src="images/arrowDown.svg" alt="arrow" />
+                    <img
+                      class="arrowDown"
+                      src="images/arrowDown.svg"
+                      alt="arrow"
+                    />
                     <p>Руководитель отдела</p>
-                    <img src="images/arrowDown.svg" alt="arrow" />
+                    <img
+                      class="arrowDown"
+                      src="images/arrowDown.svg"
+                      alt="arrow"
+                    />
                     <p>Партнер</p>
                   </div>
                   <div
                     class="pp_hidden_right_container possible_positions_right_card"
                   >
                     <p>Менеджер проектов</p>
-                    <img src="images/arrowDown.svg" alt="arrow" />
+                    <img
+                      class="arrowDown"
+                      src="images/arrowDown.svg"
+                      alt="arrow"
+                    />
                     <p>Руководитель проектов</p>
-                    <img src="images/arrowDown.svg" alt="arrow" />
+                    <img
+                      class="arrowDown"
+                      src="images/arrowDown.svg"
+                      alt="arrow"
+                    />
                     <p>Партнер в дочернем бизнесе</p>
                   </div>
                 </div>
@@ -321,7 +358,7 @@
                 проводить собеседования
               </p>
               <p class="main_title">А если поподробней?</p>
-              <img src="images/arrowDown.svg" alt="arrow" />
+              <img class="arrowDown" src="images/arrowDown.svg" alt="arrow" />
               <p>
                 Любую работу можно разложить на простые действия, а также
                 примерно оценить процентное соотношение - сколько времени
@@ -374,7 +411,7 @@
                       сможешь развиваться гораздо быстрее, чем в одиночку.
                       Главное - хотеть развиваться и зарабатывать ;)
                     </p>
-                    <p class="table_of_duties_percent">5%</p>
+                    <p class="table_of_duties_percent qq">5%</p>
                   </div>
                 </div>
                 <div class="duties_column">
@@ -408,164 +445,159 @@
         </div>
       </div>
 
-
-
       <section class="dark_theme_background section_padding">
-          <div class="container">
-            <div class="row center-xl">
-              <div class="col-xl-11">
-                  <section class="slider">
-                      <div class="slide slide_plus_background">
-                        <div class="slide_1position">
-                          <p class="slide_title">ПЛЮСЫ РЕКРУТМЕНТА</p>
-                          <ul>
-                            <li>
-                              Драйв и движуха через край.
-                              <span class="hidden-md hidden-sm hidden-xs"
-                                >Жизнь вокруг кипит так, что конец рабочего дня
-                                наступает незаметно и даже не желанно.</span
-                              >
-                            </li>
-                            <li>
-                              Постоянное обучение и развитие.
-                              <span class="hidden-md hidden-sm hidden-xs"
-                                >У личного куратора и на групповых тренингах.</span
-                              >
-                            </li>
-                            <li>
-                              Работа на результат.<span
-                                class="hidden-md hidden-sm hidden-xs"
-                              >
-                                В КА идут те, кто хочет через 4-8 мес. зарабатывать
-                                100-150k/мес.</span
-                              >
-                            </li>
-                            <li>
-                              <span class="hidden-md hidden-sm hidden-xs">
-                                У нас работают исключительно люди с “рекрутерской”
-                                жилкой, с высоким уровнем осознанности и кайфующие от
-                                постоянного развития.</span
-                              ><span class="hidden-lg hidden-xl"
-                                >Вокруг люди с высоким уровнем осознанности и кайфцющие
-                                от постоянного развития.</span
-                              >
-                            </li>
-                            <li>
-                              Полезная работа, которая реально делает жизнь людей лучше.
-                              <span class="hidden-md hidden-sm hidden-xs">
-                                Серьезно, мы здесь не только про хорошо заработать, а
-                                еще и хорошее дело делаем - помогаем людям найти любимую
-                                работу.</span
-                              >
-                            </li>
-                            <li>
-                              Приятный график.
-                              <span class="hidden-md hidden-sm hidden-xs"
-                                >Первое время нужно быть пунктуальным 10-19, далее
-                                график гибкий. Для Джедаев - свободный</span
-                              >
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-        
-                      <div class="slide slide_minus_background">
-                        <div class="slide_2position">
-                          <p class="slide_title">МИНУСЫ РЕКРУТМЕНТА</p>
-                          <ul>
-                            <li>Нервная работа. Большие эмоциональные нагрузки.</li>
-                            <li>
-                              Хороший кандидат иногда может приехать на собеседование в
-                              8 утра или 8 вечера.
-                            </li>
-                            <li>
-                              Постоянное обучение и развитие. Прокрастинация не пройдет.
-                            </li>
-                            <li>
-                              Прямые фидбеки о плюсах и минусах - именно они ведут к
-                              быстрому и крутому росту.
-                            </li>
-                            <li>
-                              Нет стабильного дохода. Слегка расслабился - слегка и
-                              заработал. Может быть просадка на старте.
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="slide slide_plus_minus_background">
-                        <div class="slide_3position">
-                          <p class="slide_title">
-                            <span class="orange-color">ПЛЮ</span>НУСЫ
-                          </p>
-                          <p class="slide_subtitle">
-                            то, что для кого-то является плюсом, а для других - минусом
-                          </p>
-                          <ul>
-                            <li>
-                              Очень высокий темп.<span
-                                class="hidden-md hidden-sm hidden-xs"
-                              >
-                                Множество вызовов - шансов все зафакапить или проявить
-                                себя.</span
-                              >
-                            </li>
-                            <li>
-                              Работа, где реально много общения с людьми.<span
-                                class="hidden-md hidden-sm hidden-xs"
-                              >
-                                С нами просто не сможет выжить человек, который хочет
-                                делать всегда понятную работу без постоянных челленджей
-                                и бэклога из 500 задач.</span
-                              >
-                            </li>
-                            <li>
-                              Все обучение в перемешку с практикой. Нет времени
-                              расслабиться
-                              <span class="hidden-md hidden-sm hidden-xs"
-                                >или взять паузу - только вперед и в темпе</span
-                              >.
-                            </li>
-                            <li>
-                              Финансовый результат сильно зависит от качества работы и,
-                              порою, от удачи.
-                            </li>
-                            <li>
-                              <span class="hidden-md hidden-sm hidden-xs"
-                                >Обнимающийся со всеми гендир в маске Магистра Йоды…
-                                тебе решать, как к этому относиться.</span
-                              >
-                              Любителям костюмов рядом с фанатами тапочек и кроксов
-                              будет явно не комильфо.
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </section>
-              </div>
+        <div class="container">
+          <div class="row center-xl">
+            <div class="col-xl-11">
+              <section class="slider">
+                <div class="slide slide_plus_background">
+                  <div class="slide_1position">
+                    <p class="slide_title">ПЛЮСЫ РЕКРУТМЕНТА</p>
+                    <ul>
+                      <li>
+                        Драйв и движуха через край.
+                        <span class="hidden-md hidden-sm hidden-xs"
+                          >Жизнь вокруг кипит так, что конец рабочего дня
+                          наступает незаметно и даже не желанно.</span
+                        >
+                      </li>
+                      <li>
+                        Постоянное обучение и развитие.
+                        <span class="hidden-md hidden-sm hidden-xs"
+                          >У личного куратора и на групповых тренингах.</span
+                        >
+                      </li>
+                      <li>
+                        Работа на результат.<span
+                          class="hidden-md hidden-sm hidden-xs"
+                        >
+                          В КА идут те, кто хочет через 4-8 мес. зарабатывать
+                          100-150k/мес.</span
+                        >
+                      </li>
+                      <li>
+                        <span class="hidden-md hidden-sm hidden-xs">
+                          У нас работают исключительно люди с “рекрутерской”
+                          жилкой, с высоким уровнем осознанности и кайфующие от
+                          постоянного развития.</span
+                        ><span class="hidden-lg hidden-xl"
+                          >Вокруг люди с высоким уровнем осознанности и
+                          кайфцющие от постоянного развития.</span
+                        >
+                      </li>
+                      <li>
+                        Полезная работа, которая реально делает жизнь людей
+                        лучше.
+                        <span class="hidden-md hidden-sm hidden-xs">
+                          Серьезно, мы здесь не только про хорошо заработать, а
+                          еще и хорошее дело делаем - помогаем людям найти
+                          любимую работу.</span
+                        >
+                      </li>
+                      <li>
+                        Приятный график.
+                        <span class="hidden-md hidden-sm hidden-xs"
+                          >Первое время нужно быть пунктуальным 10-19, далее
+                          график гибкий. Для Джедаев - свободный</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="slide slide_minus_background">
+                  <div class="slide_2position">
+                    <p class="slide_title">МИНУСЫ РЕКРУТМЕНТА</p>
+                    <ul>
+                      <li>Нервная работа. Большие эмоциональные нагрузки.</li>
+                      <li>
+                        Хороший кандидат иногда может приехать на собеседование
+                        в 8 утра или 8 вечера.
+                      </li>
+                      <li>
+                        Постоянное обучение и развитие. Прокрастинация не
+                        пройдет.
+                      </li>
+                      <li>
+                        Прямые фидбеки о плюсах и минусах - именно они ведут к
+                        быстрому и крутому росту.
+                      </li>
+                      <li>
+                        Нет стабильного дохода. Слегка расслабился - слегка и
+                        заработал. Может быть просадка на старте.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="slide slide_plus_minus_background">
+                  <div class="slide_3position">
+                    <p class="slide_title">
+                      <span class="orange-color">ПЛЮ</span>НУСЫ
+                    </p>
+                    <p class="slide_subtitle">
+                      то, что для кого-то является плюсом, а для других -
+                      минусом
+                    </p>
+                    <ul>
+                      <li>
+                        Очень высокий темп.<span
+                          class="hidden-md hidden-sm hidden-xs"
+                        >
+                          Множество вызовов - шансов все зафакапить или проявить
+                          себя.</span
+                        >
+                      </li>
+                      <li>
+                        Работа, где реально много общения с людьми.<span
+                          class="hidden-md hidden-sm hidden-xs"
+                        >
+                          С нами просто не сможет выжить человек, который хочет
+                          делать всегда понятную работу без постоянных
+                          челленджей и бэклога из 500 задач.</span
+                        >
+                      </li>
+                      <li>
+                        Все обучение в перемешку с практикой. Нет времени
+                        расслабиться
+                        <span class="hidden-md hidden-sm hidden-xs"
+                          >или взять паузу - только вперед и в темпе</span
+                        >.
+                      </li>
+                      <li>
+                        Финансовый результат сильно зависит от качества работы
+                        и, порою, от удачи.
+                      </li>
+                      <li>
+                        <span class="hidden-md hidden-sm hidden-xs"
+                          >Обнимающийся со всеми гендир в маске Магистра Йоды…
+                          тебе решать, как к этому относиться.</span
+                        >
+                        Любителям костюмов рядом с фанатами тапочек и кроксов
+                        будет явно не комильфо.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-                  <div class="container">
-                    <div class="row center-xl hidden-xs hidden-sm hidden-md">
-                      <div class="col-xl-11">
-                          <p class="main_title">
-                              Признаки нашего человека
-                            </p>
-                            <img class="big_size_img" src="images/ourman.webp" alt="DaWay" />
-                      </div>
-                    </div>
-                  </div>
- 
-
-
-
-
-
-
+      <div class="container">
+        <div class="row center-xl hidden-xs hidden-sm hidden-md">
+          <div class="col-xl-11">
+            <p class="main_title">
+              Признаки нашего человека
+            </p>
+            <img class="big_size_img" src="images/ourman.webp" alt="DaWay" />
+          </div>
+        </div>
+      </div>
 
       <div class="container">
         <div class="row center-xs hidden-lg hidden hidden-xl">
+          <a name="RA_work_mobile"></a>
           <div class="col-xs-11">
             <p>
               Так или иначе любая работа и должность в нашей компании связана с
@@ -580,7 +612,7 @@
             </p>
             <p style="text-align:center;">А если поподробней?</p>
 
-            <img src="images/arrowDown.svg" alt="arrow" />
+            <img class="arrowDown" src="images/arrowDown.svg" alt="arrow" />
             <p></p>
           </div>
         </div>
@@ -609,14 +641,13 @@
           <div class="row center-xs hidden-lg hidden hidden-xl">
             <div class="col-xs-11">
               <div class="table_of_duties_card">
-                  <p class="table_of_duties_title">Звонки соискателям</p>
-                  <p class="table_of_duties_txt">
-                    Самая сложная задача. Надо за короткий звонок продать
-                    соискателю вакансию, запомниться ему, выяснить все, что
-                    важно в его резюме и главное, всегда быть в хорошем
-                    настроении :) А еще звонков должно быть много - это основа
-                    твоего заработка!
-                  </p>
+                <p class="table_of_duties_title">Звонки соискателям</p>
+                <p class="table_of_duties_txt">
+                  Самая сложная задача. Надо за короткий звонок продать
+                  соискателю вакансию, запомниться ему, выяснить все, что важно
+                  в его резюме и главное, всегда быть в хорошем настроении :) А
+                  еще звонков должно быть много - это основа твоего заработка!
+                </p>
               </div>
             </div>
           </div>
@@ -713,7 +744,6 @@
       <div class="container">
         <div class="row center-xl">
           <div class="col-xl-11">
-
             <section
               class="star_team hidden-md hidden-sm hidden-xs section_padding"
             >
@@ -1013,8 +1043,14 @@
               </div>
               <p class="jobs_title">Отдел внутреннего подбора</p>
               <p class="jobs_info">
-                  Вряд ли кто-то умудрится отыскать более чутких и приятных людей, чем те, благодаря кому наша команда является Звёздной. Это – первый фронтир на пути в IT-рекрутеры или аккаунт-менеджеры, и каждый, кто хочет попасть в нашу команду, в первую очередь знакомится именно с нашими In-House рекрутерами.
-                  Первые дни на новом рабочем месте тоже проходят с их подмогой, и ни один из претендентов на место в нашем коллективе не окажется обделён вниманием, улыбкой и советом.
+                Вряд ли кто-то умудрится отыскать более чутких и приятных людей,
+                чем те, благодаря кому наша команда является Звёздной. Это –
+                первый фронтир на пути в IT-рекрутеры или аккаунт-менеджеры, и
+                каждый, кто хочет попасть в нашу команду, в первую очередь
+                знакомится именно с нашими In-House рекрутерами. Первые дни на
+                новом рабочем месте тоже проходят с их подмогой, и ни один из
+                претендентов на место в нашем коллективе не окажется обделён
+                вниманием, улыбкой и советом.
               </p>
               <div class="jobs_links">
                 <a class="jobs_links_ref" href="https://hh.ru/vacancy/32551284"
@@ -1100,9 +1136,10 @@
                   <div class="v_grid_hover">
                     <p class="v_grid_title">НК ДР</p>
                     <p class="v_grid_txt">
-                      Отмечаем не только ДР сотрудника, но и день его рождения в</a>
-                      Нашей Команде</p>
-                    </div>
+                      Отмечаем не только ДР сотрудника, но и день его рождения в
+                      Нашей Команде
+                    </p>
+                  </div>
                   <video
                     muted="muted"
                     id="video_animation"
@@ -1161,7 +1198,9 @@
                   <div class="v_grid_hover">
                     <p class="v_grid_title">8 МАРТА</p>
                     <p class="v_grid_txt">
-                        Ни одна девушка не устоит перед обаянием и талантом наших элегантных мужчин, тем более – 8 марта, когда они готовы показать себя во всей красе!
+                      Ни одна девушка не устоит перед обаянием и талантом наших
+                      элегантных мужчин, тем более – 8 марта, когда они готовы
+                      показать себя во всей красе!
                     </p>
                   </div>
                   <div
@@ -1270,7 +1309,12 @@
               <p class="main_title">Контакты</p>
               <div class="coordinates">
                 <div class="hidden-md hidden-sm hidden-xs map_container">
-                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A534b4bf1169de3e7e8d6cee9dae79779796aa4e4ee3224bba234e17fee7f7252&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+                  <script
+                    type="text/javascript"
+                    charset="utf-8"
+                    async
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A534b4bf1169de3e7e8d6cee9dae79779796aa4e4ee3224bba234e17fee7f7252&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"
+                  ></script>
                 </div>
                 <div class="coordinates_text">
                   <p class="coordinates_title">Офис:</p>
@@ -1293,14 +1337,23 @@
                     <span class="orange-color">оранжевую дверь</span>, там мы
                     Вас встретим.
                   </p>
-                  <p>Подробный маршрут доступен по ссылке: <a class="yandex_link" href="http://maps.yandex.ru/-/CVGjNDM2"><span class="orange-color">Яндекс.</span></a></p>
+                  <p>
+                    Подробный маршрут доступен по ссылке:
+                    <a
+                      class="yandex_link"
+                      href="http://maps.yandex.ru/-/CVGjNDM2"
+                      ><span class="orange-color">Яндекс.</span></a
+                    >
+                  </p>
                 </div>
               </div>
             </section>
           </div>
         </div>
       </div>
-      <div class="footer_rights">© 2007-2019 Star-Staff. All rights reserved.</div>
+      <div class="footer_rights">
+        © 2007-2019 Star-Staff. All rights reserved.
+      </div>
     </footer>
     <script
       src="https://code.jquery.com/jquery-2.2.0.min.js"
