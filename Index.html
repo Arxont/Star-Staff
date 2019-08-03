@@ -5,8 +5,10 @@
     <title>Star-Staff HR</title>
     <meta name="description" content="main page" />
     <meta name="author" content="Feid" />
+    <meta name="copyright" content="Background animation by:  AA VFX, Amitai Angor , https://www.youtube.com/dvdangor2011">  
     <meta name="keywords" content="HTML" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=cyrillic-ext"
       rel="stylesheet"
@@ -231,8 +233,8 @@
           loop="loop"
           muted
         >
-          <source src="https://webm.red/wlzZ.webm" type="video/webm" />
-          <source src="https://webm.red/wlzZ.mp4" type="video/mp4" />
+          <source src="images/galaxyBackground.webm" type="video/webm" />
+          <source src="images/galaxyBackground.mp4" type="video/mp4" />
         </video>
       </div>
     </header>
@@ -411,7 +413,7 @@
                       сможешь развиваться гораздо быстрее, чем в одиночку.
                       Главное - хотеть развиваться и зарабатывать ;)
                     </p>
-                    <p class="table_of_duties_percent qq">5%</p>
+                    <p class="table_of_duties_percent table_of_duties_percent_add_padding">5%</p>
                   </div>
                 </div>
                 <div class="duties_column">
@@ -590,7 +592,10 @@
             <p class="main_title">
               Признаки нашего человека
             </p>
-            <img class="big_size_img" src="images/ourman.webp" alt="DaWay" />
+            <picture>
+                <source media="(min-width: 650px)" srcset="images/ourman.jpg">
+            <img class="big_size_img" src="images/ourman.webp" alt="ourMan" />
+          </picture>
           </div>
         </div>
       </div>
