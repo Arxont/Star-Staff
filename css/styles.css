@@ -2057,7 +2057,7 @@ video {
 .parallax_background {
   -webkit-box-shadow: inset 0 0 0 1000px rgba(46, 49, 63, 0.9);
   box-shadow: inset 0 0 0 1000px rgba(46, 49, 63, 0.9);
-  background: url("../images/vacancyBackground.webp");
+  background: url("../images/vacancyBackground.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
