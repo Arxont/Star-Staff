@@ -1,11 +1,12 @@
-/*slick */
-$(document).on("ready", function() {
-    $(".slider").slick({
-      dots: true,
-      adaptiveHeight: true
-    });
-  });
 
+  new Glider(document.querySelector('.glider'), {
+    slidesToShow: 1,
+    draggable: false,
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    }
+  });
  /*mobile popup nav*/
   const showPopUp = () => {
     document.getElementById("popUp_screen").classList.add("show");

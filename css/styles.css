@@ -1782,21 +1782,42 @@ footer {
 .table_of_duties_percent_add_padding {
   padding-top: 20%;
 }
-
-.slider {
-  width: 89%;
-  margin: auto;
-  padding-top: 2%;
-  text-align: start;
+.main_slide{
+  width: 90%;
 }
-div.slick-slider {
-   width: 1px; min-width: 100%; *width: 100%; 
-  }
-  
-.slide {
+.main_slide_container{
   height: 500px;
   position: relative;
 }
+.main_slide_content_left_position{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  background-color: rgba(247, 240, 240, 0.5);
+}
+.main_slide_content_center_position{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  text-align: start;
+  color: white;
+}
+.main_slide_content_right_position{
+  position: absolute;
+  top:0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  text-align: start;
+  background-color: rgba(247, 240, 240, 0.5);
+}
+
 .slide_plus_background {
   background: url("../images/pluses.jpg");
   background-size: cover;
@@ -1813,28 +1834,7 @@ div.slick-slider {
   background-repeat: no-repeat;
 }
 
-.slide_1position {
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: rgba(247, 240, 240, 0.5);
-}
-.slide_2position {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  color: white;
-}
-.slide_3position {
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  background-color: rgba(247, 240, 240, 0.5);
-}
+
 .slide_title {
   text-align: center;
 }
@@ -2315,7 +2315,7 @@ video {
     width: 100%;
     margin: 0;
   }
-  .slide {
+  .main_slide_container{
     height: 330px;
   }
   .slide_plus_background,
@@ -2323,9 +2323,9 @@ video {
   .slide_plus_minus_background {
     background: transparent;
   }
-  .slide_1position,
-  .slide_2position,
-  .slide_3position {
+  .main_slide_content_left_position,
+  .main_slide_content_center_position,
+  .main_slide_content_right_position {
     display: block;
     width: 100%;
     height: 100%;
@@ -2353,3 +2353,4 @@ video {
     justify-content: space-around;
   }
 }
+
