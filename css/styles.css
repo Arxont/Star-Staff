@@ -1855,7 +1855,7 @@ footer {
 }
 
 .star_team_members_grid > div {
-  width: 25%;
+  flex:0 1 25%;
   height: 400px;
 }
 .star_team_member_container {
@@ -1933,7 +1933,7 @@ footer {
   flex-wrap: wrap;
 }
 .v_grid_item {
-  width: 33.33%;
+  flex:0 1 33.33%;
   height: 275px;
   position: relative;
 }
