@@ -1788,6 +1788,9 @@ footer {
   padding-top: 2%;
   text-align: start;
 }
+div.slick-slider {
+   width: 1px; min-width: 100%; *width: 100%; 
+  }
 .slide {
   height: 500px;
   position: relative;
