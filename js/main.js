@@ -1,10 +1,5 @@
 /*slick */
-$(document).on("ready", function() {
-    $(".slider").slick({
-      dots: true,
-      adaptiveHeight: true
-    });
-  });
+
 
  /*mobile popup nav*/
   const showPopUp = () => {
