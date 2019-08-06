@@ -1782,6 +1782,16 @@ footer {
 .table_of_duties_percent_add_padding {
   padding-top: 20%;
 }
+@-moz-document url-prefix() {
+  .glider-track {
+   margin-bottom:17px;
+  }
+  .glider-wrap {
+    height: 500px;
+    overflow: hidden;
+  }
+}
+
 .main_slide{
   width: 90%;
 }
@@ -2353,4 +2363,3 @@ video {
     justify-content: space-around;
   }
 }
-
