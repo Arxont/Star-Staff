@@ -1686,7 +1686,7 @@ footer {
   position: relative;
   height: 260px;
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 .possible_positions_title {
@@ -1801,6 +1801,7 @@ footer {
 }
 .main_slide_content_left_position{
   position: absolute;
+  text-align: start;
   top:0;
   left: 0;
   width: 50%;
@@ -2180,6 +2181,7 @@ video {
 }
 .footer_rights {
   margin-top: 5%;
+  padding: 5px 0 5px 0;
   background-color: black;
   color: white;
   text-align: center;
