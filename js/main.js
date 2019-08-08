@@ -11,10 +11,8 @@
   document.addEventListener('glider-loaded', hideFFScrollBars);
   document.addEventListener('glider-refresh', hideFFScrollBars);
   function hideFFScrollBars(e){
-    var scrollbarHeight = 17; // Currently 17, may change with updates
+    var scrollbarHeight = 17; 
     if(/firefox/i.test(navigator.userAgent)){
-      // We only need to appy to desktop. Firefox for mobile uses
-      // a different rendering engine (WebKit)
       if (window.innerWidth > 575){
         e.target.parentNode.style.height = (e.target.offsetHeight - scrollbarHeight) + 'px'
       }
@@ -64,4 +62,19 @@
   
  
 
-  
+ /*show map on scroll */
+ let added = false;
+window.addEventListener("scroll", function myFunction() {
+
+  if (document.documentElement.scrollTop > 2000 && !added) {
+    added = true;
+    const fileref = document.createElement("script");
+    fileref.async = true; 
+    fileref.setAttribute("type", "text/javascript");
+    fileref.setAttribute(
+      "src",
+      "https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A534b4bf1169de3e7e8d6cee9dae79779796aa4e4ee3224bba234e17fee7f7252&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"
+    );  
+    document.getElementById("hiddenMap").append(fileref)
+  }
+});
