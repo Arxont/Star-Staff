@@ -1809,6 +1809,7 @@ footer {
   height: 100%;
   margin: 0;
   background-color: rgba(247, 240, 240, 0.5);
+  padding-right: 2%;
 }
 .main_slide_content_center_position{
   position: absolute;
@@ -1828,6 +1829,7 @@ footer {
   margin: 0;
   text-align: start;
   background-color: rgba(247, 240, 240, 0.5);
+  padding-right: 2%;
 }
 
 .slide_plus_background {
