@@ -1496,6 +1496,7 @@ footer {
   text-align: center;
   margin: 0;
   font-size: 25px;
+  padding-bottom: 2%;
 }
 .white_color_main_title {
   color: white;
@@ -1586,7 +1587,7 @@ footer {
 }
 .shift-txt_time {
   left: 0;
-  text-align: start;
+  text-align: center;
 }
 .shift-txt_hist {
   left: 25%;
@@ -1599,7 +1600,7 @@ footer {
 }
 .shift-txt_val {
   right: 0;
-  text-align: end;
+  text-align: start;
 }
 .shift-txt_time:hover,
 .shift-txt_hist:hover,
@@ -1866,8 +1867,6 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-top: 2%;
-  margin-bottom: 2%;
 }
 
 .star_team_members_grid > div {
@@ -2059,8 +2058,8 @@ video {
 }
 
 .section_padding {
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .dark_theme_background {
   background-color: rgb(50, 65, 88);
@@ -2081,6 +2080,7 @@ video {
   text-align: start;
   font-size: 30px;
   font-weight: bold;
+  margin: 0;
 }
 .jobs_info {
   color: white;
@@ -2098,6 +2098,7 @@ video {
   align-items: flex-start;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding-bottom: 2%;
 }
 .jobs_links > a {
   padding-right: 1%;
@@ -2129,7 +2130,6 @@ video {
   justify-content: space-between;
   text-align: start;
   font-size: 15px;
-  padding-top: 2%;
 }
 .client_review_column {
   width: 49.5%;
@@ -2159,7 +2159,6 @@ video {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-top: 2%;
 }
 
 .yandex_link {
