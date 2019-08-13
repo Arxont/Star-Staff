@@ -1510,6 +1510,15 @@ footer {
   margin: auto;
 }
 
+@media (min-width: 1000px) and (max-width:1200px){
+  .company_name {
+    color: white;
+    font-size: 120px;
+    margin: auto;
+  }
+}
+
+
 .heading_title {
   font-size: 40px;
   font-weight: bolder;

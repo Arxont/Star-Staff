@@ -1,6 +1,6 @@
 /*slider*/
   new Glider(document.querySelector('.glider'), {
-    dots: '#dots',
+    dots: '.glider-dots',
     slidesToShow: 1,
     draggable: false,
     arrows: {
@@ -13,7 +13,7 @@
   function hideFFScrollBars(e){
     var scrollbarHeight = 17; 
     if(/firefox/i.test(navigator.userAgent)){
-      if (window.innerWidth > 575){
+      if (window.innerWidth > 100){
         e.target.parentNode.style.height = (e.target.offsetHeight - scrollbarHeight) + 'px'
       }
     }
