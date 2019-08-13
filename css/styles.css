@@ -2086,7 +2086,7 @@ video {
   color: white;
   text-align: start;
   padding: 10px;
-  background-color: rgb(71, 71, 116);
+  background-color: rgba(46, 49, 63, 0.7);
 }
 
 .jobs_links {
