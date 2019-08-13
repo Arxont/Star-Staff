@@ -1386,7 +1386,7 @@ footer {
 #video {
   position: fixed;
   width: 100%;
-  height: 800px;
+  height: 900px;
   -o-object-fit: fill;
      object-fit: fill;
   z-index: -1;

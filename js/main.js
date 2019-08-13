@@ -1,4 +1,4 @@
-
+/*slider*/
   new Glider(document.querySelector('.glider'), {
     dots: '#dots',
     slidesToShow: 1,
