@@ -2195,7 +2195,23 @@ video {
   color: white;
   text-align: center;
 }
+.noJs{
+  background-color:black;
+  color: white;
+  text-align: center;
+  
+  width: 50%;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  z-index: 5;
+  
+}
 
+.noJs > img{
+  width: 95%;
+  margin: auto;
+}
 @media (max-width: 991px) {
   .mobile_background {
     width: 100%;
@@ -2373,4 +2389,34 @@ video {
     -ms-flex-pack: distribute;
     justify-content: space-around;
   }
+}
+
+.browser_supp_title{
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  padding-bottom: 10%;
+}
+.browser_card-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 80%;
+margin: auto;
+border-style: solid;
+border-width: 1px;
+box-shadow: 5px 3px 4px black;
+padding: 5%;
+border-radius: 10px;
+
+}
+.browser_card{
+  width: 20%;
+  text-align: center;
+}
+
+.browser_card > a{
+text-decoration: none;
+color: black;
+font-weight: bold;
 }
