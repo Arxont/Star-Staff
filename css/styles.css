@@ -1878,14 +1878,12 @@ footer {
 .star_team_member_top_img {
   position: absolute;
   height: 100%;
-  width: 100%;
   left: 0;
   z-index: 1;
 }
 .star_team_member_bottom_img {
   position: absolute;
   height: 100%;
-  width: 100%;
   left: 0;
   z-index: 0;
 }
@@ -1905,7 +1903,7 @@ footer {
 .star_team_member_top_img:hover {
   opacity: 0;
 }
-.star_team_member_top_img:hover ~ .member_info {
+.hide_member_info:hover ~ .member_info {
   opacity: 0;
 }
 .member_info {
