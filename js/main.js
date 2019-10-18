@@ -1,24 +1,13 @@
 /*slider*/
-  new Glider(document.querySelector('.glider'), {
-    dots: '.glider-dots',
-    slidesToShow: 1,
-    draggable: false,
-    arrows: {
-      prev: '.glider-prev',
-      next: '.glider-next'
-    }
-  });
-  document.addEventListener('glider-loaded', hideFFScrollBars);
-  document.addEventListener('glider-refresh', hideFFScrollBars);
-  function hideFFScrollBars(e){
-    var scrollbarHeight = 17; 
-    if(/firefox/i.test(navigator.userAgent)){
-      if (window.innerWidth > 100){
-        e.target.parentNode.style.height = (e.target.offsetHeight - scrollbarHeight) + 'px'
-      }
-    }
+var sliders = document.querySelectorAll('.glide');
+  
+  for (var i = 0; i < sliders.length; i++) {
+    var glide = new Glide(sliders[i], {
+      gap: 15,
+    });
+    
+    glide.mount();
   }
-
 
 
 

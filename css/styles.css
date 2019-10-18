@@ -1793,19 +1793,8 @@ footer {
 .table_of_duties_percent_add_padding {
   padding-top: 20%;
 }
-@-moz-document url-prefix() {
-  .glider-track {
-   margin-bottom:17px;
-  }
-  .glider-wrap {
-    height: 500px;
-    overflow: hidden;
-  }
-}
 
-.main_slide{
-  width: 90%;
-}
+
 .main_slide_container{
   height: 500px;
   position: relative;
@@ -1823,8 +1812,7 @@ footer {
 }
 .main_slide_content_center_position{
   position: absolute;
-  bottom:0;
-  left: 0;
+  bottom:10px;
   width: 100%;
   margin: 0;
   text-align: start;
